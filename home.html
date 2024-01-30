@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="hero_bg min-vh-100 d-flex flex-column">
-      <nav class="custom_container container">
+      <nav class="custom_container container mt-sm-4 mt-2 pt-2">
         <div class="d-flex justify-content-between align-items-center">
           <a href="#" aria-label="home">
             <img
@@ -27,77 +27,70 @@
             />
           </a>
           <div>
-            <div class="d-flex gap_30 navbar py-0" id="navBar">
-              <a
+            <div class="d-flex gap_37 navbar py-0" id="navBar">
+              <a   onclick="showNav()"
                 aria-label="Home"
                 href="#"
                 class="text-white text-decoration-none font-base"
                 >Home
               </a>
-              <a
+              <a  onclick="showNav()"
                 aria-label="About Us"
                 href="#"
                 class="text-white text-decoration-none font-base"
                 >About Us</a
               >
               <a
+              onclick="showNav()"
                 aria-label="Services"
                 href="#"
                 class="text-white text-decoration-none font-base"
-                onclick="showNav()"
                 >Services
               </a>
               <a
                 aria-label="Live Stream"
+                onclick="showNav()"
                 href="#"
                 class="text-white text-decoration-none font-base"
-                onclick="showNav()"
                 >Live Stream</a
               >
-              <button class="bg-white px-3 py-2 rounded-5 d-lg-none">Contact Us</button>
+              <a onclick="showNav()"
+                href="#"
+                class="bg-white font-base border-0 rounded-5 text-black text-decoration-none nav_btn d-lg-none"
+                >Contact Us</a
+              >
             </div>
+          </div>
+          <div>
             <div class="mobile-navbar-btn d-none">
               <img
                 onclick="showNav()"
                 class="mobile-nav-icon cursor_pointer"
                 id="navToggleIcon"
-                src="./assets/icons/header/nav-toggle.svg"
+                src="./assets/images/common/nav-toggle.svg"
                 alt="toggle"
               />
             </div>
+
+            <a
+              href="#"
+              class="d-none d-lg-inline-block font-base nav_btn border-0 bg-white text-black text-decoration-none rounded-5"
+              onclick="showNav()"
+              href="#"
+              >Contact Us</a
+            >
           </div>
-          <div>
-              
-              <button
-                class="d-none d-lg-inline-block bg-white"
-                onclick="showNav()"
-                href="#"
-              >Contact Us</button></div>
         </div>
       </nav>
 
       <!-- Hero START HERE -->
       <div
-        class="custom_container container flex-grow-1 d-flex h-100 align-items-center"
+        class="custom_container container flex-column justify-content-center flex-grow-1 d-flex h-100 align-items-center"
       >
-        <div
-          class="hero_content d-flex flex-column align-items-sm-start align-items-center"
-        >
-          <h1
-            class="text-white fw-bold leading_112 text_2xl text-center text-sm-start mb-3"
-          >
-            Leverage The Power Of
-            <span class="text_light_blue">Conversational Voice A.I.</span>
-            With ClearTalk
-          </h1>
-          <p
-            class="text-white opacity_07 text-center text_sm text-sm-start mb-sm-3 mb-md-4 mb-0 pb-3"
-          >
-            Check out a live demo and click the button below to see how you can
-            automate communication for your business with A.I.
-          </p>
-          <button class="common_btn">button</button>
-        </div>
+      <h1 class="hero_heading text-white text-center max_w_929 mx-auto">Professionelle Filmproduktion in Wien und Niederösterreich</h1>
+      <p class="text-center max_w_762  sub_para text-white fw-medium pt-2 mt-1 mb-sm-5 mb-3 pb-2">Entdecke individuelle Lösungen für Unternehmensfilme, Industriefilme, Live Streaming und mehr, alles aus einer Hand in Wien und Umgebung. Wir verwandeln Ideen in visuelle Meisterwerke für Unternehmen jeder Größe.</p>
+      <button class="common_btn">Jetzt Kontakt aufnehmen</button>
+       
       </div>
       <!-- Hero END HERE -->
     </div>
@@ -106,5 +99,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="/assets/js/index.js"></script>
   </body>
 </html>
