@@ -137,37 +137,22 @@
 /* -----------------------------------COMMON-CSS-------------------------- */
 .hero_heading {
   font-size: var(--font-3xl);
-  font-weight: 600;
   line-height: normal;
 }
 .sub_heading {
   font-size: var(--font-2xl);
   color: var(#f7f7f9);
-  font-weight: 600;
   line-height: normal;
 }
 .sub_para {
   font-size: var(--font-base);
-  font-weight: 400;
-}
-.opacity_05 {
-  opacity: 0.5 !important;
-}
-.opacity_09 {
-  opacity: 0.9 !important;
-}
-.opacity_08 {
-  opacity: 0.8 !important;
 }
 
 .common_btn {
   font-size: var(--font-base);
   color: white;
-  font-weight: 400;
   padding: 14px 74px;
   background: var(--color-dark-orange);
-  display: inline-block;
-  border: transparent;
   border-radius: 100px;
 }
 .common_btn:focus,
