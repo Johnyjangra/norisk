@@ -49,16 +49,16 @@
 }
 /*--------------------- DEFINE-ALL = BG-COLOR-VALUE ------------------------------ */
 .bg_white {
-  background: var(--color-white);
+  background-color:var(--color-white);
 }
 .bg_black100 {
-  background: var(--color-black-100);
+  background-color:var(--color-black-100);
 }
 .bg_black200 {
-  background: var(--color-black-200);
+  background-color:var(--color-dark-200);
 }
 .bg_black300 {
-  background: var(--color-black-300);
+  background-color: var(--color-black-300);
 }
 .bg_dark_orange {
   background: var(--color-dark-orange);
@@ -152,7 +152,7 @@
 .common_btn {
   font-size: var(--font-base);
   color: white;
-  padding: 14px 74px;
+  padding: 10px 48px;
   background: var(--color-dark-orange);
   border-radius: 100px;
   border: none;
@@ -162,6 +162,12 @@
   -webkit-animation: pulse 1s;
   animation: pulse 1s;
   box-shadow: 0 0 0 0.7em transparent;
+}
+
+@media (min-width:576px) {
+  .common_btn{
+    padding: 14px 74px;
+  }
 }
 
 @keyframes pulse {
