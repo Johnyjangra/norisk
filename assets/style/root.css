@@ -142,9 +142,8 @@
   line-height: 140.836%;
 }
 .sub_para {
-  font-size: var(--font-sm);
+  font-size: var(--font-base);
   font-weight: 400;
-  line-height: 200%;
 }
 .opacity_05 {
   opacity: 0.5 !important;
