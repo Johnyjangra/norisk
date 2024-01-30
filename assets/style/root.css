@@ -135,11 +135,16 @@
   }
 }
 /* -----------------------------------COMMON-CSS-------------------------- */
+.hero_heading {
+  font-size: var(--font-3xl);
+  font-weight: 600;
+  line-height: normal;
+}
 .sub_heading {
   font-size: var(--font-2xl);
   color: var(#f7f7f9);
   font-weight: 600;
-  line-height: 140.836%;
+  line-height: normal;
 }
 .sub_para {
   font-size: var(--font-base);
