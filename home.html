@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- DEFINE CSS LINK -->
+    <link rel="stylesheet" href="./assets/style/root.css" />
+    <link rel="stylesheet" href="./assets/style/home.css">
+    <link rel="stylesheet" href="./assets/style/root.css">
+  </head>
+  <body>
+     <div class="hero_bg position-relative min-vh-100 d-flex flex-column">
+    <div class="nav_bg position-relative z-3 py-3">
+      <nav class="custom_container container">
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="#" aria-label="home">
+            <img class="logo" src="./assets/images/header/logo.png" alt="logo" />
+          </a>
+          <div>
+            <div class="d-flex gap_30 navbar py-0" id="navBar">
+              <a aria-label="Software" href="#"
+                class="ff_outfit d-none d-lg-inline-block text-white text_sm text-decoration-none opacity_07">Software
+              </a>
+              <a aria-label="Industries" href="#"
+                class="ff_outfit d-none d-lg-inline-block text-white text_sm text-decoration-none opacity_07 mx-xl-5 mx-4">Industries</a>
+              <a aria-label="Software" href="#"
+                class="ff_outfit d-lg-none text-white text_sm text-decoration-none opacity_07"
+                onclick="showNav()">Software
+              </a>
+              <a aria-label="Industries" href="#"
+                class="ff_outfit d-lg-none text-white text_sm text-decoration-none opacity_07 mx-xl-5 mx-4"
+                onclick="showNav()">Industries</a>
+              <div class="flex me-lg-1">
+                <a target="_blank" aria-label="instagram" href="https://www.instagram.com"><img class="social_icon"
+                    src="./assets/icons/header/instagram.svg" alt="instagram" /></a>
+                <a aria-label="discord" target="_blank" href="https://discord.com"><img class="social_icon mx-2"
+                    src="./assets/icons/header/discord.svg" alt="discord" /></a>
+                <a aria-label="twitter" target="_blank" href="https://twitter.com/"><img class="social_icon"
+                    src="./assets/icons/header/twitter.svg" alt="twitter" /></a>
+              </div>
+              <a class="d-none d-lg-inline-block" href="#">
+                <div class="position-relative d-inline-block ms-lg-4">
+                  <button aria-label="Schedule a call" class="common_button text_sm">
+                    <span class="left position-absolute start-0 bottom-0 w-100 h-100"></span>
+                    <span class="bottom_1 end-0 bottom-0 h-100"></span>
+                    <span class="bottom_2 bottom-0 h-100 position-absolute"></span>
+                    <span class="right"></span>
+                    <span class="top"></span>
+                    Schedule a call
+                  </button>
+                </div>
+              </a>
+              <a class="d-lg-none" onclick="showNav()" href="#">
+                <div class="position-relative d-inline-block ms-lg-4">
+                  <button aria-label="Schedule a call" class="common_button text_sm">
+                    <span class="left position-absolute start-0 bottom-0 w-100 h-100"></span>
+                    <span class="bottom_1 end-0 bottom-0 h-100"></span>
+                    <span class="bottom_2 bottom-0 h-100 position-absolute"></span>
+                    <span class="right"></span>
+                    <span class="top"></span>
+                    Schedule a call
+                  </button>
+                </div>
+              </a>
+            </div>
+            <div class="mobile-navbar-btn d-none">
+              <img onclick="showNav()" class="mobile-nav-icon cursor_pointer" id="navToggleIcon"
+                src="./assets/icons/header/nav-toggle.svg" alt="toggle" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Hero START HERE -->
+    <div class="custom_container container flex-grow-1 d-flex h-100 align-items-center">
+      <div class="hero_content d-flex flex-column align-items-sm-start align-items-center">
+        <h1 class="text-white fw-bold leading_112 text_2xl text-center text-sm-start mb-3">
+          Leverage The Power Of
+          <span class="text_light_blue">Conversational Voice A.I.</span>
+          With ClearTalk
+        </h1>
+        <p class="text-white opacity_07 text-center text_sm text-sm-start mb-sm-3 mb-md-4 mb-0 pb-3">
+          Check out a live demo and click the button below to see how you can
+          automate communication for your business with A.I.
+        </p>
+        <a href="#">
+          <div class="position-relative d-inline-block">
+            <button class="common_button text_sm">
+              <span class="left position-absolute start-0 bottom-0 w-100 h-100"></span>
+              <span class="bottom_1 end-0 bottom-0 h-100"></span>
+              <span class="bottom_2 bottom-0 h-100 position-absolute"></span>
+              <span class="right"></span>
+              <span class="top"></span>
+              Get a live call
+            </button>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- Hero END HERE -->
+  </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
