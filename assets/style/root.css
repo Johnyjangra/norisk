@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
+:root {
+    --color-off-white: #f7f7f9;
+    --color-orange: #ED5A31;
+    --color-dark-orange: #F05906;
+    --color-light-black: #2c2c2c;
+    --color-gray-100: #86868B;
+    --color-gray-200: #9c9c9c;
+    --color-gray-300: #B3b1b1;
+    --color-gray-400: #444;
+    --color-black-100:#1d1d1d;
+    --color-dark-200: #101010;
+    --color-light-300: #2c2c2c;
+    --font-xs: 14px;
+    --font-sm: 15px;
+    --font-base: 17px;
+    --font-md: 20px;
+    --font-lg: 22px;
+    --font-xl: 24px;
+    --font-2xl: 47px;
+    --font-3xl: 57px;
+  }
+  
+  /*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
+  .ff_inter{
+    font-family: 'Inter', sans-serif;
+
+  }
+  .ff_poppins{
+    font-family: 'Poppins', sans-serif;
+
+  }
+  /*--------------------- DEFINE-ALL = COLOR-VALUE ------------------------------ */
+  .color_offwhite{
+    color: var(--color-off-white);
+  }
+  .color_orange {
+    color: var( --color-orange);
+  }
+  .color_gray100{
+    color: var( --color-gray-100) ;
+  }
+  .color_gray200{
+    color: var( --color-gray-200) ;
+  }
+  .color_gray300{
+    color: var( --color-gray-300) ;
+  }
+  .color_lightblack{
+    color: var(--color-light-black);
+  }
+   /*--------------------- DEFINE-ALL = BG-COLOR-VALUE ------------------------------ */
+  .bg_white{
+      background: var(--color-white);
+  }
+  .bg_black100{
+    background: var(--color-black-100) ;
+  }
+  .bg_black200{
+    background: var(--color-black-200) ;
+  }
+  .bg_black300{
+    background: var(--color-black-300) ;
+  }
+  .bg_dark_orange{
+    background: var(--color-dark-orange);
+  }
+  .bg_orange{
+    background: var(--color-orange);
+  }
+  .bg_gray400{
+    background: var(--color-gray-400);
+  }
+  /*---------------------------- DEFINE-ALL = FONT-SIZES ---------------------------- */
+  .font-xs {
+    font-size: var(--font-xs) !important;
+  }
+  .font-sm {
+    font-size: var(--font-sm) !important;
+  }
+  .font-base {
+    font-size: var(--font-base) !important;
+  }
+  .font-md {
+    font-size: var(--font-md) !important;
+  }
+  .font-lg {
+    font-size: var(--font-lg) !important;
+  }
+  .font-xl {
+    font-size: var(--font-xl) !important;
+  }
+  .font-2xl {
+    font-size: var(--font-2xl) !important;
+  }
+  .font-3xl {
+    font-size: var(--font-3xl) !important;
+  }
+  
+  /*------------------------ DEFINE-ALL = @media----FONT SIZE-SET--------------------  */
+  
+  @media (max-width:1199.98px) {
+    :root {
+        --font-2xl: 44px;
+        --font-3xl: 50px;
+    }
+  }
+  @media (max-width: 991.98px) {
+    :root {
+        --font-2xl: 38px;
+        --font-3xl: 44px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    :root {
+        --font-xs: 14px;
+        --font-sm: 15px;
+        --font-base: 16px;
+        --font-md: 18px;
+        --font-lg: 20px;
+        --font-xl: 22px;
+        --font-2xl: 36px;
+        --font-3xl: 40px;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    :root {
+        --font-xs: 12px;
+        --font-sm: 14px;
+        --font-base: 16px;
+        --font-md: 18px;
+        --font-lg: 20px;
+        --font-xl: 22px;
+        --font-2xl: 34px;
+        --font-3xl: 38px;
+    }
+  }
+  /* -----------------------------------COMMON-CSS-------------------------- */
+  .sub_heading{
+    font-size: var(--font-2xl);
+    color: var(#f7f7f9);
+    font-weight: 600;
+    line-height: 140.836%;
+  }
+  .sub_para {
+    font-size: var(--font-sm);
+    font-weight: 400;
+    line-height: 200%;
+  }
+  .opacity_05{
+      opacity: 0.5 !important;
+  }
+  .opacity_09 {
+    opacity: 0.9 !important;
+  }
+  .opacity_08 {
+    opacity: 0.8 !important;
+  }
+
+  .common_btn {
+      font-size: var(--font-base);
+      color: white;
+      font-weight: 400;
+      padding: 14px 74px;
+      background: var(--color-dark-orange);
+      display: inline-block;
+      border: transparent;
+      border-radius: 100px;
+    }
+  .common_btn:focus,
+  .common_btn:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    box-shadow: 0 0 0 0.7em transparent;
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 var(--color-orange);
+    }
+  }
+  
