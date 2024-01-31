@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./assets/style/root.css">
   <link rel="stylesheet" href="./assets/style/style.css">
   <link rel="stylesheet" href="./assets/style/footer.css">
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.4/dist/sweetalert2.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -43,14 +44,14 @@
   <!--====== DEFINE FORM SECTION CODE ======-->
   <section class="bg_black200 py-5">
     <div class="container custom_container">
-      <div class="row justify-content-between mx-0 mb-xxl-3">
+      <div class="row justify-content-between align-items-center gap-4 gap-md-5 gap-lg-0 py-sm-3 py-md-4 py-lg-5">
         <div class="col-lg-6 " data-aos="fade-left" data-aos-delay="300">
           <div class="pe-lg-5">
             <h2 class="sub_heading text-white pb-lg-1 mb-4">Wir freuen uns auf deine Ideen!</h2>
             <p class="font-sm text-white fw-normal mb-0">
               Hast du eine spannende Idee oder ein Projekt, welches nur darauf wartet, realisiert zu werden?
             </p>
-            <p class="font-sm fw-normal mb-3 color_gray200 ">
+            <p class="font-sm fw-normal mb-0 mb-lg-3 color_gray200 ">
               Super! Wir sind nur einen Anruf oder eine E-Mail entfernt. Ob du Fragen zur Filmproduktion in Wien hast,
               mehr über unsere Dienstleistungen erfahren möchtest, oder einfach neugierig bist, wie wir deine Vision in
               ein beeindruckendes Filmprojekt umwandeln können – zögere nicht, uns zu kontaktieren. Wir sind hier, um
@@ -99,21 +100,20 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-3 mb-md-0 text-start " data-aos="zoom-in" data-aos-delay="300">
-          <form onsubmit="handleSubmit(event)">
+        <div class="col-lg-6 ps-xl-4  mb-3 mb-md-0 text-start " data-aos="zoom-in" data-aos-delay="300">
+          <form class="ps-lg-3" onsubmit="handleSubmit(event)">
             <div class="col-12">
               <div class="pe-1">
                 <div class="border_bottom hover-link">
                   <label class="font-xs text-white fw-normal lh_normal mb-2 pb-sm-1" for="name_input">Name</label>
                   <input required class="input-form font-sm fw-normal w-100" id="name_input" type="text"
-                    placeholder="Enter Your Name" />
+                   />
                 </div>
               </div>
               <div class="pe-1 my-4">
                 <div class="border_bottom hover-link">
                   <label class="font-xs text-white fw-normal lh_normal mb-2 pb-sm-1" for="email_input">Email</label>
-                  <input required class="input-form font-sm fw-normal w-100" id="email_input" type="email"
-                    placeholder="Enter Your Email Address" />
+                  <input required class="input-form font-sm fw-normal w-100" id="email_input" type="email" />
                 </div>
               </div>
               <div class="pe-1 my-4">
@@ -121,9 +121,9 @@
                   <label class="font-xs text-white fw-normal lh_normal mb-2 pb-sm-1" for="budget_select">Budget</label>
                   <select class="form-select font-xs" id="budget_select" aria-label="Default select example">
                     <option selected disabled>Select project budget</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option value="One">One</option>
+                    <option value="Two">Two</option>
+                    <option value="Two">Three</option>
                   </select>
                 </div>
               </div>
@@ -148,7 +148,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
   <!-- =============DEFINE SWEET ALERT============= -->
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.4/dist/sweetalert2.all.min.js"></script>
   <!-- ===DEFINE EMAIL JS SCRIPT=== -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <!-- ==========DEFINE EMAIL JS CODE========== -->
@@ -176,7 +176,7 @@
 
       submitbtn.innerHTML = "Loading...";
       submitbtn.classList.add("disabled-btn");
-
+      emailjs.init("eLZNh3NQx9xyzLK1A");
       emailjs.send("service_l3t57jd", "template_q7sxzvr", {
           name: name,
           email: email,

@@ -49,3 +49,33 @@ input:focus {
 .form-select:focus{
     box-shadow: unset !important;
 }
+/* DEFINE SWEET ALERT CODE */
+  /* ===================DEFINE SWEET ALERT CSS CODE=================== */
+  .swal2-container.swal2-center > .swal2-popup {
+    color: var(--color-white) !important;
+    background: var(--color-orange) !important;
+    border: 2px solid var(--color-orange) !important;
+  }
+  .swal2-popup{
+    color: white !important;
+  }
+  .swal2-title{
+    color:#fff !important;
+  }
+  .swal2-styled.swal2-confirm{
+    background: white !important;
+    color:var(--color-dark-200) !important;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+  }
+  .swal2-icon.swal2-success .swal2-success-ring{
+    border: 0.25em solid white !important;
+  }
+  .swal2-icon.swal2-success{
+    color: #fff !important;
+    border-color:white !important;
+  }
+  .swal2-icon.swal2-success [class^=swal2-success-line]{
+    background-color: white !important;
+    border-color:white !important;
+  }
