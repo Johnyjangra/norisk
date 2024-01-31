@@ -57,7 +57,7 @@
    font-size: var(--font_xs);
    color: var(--color-off-white);
    padding: 12px 48px;
-   background: var(--color-orange);
+   background: var(--color-orange) !important;
    border-radius: 100px;
    border: none !important;
  }
