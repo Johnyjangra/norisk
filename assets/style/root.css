@@ -49,16 +49,16 @@
 }
 /*--------------------- DEFINE-ALL = BG-COLOR-VALUE ------------------------------ */
 .bg_white {
-  background: var(--color-white);
+  background-color:var(--color-white);
 }
 .bg_black100 {
-  background: var(--color-black-100);
+  background-color:var(--color-black-100);
 }
 .bg_black200 {
-  background: var(--color-black-200);
+  background-color:var(--color-dark-200);
 }
 .bg_black300 {
-  background: var(--color-black-300);
+  background-color: var(--color-black-300);
 }
 .bg_dark_orange {
   background: var(--color-dark-orange);
@@ -130,14 +130,15 @@
     --font-md: 18px;
     --font-lg: 20px;
     --font-xl: 22px;
-    --font-2xl: 34px;
-    --font-3xl: 38px;
+    --font-2xl: 30px;
+    --font-3xl: 32px;
   }
 }
 /* -----------------------------------COMMON-CSS-------------------------- */
 .hero_heading {
   font-size: var(--font-3xl);
   line-height: normal;
+  font-weight: 600;
 }
 .sub_heading {
   font-size: var(--font-2xl);
@@ -151,15 +152,22 @@
 .common_btn {
   font-size: var(--font-base);
   color: white;
-  padding: 14px 74px;
+  padding: 10px 48px;
   background: var(--color-dark-orange);
   border-radius: 100px;
+  border: none;
 }
 .common_btn:focus,
 .common_btn:hover {
   -webkit-animation: pulse 1s;
   animation: pulse 1s;
   box-shadow: 0 0 0 0.7em transparent;
+}
+
+@media (min-width:576px) {
+  .common_btn{
+    padding: 14px 74px;
+  }
 }
 
 @keyframes pulse {
