@@ -38,6 +38,7 @@
 .fw_medium {
   font-weight: 500 !important;
 }
+
 .fw-semibold {
   font-weight: 600 !important;
 }
@@ -100,13 +101,6 @@
   background: var(--color-gray-400);
 }
 
-<<<<<<< HEAD
-.bg_light300 {
-  background: var(--color-light-300);
-}
-
-=======
->>>>>>> a24bdfd3f3ca9d6a4bcb39ca71c75a26dc49165f
 .text_orange {
   color: var(--color-dark-orange) !important;
 }
