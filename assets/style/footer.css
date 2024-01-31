@@ -4,9 +4,19 @@
 .lh_normal{
     line-height: normal;
 }
-
+.fw_medium{
+    font-weight: 500;
+}
 /* DEFINE CONTACT US SECTIONS CSS ================================================================*/
-
+.transition_all{
+    transition: all 0.3s ease-in-out;
+}
+.email_link_hover:hover{
+    color: var(--color-dark-orange) !important ;
+}
+.form_icons_hover:hover{
+    transform: translateY(-7px) !important;
+}
 .input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -78,4 +88,43 @@ input:focus {
   .swal2-icon.swal2-success [class^=swal2-success-line]{
     background-color: white !important;
     border-color:white !important;
+  }
+
+  /* ===============DEFINE FOOTER SECTION CSS=============== */
+  .footer_logo{
+    max-width: 356px;
+  }
+  .contact_link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .contact_link:hover {
+    color: var(--color-dark-orange);
+  }
+  .contact_link:hover svg path{
+    fill: var(--color-dark-orange)  ;
+  }
+  .border_top{
+ border-top: 1px solid #192532;
+  }
+  .footer_link_hover:hover{
+    color: var(--color-dark-orange);
+  }
+  .text_copyright_hover:hover{
+    opacity: 1 !important;
+  }
+  @media (max-width:991.98px) {
+    .footer_logo{
+        max-width: 250px !important;
+    }
+  }
+  @media (max-width:575.98px) {
+    .input-form{
+        padding: 6px 15px !important;
+    }
+  .footer_logo{
+        max-width: 180px !important;
+    }
   }
