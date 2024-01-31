@@ -511,8 +511,16 @@
             </button>
           </div>
         </div>
-        <div class="col-7 col-xl-8 px-0 h-100">
-          <img class="w-100" src="./assets/images/home/kundenstimmen-video-img.png" alt="KUNDENSTIMMEN_video_image" />
+        <div class="col-7 col-xl-8 px-0">
+          <!-- <img class="w-100" src="./assets/images/home/kundenstimmen-video-img.png" alt="KUNDENSTIMMEN_video_image" /> -->
+          <div class="video-container position-relative">
+            <video id="myVideo" poster="./assets/images/services/film.png">
+              <source src="./assets/video/video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <img src="./assets/images/common/play-icon.svg"
+              class="play-button top-50 start-50 translate-middle position-absolute" id="playButton"></img>
+          </div>
         </div>
       </div>
     </div>
