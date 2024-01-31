@@ -16,333 +16,295 @@
   <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.4/dist/sweetalert2.min.css" rel="stylesheet">
 
   <!-- ======DEFINE SLICK SLIDER====== -->
-   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
 </head>
 
 <body>
-<!------------------------------------------------ HEADER SECTION START --------------------------------------->
-<header class="hero_bg bg_common min_vh_custom d-flex flex-column">
-  <nav class="custom_container container mt-sm-4 mt-2 pt-2">
-    <div class="d-flex justify-content-between align-items-center">
-      <a href="#" aria-label="home">
-        <img
-          class="logo"
-          src="./assets/images/common/logo.svg"
-          alt="logo"
-        />
-      </a>
-      <div>
-        <div class="d-flex navbar py-0" id="navBar">
-          <a
-            onclick="showNav()"
-            aria-label="Home"
-            href="#"
-            class="text-white text-decoration-none"
-            >Home
-          </a>
-          <a
-            onclick="showNav()"
-            aria-label="About Us"
-            href="#"
-            class="text-white text-decoration-none"
-            >About Us</a
-          >
-          <a
-            onclick="showNav()"
-            aria-label="Services"
-            href="#"
-            class="text-white text-decoration-none"
-            >Services
-          </a>
-          <a
-            aria-label="Live Stream"
-            onclick="showNav()"
-            href="#"
-            class="text-white text-decoration-none"
-            >Live Stream</a
-          >
-          <a
-            onclick="showNav()"
-            href="#"
-            class="bg-white font-base border-0 rounded-5 text-black text-decoration-none nav_btn d-lg-none"
-            >Contact Us</a
-          >
+  <!------------------------------------------------ HEADER SECTION START --------------------------------------->
+  <header class="hero_bg bg_common min_vh_custom d-flex flex-column">
+    <nav class="custom_container container mt-sm-4 mt-2 pt-2">
+      <div class="d-flex justify-content-between align-items-center">
+        <a href="#" aria-label="home">
+          <img class="logo" src="./assets/images/common/logo.svg" alt="logo" />
+        </a>
+        <div>
+          <div class="d-flex navbar py-0" id="navBar">
+            <a onclick="showNav()" aria-label="Home" href="#" class="text-white text-decoration-none">Home
+            </a>
+            <a onclick="showNav()" aria-label="About Us" href="#" class="text-white text-decoration-none">About Us</a>
+            <a onclick="showNav()" aria-label="Services" href="#" class="text-white text-decoration-none">Services
+            </a>
+            <a aria-label="Live Stream" onclick="showNav()" href="#" class="text-white text-decoration-none">Live
+              Stream</a>
+            <a onclick="showNav()" href="#"
+              class="bg-white font-base border-0 rounded-5 text-black text-decoration-none nav_btn d-lg-none">Contact
+              Us</a>
+          </div>
+        </div>
+        <div>
+          <div class="mobile-navbar-btn d-none">
+            <img onclick="showNav()" class="mobile-nav-icon cursor_pointer" id="navToggleIcon"
+              src="./assets/images/common/nav-toggle.svg" alt="toggle" />
+          </div>
+
+          <a href="#"
+            class="d-none d-lg-inline-block font-base nav_btn border-0 bg-white text-black text-decoration-none rounded-5"
+            onclick="showNav()" href="#">Contact Us</a>
         </div>
       </div>
-      <div>
-        <div class="mobile-navbar-btn d-none">
-          <img
-            onclick="showNav()"
-            class="mobile-nav-icon cursor_pointer"
-            id="navToggleIcon"
-            src="./assets/images/common/nav-toggle.svg"
-            alt="toggle"
-          />
+    </nav>
+    <!----------------------------------------------- HERO START HERE --------------------------------------------->
+    <section
+      class="custom_container container flex-column justify-content-center flex-grow-1 d-flex h-100 align-items-center">
+      <h1 class="hero_heading text-white lh_normal col-lg-10 col-12 text-center max_w_929 mx-auto">
+        Professionelle Filmproduktion in Wien und Niederösterreich
+      </h1>
+      <p
+        class="text-center max_w_762 sub_para lh_normal col-lg-8 px-lg-4 text-white mb-0 fw-medium pt-2 mt-1 mb-sm-5 mb-3 pb-2">
+        Entdecke individuelle Lösungen für Unternehmensfilme, Industriefilme,
+        Live Streaming und mehr, alles aus einer Hand in Wien und Umgebung.
+        Wir verwandeln Ideen in visuelle Meisterwerke für Unternehmen jeder
+        Größe.
+      </p>
+      <button class="common_btn">Jetzt Kontakt aufnehmen</button>
+    </section>
+    <!------------------------------------------------ HERO END HERE ---------------------------------------------->
+  </header>
+  <!--------------------------------------------- UNSERE LEISTUNGEN START HERE ------------------------------------>
+  <section class="bg-black py-5">
+    <div class="container custom_container my-lg-4 py-5">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-5">
+          <h4 class="text_dark_orange lh_normal font-base fw-semibold mb-0">
+            Unsere Leistungen
+          </h4>
+          <h2 class="sub_heading fw-semibold text-white mb-0">
+            Vielfalt und Expertise in der Filmproduktion
+          </h2>
         </div>
-
-        <a
-          href="#"
-          class="d-none d-lg-inline-block font-base nav_btn border-0 bg-white text-black text-decoration-none rounded-5"
-          onclick="showNav()"
-          href="#"
-          >Contact Us</a
-        >
-      </div>
-    </div>
-  </nav>
-  <!----------------------------------------------- HERO START HERE --------------------------------------------->
-  <section
-    class="custom_container container flex-column justify-content-center flex-grow-1 d-flex h-100 align-items-center"
-  >
-    <h1
-      class="hero_heading text-white lh_normal col-lg-10 col-12 text-center max_w_929 mx-auto"
-    >
-      Professionelle Filmproduktion in Wien und Niederösterreich
-    </h1>
-    <p
-      class="text-center max_w_762 sub_para lh_normal col-lg-8 px-lg-4 text-white mb-0 fw-medium pt-2 mt-1 mb-sm-5 mb-3 pb-2"
-    >
-      Entdecke individuelle Lösungen für Unternehmensfilme, Industriefilme,
-      Live Streaming und mehr, alles aus einer Hand in Wien und Umgebung.
-      Wir verwandeln Ideen in visuelle Meisterwerke für Unternehmen jeder
-      Größe.
-    </p>
-    <button class="common_btn">Jetzt Kontakt aufnehmen</button>
-  </section>
-  <!------------------------------------------------ HERO END HERE ---------------------------------------------->
-</header>
-<!--------------------------------------------- UNSERE LEISTUNGEN START HERE ------------------------------------>
-<section class="bg-black py-5">
-  <div class="container custom_container my-lg-4 py-5">
-    <div class="row justify-content-between align-items-center">
-      <div class="col-lg-5">
-        <h4 class="text_dark_orange lh_normal font-base fw-semibold mb-0">
-          Unsere Leistungen
-        </h4>
-        <h2 class="sub_heading fw-semibold text-white mb-0">
-          Vielfalt und Expertise in der Filmproduktion
-        </h2>
-      </div>
-      <div class="col-lg-6 pt-4 pt-lg-0">
-        <p class="text-white sub_para fw-semibold mb-0">
-          Bei NoRiskNoFilm decken wir alles ab – von der sorgfältigen
-          Planung und kreativen Konzeption deiner Imagefilme, Industriefilme
-          oder Live-Streaming-Events bis hin zur perfekten Fertigstellung.
-          <span class="color_manatee"
-            >Unsere umfassende Expertise in der Videoproduktion sichert dir
-            maßgeschneiderte, kreative Filme, die genau auf dein Projekt
-            zugeschnitten sind.</span
-          >
-        </p>
-      </div>
-    </div>
-    <div class="row pt-5 mt-lg-5 flex-col flex-lg-row gap-4 gap-lg-0">
-      <div class="col-lg-4 col-md-12">
-        <img src="./assets/images/home/Expertise_icon1.svg" alt="Expertise_icon1" />
-        <h3 class="text-white fw-bold font-md pb-1 pt-lg-4 pt-3">Beratung und Konzeption</h3>
-        <p class=" fw-normal color_manatee font-sm mb-0">
-          Unser Ansatz bei NoRiskNoFilm beginnt mit einer ausführlichen
-          Beratung, um deine Vision und Ziele zu verstehen. Wir entwickeln
-          kreative Konzepte, die perfekt auf deine Bedürfnisse zugeschnitten
-          sind, sei es für Unternehmensfilme, Live Streaming oder Social
-          Media Content.
-        </p>
-      </div>
-      <div class="col-lg-4  col-md-12">
-        <img src="./assets/images/home/Expertise_icon2.svg" alt="Expertise_icon1" />
-        <h3 class="text-white fw-bold font-md pb-1 pt-lg-4 pt-3">Produktion</h3>
-        <p class=" fw-normal color_manatee font-sm mb-0">
-         Unsere Filmproduktion vereint künstlerisches Geschick mit technischer Präzision. Egal, ob es sich um einen Imagefilm, Employer Brand Film, eine Reportage oder Kreativfilm handelt, wir sorgen für eine hochwertige und effiziente Produktion, die deine Botschaft wirkungsvoll vermittelt.
-        </p>
-      </div>
-      <div class="col-lg-4  col-md-12">
-        <img src="./assets/images/home/Expertise_icon3.png" alt="Expertise_icon1" />
-        <h3 class="text-white fw-bold font-md pb-1 pt-lg-4 pt-3">Post-Production</h3>
-        <p class=" fw-normal color_manatee font-sm mb-0">
-         In der Post-Production bringen wir deine Vision zum Leben. Mit modernsten Schnitt-, Farbkorrektur- und Sounddesign-Techniken verleihen wir deinem Film den letzten Schliff und stellen sicher, dass das Endprodukt höchsten Qualitätsstandards und deinen Erwartungen entspricht.
-        </p>
-      </div>
-      
-    </div>
-  </div>
-</section>
-<div class="bg_dark_black " style="height: 600px;">
-
-</div>
- <!--================= PARTNER SECTION =================-->
- <section class="bg-black py-4 py-5 text-white lh_normal">
-  <div class="container custom_container py-5">
-      <h2 class="font-2xl fw_semibold text-center mb-5 pb-md-4">Warum wir ein geeigneter Partner sind</h2>
-      <div class="row justify-content-between mt-2 mb-sm-5 pb-lg-3">
-          <!-- 1. -->
-          <div class="col-12 col-sm-6 col-lg-4">
-              <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                  <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                      <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_1.svg"
-                              alt="partner_icon"></span>
-                      Einzigartigkeit:</h4>
-                  <p class="font-sm fw-normal color_manatee mb-0">
-                      Wir sind nicht nur eine Filmproduktion, sondern kreative Geschichtenerzähler, die jedes
-                      Projekt
-                      einzigartig machen.
-                  </p>
-              </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4 mt-5 mt-sm-0">
-              <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                  <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                      <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_2.svg"
-                              alt="partner_icon"></span>
-                      Transparenz:</h4>
-                  <p class="font-sm fw-normal color_manatee mb-0">
-                      Offene Kommunikation und klare Prozesse bilden das Fundament unserer Zusammenarbeit.
-                  </p>
-              </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4 mt-lg-0 pt-lg-0">
-              <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                  <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                      <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_3.svg"
-                              alt="partner_icon"></span>
-                      Professionalität:</h4>
-                  <p class="font-sm fw-normal color_manatee mb-0">
-                      Unsere Expertise in Film und Marketing gewährleistet höchste Qualität in jedem Aspekt deines
-                      Projekts.
-                  </p>
-              </div>
-          </div>
-
-          <!-- 2. -->
-          <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
-              <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                  <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                      <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_4.svg"
-                              alt="partner_icon"></span>
-                      Flexibilität:</h4>
-                  <p class="font-sm fw-normal color_manatee mb-0">
-                      Anpassungsfähig an jedes Projekt, ob groß oder klein, wir bieten maßgeschneiderte Lösungen.
-                  </p>
-              </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
-              <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                  <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                      <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_5.svg"
-                              alt="partner_icon"></span>
-                      Kreativität:</h4>
-                  <p class="font-sm fw-normal color_manatee mb-0">
-                      Innovative Ideen und frische Perspektiven prägen jedes unserer Videoprojekte.
-                  </p>
-              </div>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
-              <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                  <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                      <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_6.svg"
-                              alt="partner_icon"></span>
-                      Lokale Expertise:</h4>
-                  <p class="font-sm fw-normal color_manatee mb-0 pe-xl-1">
-                      Tief verwurzelt in Wien und Niederösterreich, kennen wir den Markt und seine Anforderungen.
-                  </p>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-<!-- =========DEFINE LREATIVITAT SECTION========= -->
-<section class="bg_dark_black middle_section lh_normal">
-  <div class="container custom_container py-5 text-white">
-      <!-- GRENZENLOSE CODE -->
-      <div
-          class="row text-center text-lg-start justify-content-center justify-content-lg-between align-items-center mb-5 pb-4">
-          <div class="col-12 col-sm-10 col-lg-6">
-              <img class="w-100 border_radius_10px" src="./assets/images/home/grenzenlose-image.png"
-                  alt="grenzenlose-image">
-          </div>
-          <div class="col-12 col-lg-5 mt-4 mt-sm-5 mt-lg-0">
-              <h4 class="font-base fw_semibold mb-0 text_orange">Grenzenlose Kreativität – Deine Vision, Unsere
-                  Mission</h4>
-              <h2 class="font-2xl fw_semibold mb-4 pb-1">Kreativität kennt keine Grenzen</h2>
-              <p class="font-base fw-normal mb-0">
-                  Du suchst nach einer Filmproduktion in Wien, die kreativ, dynamisch und bereit ist, sich jeder
-                  Herausforderung zu stellen? Dann bist du bei uns genau richtig! Wir von NoRiskNoFilm glauben,
-                  dass keine Idee zu groß oder zu komplex ist. Unsere Expertise als Videoproduktionsfirma
-                  ermöglicht es uns, in jeder Phase des Filmemachens innovativ und effektiv zu sein.
-                  <span class="color_manatee">
-                      Ob du einen
-                      Imagefilm, einen Unternehmensfilm oder etwas völlig Neues im Kopf hast – wir sind die
-                      Filmproduzenten in Wien, die deine Visionen Realität werden lassen.
-                  </span>
-              </p>
-          </div>
-      </div>
-
-      <div
-          class="row text-center text-lg-start justify-content-center justify-content-lg-between align-items-center pt-2">
-          <div class="col-12 col-lg-5 order-1 order-lg-0 mt-4 mt-sm-5 mt-lg-0">
-              <h2 class="font-2xl fw_semibold mb-4 pb-1">Deine Idee, unsere Umsetzung</h2>
-              <p class="font-base fw-normal mb-0">
-                  Du träumst davon, ein Imagevideo erstellen zu lassen, welches die Essenz deines Projekts
-                  einfängt? Oder möchtest du als Regisseur in Österreich einen einzigartigen Kurzfilm realisieren?
-                  Wir sind nicht nur eine weitere Videoproduktion in Wien; wir sind Partner, die deine kreativen
-                  Träume ernst nehmen und sie auf die Leinwand bringen. Wir arbeiten eng mit dir zusammen, um
-                  sicherzustellen, dass das Endprodukt genau das ist, was du dir vorgestellt hast.
-                  <span class="color_manatee">
-                      Egal, ob es um Filmproduktion in Österreich oder spezifisch um Produktionsfirmen in Wien
-                      geht – wir sind
-                      hier, um außergewöhnliche Ergebnisse zu liefern.
-                  </span>
-              </p>
-          </div>
-          <div class="col-12 col-sm-10 col-lg-6 order-0 order-lg-1">
-              <img class="w-100 border_radius_10px" src="./assets/images/home/Umsetzung-image.png"
-                  alt="Umsetzung-image">
-          </div>
-      </div>
-
-      <!-- DEINE IDEE CODE -->
-      <div class="my-5 py-md-3">
-          <div class="row justify-content-center deine_box_parent my-md-5 py-5">
-              <div class="col-12 col-lg-10 text-center py-md-2 my-md-1">
-                  <h2 class="font-2xl fw_semibold mb-4 pb-1">Deine Idee, unsere Umsetzung</h2>
-                  <p class="font-base fw-normal mb-5 pb-lg-2">
-                      Jetzt bist du dran! Wir laden dich herzlich ein, Kontakt mit uns aufzunehmen. Lass uns über
-                      deine Ideen, Visionen und Projekte sprechen. Erzähle uns über deine Vorstellungen und lass
-                      uns gemeinsam herausfinden, wie wir es Wirklichkeit werden lassen können. Wir freuen uns
-                      darauf, von dir zu hören und gemeinsam mit dir fantastische Projekte zu verwirklichen!
-                  </p>
-                  <button
-                      class="common_btn fw-normal border-0 text-white d-flex align-items-center justify-content-center mx-auto">
-                      Jetzt Kontakt aufnehmen
-                  </button>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-  <section class="bg-black py-5 ">
-    <div class="container custom_container py-sm-4 py-lg-5 mb-lg-5">
-      <h3 class="font-base lh_normal fw-semibold color_dark_orange mb-0 pt-lg-3 text-center text-lg-start">Unsere Projekte</h3>
-      <div class="row  justify-content-center gap-3 gap-sm-4 gap-lg-0 justify-content-lg-between pb-4 pb-sm-5 mb-lg-4">
-        <div class="col-sm-11 col-lg-5">
-          <h2 class="sub_heading color_offwhite ff_inter leading-normal mb-0 text-center text-lg-start ">Vielfalt und Qualität in der
-            Filmproduktion</h2>
-        </div>
-        <div class="col-sm-11 col-lg-6 ">
-          <p class="font-base font-normal color_manatee ff_inter mb-0 text-center text-lg-start">Mit einem starken Fokus auf die Bedürfnisse
-            unserer Kunden und unter Einsatz modernster Technologien haben wir uns darauf spezialisiert, Botschaften in
-            starke visuelle Erlebnisse zu verwandeln. Von der Ideenfindung bis zur Postproduktion streben wir danach,
-            jeder Geschichte ihre eigene, unverwechselbare Stimme zu geben... <span class="fw-semibold">READ MORE</span></p>
+        <div class="col-lg-6 pt-4 pt-lg-0">
+          <p class="text-white sub_para fw-semibold mb-0">
+            Bei NoRiskNoFilm decken wir alles ab – von der sorgfältigen
+            Planung und kreativen Konzeption deiner Imagefilme, Industriefilme
+            oder Live-Streaming-Events bis hin zur perfekten Fertigstellung.
+            <span class="color_manatee">Unsere umfassende Expertise in der Videoproduktion sichert dir
+              maßgeschneiderte, kreative Filme, die genau auf dein Projekt
+              zugeschnitten sind.</span>
+          </p>
         </div>
       </div>
-      <img class="w-100 pb-lg-4" src="./assets/images/home/adobe-stock.png" alt="adobe-stock">
+      <div class="row pt-5 mt-lg-5 flex-col flex-lg-row gap-4 gap-lg-0">
+        <div class="col-lg-4 col-md-12">
+          <img src="./assets/images/home/Expertise_icon1.svg" alt="Expertise_icon1" />
+          <h3 class="text-white fw-bold font-md pb-1 pt-lg-4 pt-3">Beratung und Konzeption</h3>
+          <p class=" fw-normal color_manatee font-sm mb-0">
+            Unser Ansatz bei NoRiskNoFilm beginnt mit einer ausführlichen
+            Beratung, um deine Vision und Ziele zu verstehen. Wir entwickeln
+            kreative Konzepte, die perfekt auf deine Bedürfnisse zugeschnitten
+            sind, sei es für Unternehmensfilme, Live Streaming oder Social
+            Media Content.
+          </p>
+        </div>
+        <div class="col-lg-4  col-md-12">
+          <img src="./assets/images/home/Expertise_icon2.svg" alt="Expertise_icon1" />
+          <h3 class="text-white fw-bold font-md pb-1 pt-lg-4 pt-3">Produktion</h3>
+          <p class=" fw-normal color_manatee font-sm mb-0">
+            Unsere Filmproduktion vereint künstlerisches Geschick mit technischer Präzision. Egal, ob es sich um einen
+            Imagefilm, Employer Brand Film, eine Reportage oder Kreativfilm handelt, wir sorgen für eine hochwertige und
+            effiziente Produktion, die deine Botschaft wirkungsvoll vermittelt.
+          </p>
+        </div>
+        <div class="col-lg-4  col-md-12">
+          <img src="./assets/images/home/Expertise_icon3.png" alt="Expertise_icon1" />
+          <h3 class="text-white fw-bold font-md pb-1 pt-lg-4 pt-3">Post-Production</h3>
+          <p class=" fw-normal color_manatee font-sm mb-0">
+            In der Post-Production bringen wir deine Vision zum Leben. Mit modernsten Schnitt-, Farbkorrektur- und
+            Sounddesign-Techniken verleihen wir deinem Film den letzten Schliff und stellen sicher, dass das Endprodukt
+            höchsten Qualitätsstandards und deinen Erwartungen entspricht.
+          </p>
+        </div>
+
+      </div>
     </div>
   </section>
   <div class="bg_dark_black " style="height: 600px;">
 
   </div>
+  <!--================= PARTNER SECTION =================-->
+  <section class="bg-black py-4 py-5 text-white lh_normal">
+    <div class="container custom_container py-5">
+      <h2 class="font-2xl fw_semibold text-center mb-5 pb-md-4">Warum wir ein geeigneter Partner sind</h2>
+      <div class="row justify-content-between mt-2 mb-sm-5 pb-lg-3">
+        <!-- 1. -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+            <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+              <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_1.svg" alt="partner_icon"></span>
+              Einzigartigkeit:</h4>
+            <p class="font-sm fw-normal color_manatee mb-0">
+              Wir sind nicht nur eine Filmproduktion, sondern kreative Geschichtenerzähler, die jedes
+              Projekt
+              einzigartig machen.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-5 mt-sm-0">
+          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+            <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+              <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_2.svg" alt="partner_icon"></span>
+              Transparenz:</h4>
+            <p class="font-sm fw-normal color_manatee mb-0">
+              Offene Kommunikation und klare Prozesse bilden das Fundament unserer Zusammenarbeit.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4 mt-lg-0 pt-lg-0">
+          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+            <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+              <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_3.svg" alt="partner_icon"></span>
+              Professionalität:</h4>
+            <p class="font-sm fw-normal color_manatee mb-0">
+              Unsere Expertise in Film und Marketing gewährleistet höchste Qualität in jedem Aspekt deines
+              Projekts.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2. -->
+        <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
+          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+            <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+              <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_4.svg" alt="partner_icon"></span>
+              Flexibilität:</h4>
+            <p class="font-sm fw-normal color_manatee mb-0">
+              Anpassungsfähig an jedes Projekt, ob groß oder klein, wir bieten maßgeschneiderte Lösungen.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
+          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+            <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+              <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_5.svg" alt="partner_icon"></span>
+              Kreativität:</h4>
+            <p class="font-sm fw-normal color_manatee mb-0">
+              Innovative Ideen und frische Perspektiven prägen jedes unserer Videoprojekte.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
+          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+            <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+              <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_6.svg" alt="partner_icon"></span>
+              Lokale Expertise:</h4>
+            <p class="font-sm fw-normal color_manatee mb-0 pe-xl-1">
+              Tief verwurzelt in Wien und Niederösterreich, kennen wir den Markt und seine Anforderungen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =========DEFINE LREATIVITAT SECTION========= -->
+  <section class="bg_dark_black middle_section lh_normal">
+    <div class="container custom_container py-5 text-white">
+      <!-- GRENZENLOSE CODE -->
+      <div
+        class="row text-center text-lg-start justify-content-center justify-content-lg-between align-items-center mb-5 pb-4">
+        <div class="col-12 col-sm-10 col-lg-6">
+          <img class="w-100 border_radius_10px" src="./assets/images/home/grenzenlose-image.png"
+            alt="grenzenlose-image">
+        </div>
+        <div class="col-12 col-lg-5 mt-4 mt-sm-5 mt-lg-0">
+          <h4 class="font-base fw_semibold mb-0 text_orange">Grenzenlose Kreativität – Deine Vision, Unsere
+            Mission</h4>
+          <h2 class="font-2xl fw_semibold mb-4 pb-1">Kreativität kennt keine Grenzen</h2>
+          <p class="font-base fw-normal mb-0">
+            Du suchst nach einer Filmproduktion in Wien, die kreativ, dynamisch und bereit ist, sich jeder
+            Herausforderung zu stellen? Dann bist du bei uns genau richtig! Wir von NoRiskNoFilm glauben,
+            dass keine Idee zu groß oder zu komplex ist. Unsere Expertise als Videoproduktionsfirma
+            ermöglicht es uns, in jeder Phase des Filmemachens innovativ und effektiv zu sein.
+            <span class="color_manatee">
+              Ob du einen
+              Imagefilm, einen Unternehmensfilm oder etwas völlig Neues im Kopf hast – wir sind die
+              Filmproduzenten in Wien, die deine Visionen Realität werden lassen.
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="row text-center text-lg-start justify-content-center justify-content-lg-between align-items-center pt-2">
+        <div class="col-12 col-lg-5 order-1 order-lg-0 mt-4 mt-sm-5 mt-lg-0">
+          <h2 class="font-2xl fw_semibold mb-4 pb-1">Deine Idee, unsere Umsetzung</h2>
+          <p class="font-base fw-normal mb-0">
+            Du träumst davon, ein Imagevideo erstellen zu lassen, welches die Essenz deines Projekts
+            einfängt? Oder möchtest du als Regisseur in Österreich einen einzigartigen Kurzfilm realisieren?
+            Wir sind nicht nur eine weitere Videoproduktion in Wien; wir sind Partner, die deine kreativen
+            Träume ernst nehmen und sie auf die Leinwand bringen. Wir arbeiten eng mit dir zusammen, um
+            sicherzustellen, dass das Endprodukt genau das ist, was du dir vorgestellt hast.
+            <span class="color_manatee">
+              Egal, ob es um Filmproduktion in Österreich oder spezifisch um Produktionsfirmen in Wien
+              geht – wir sind
+              hier, um außergewöhnliche Ergebnisse zu liefern.
+            </span>
+          </p>
+        </div>
+        <div class="col-12 col-sm-10 col-lg-6 order-0 order-lg-1">
+          <img class="w-100 border_radius_10px" src="./assets/images/home/Umsetzung-image.png" alt="Umsetzung-image">
+        </div>
+      </div>
+
+      <!-- DEINE IDEE CODE -->
+      <div class="my-5 py-md-3">
+        <div class="row justify-content-center deine_box_parent my-md-5 py-5">
+          <div class="col-12 col-lg-10 text-center py-md-2 my-md-1">
+            <h2 class="font-2xl fw_semibold mb-4 pb-1">Deine Idee, unsere Umsetzung</h2>
+            <p class="font-base fw-normal mb-5 pb-lg-2">
+              Jetzt bist du dran! Wir laden dich herzlich ein, Kontakt mit uns aufzunehmen. Lass uns über
+              deine Ideen, Visionen und Projekte sprechen. Erzähle uns über deine Vorstellungen und lass
+              uns gemeinsam herausfinden, wie wir es Wirklichkeit werden lassen können. Wir freuen uns
+              darauf, von dir zu hören und gemeinsam mit dir fantastische Projekte zu verwirklichen!
+            </p>
+            <button
+              class="common_btn fw-normal border-0 text-white d-flex align-items-center justify-content-center mx-auto">
+              Jetzt Kontakt aufnehmen
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========DEFINE UNSERE PROJEKTE SECTON======== -->
+  <section class="bg-black py-5 ">
+    <div class="container custom_container py-sm-4 py-lg-5 mb-lg-5">
+      <h3 class="font-base lh_normal fw-semibold color_dark_orange mb-0 pt-lg-3 text-center text-lg-start">Unsere
+        Projekte</h3>
+      <div class="row  justify-content-center gap-3 gap-sm-4 gap-lg-0 justify-content-lg-between pb-4 pb-sm-5 mb-lg-4">
+        <div class="col-sm-11 col-lg-5">
+          <h2 class="sub_heading color_offwhite ff_inter leading-normal mb-0 text-center text-lg-start ">Vielfalt und
+            Qualität in der
+            Filmproduktion</h2>
+        </div>
+        <div class="col-sm-11 col-lg-6 ">
+          <p class="font-base font-normal color_manatee ff_inter mb-0 text-center text-lg-start">Mit einem starken Fokus
+            auf die Bedürfnisse
+            unserer Kunden und unter Einsatz modernster Technologien haben wir uns darauf spezialisiert, Botschaften in
+            starke visuelle Erlebnisse zu verwandeln. Von der Ideenfindung bis zur Postproduktion streben wir danach,
+            jeder Geschichte ihre eigene, unverwechselbare Stimme zu geben... <span class="fw-semibold">READ MORE</span>
+          </p>
+        </div>
+      </div>
+      <img class="w-100 pb-lg-4" src="./assets/images/home/adobe-stock.png" alt="adobe-stock">
+    </div>
+  </section>
+  <!-- =========DEFINE SLIDER SECTION CODE========= -->
+  <div class="bg_dark_black " style="height: 600px;">
+
+  </div>
+  <!-- ====DEFINE ANERKENNUNG UNSERER SECTION==== -->
   <section class="bg-black py-5">
     <div class="container custom_container pb-md-2 pt-md-4 pt-lg-5">
       <div class="text-center anerkennung_content_box mx-auto">
@@ -589,7 +551,8 @@
 
         </div>
       </div>
-      <div class="border_top d-flex flex-wrap justify-content-center justify-content-md-between align-items-center pt-3 mt-3 pt-md-4 mt-sm-4 gap-3 gap-md-4">
+      <div
+        class="border_top d-flex flex-wrap justify-content-center justify-content-md-between align-items-center pt-3 mt-3 pt-md-4 mt-sm-4 gap-3 gap-md-4">
         <div class="col-12 col-md-auto">
           <div class="d-flex flex-wrap text-center justify-content-center justify-content-md-start gap-3 gap-lg-4">
             <a class="font-base fw-normal lh_normal color_pinkswan ff_inter transition_all footer_link_hover text-decoration-none"
@@ -620,7 +583,7 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
- 
+
   <!-- ==========DEFINE EMAIL JS CODE========== -->
   <script>
     function handleSubmit(event) {
@@ -681,7 +644,45 @@
     }
   </script>
   <script src="./assets/js/main.js"></script>
+  <!-- ========== SLICK SLIDER ========== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      $('.slick-slider').slick({
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+        arrows: false,
 
+        // responsive: [{
+        //         breakpoint: 600,
+        //         settings: {
+        //             slidesToShow: 2,
+        //             slidesToScroll: 2
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 480,
+        //         settings: {
+        //             slidesToShow: 1,
+        //             slidesToScroll: 1
+        //         }
+        //     }
+        // ]
+      });
+
+      // Add click event listeners to the custom buttons
+      $('.slick-prev').click(function () {
+        $('.slick-slider').slick('slickPrev'); // Go to the previous slide
+      });
+
+      $('.slick-next  ').click(function () {
+        $('.slick-slider').slick('slickNext'); // Go to the next slide
+      });
+    });
+  </script>
 </body>
 
 </html>
