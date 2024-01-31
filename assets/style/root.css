@@ -6,6 +6,7 @@
   --color-orange: #ed5a31;
   --color-dark-orange: #f05906;
   --color-light-black: #2c2c2c;
+  --color-gray: #D5D5D5;
   --color-gray-100: #86868b;
   --color-gray-200: #9c9c9c;
   --color-gray-300: #b3b1b1;
@@ -19,6 +20,7 @@
   --font-md: 20px;
   --font-lg: 22px;
   --font-xl: 24px;
+  --font-xl-large: 37px;
   --font-2xl: 47px;
   --font-3xl: 57px;
 }
@@ -43,6 +45,10 @@
 
 .color_orange {
   color: var(--color-orange);
+}
+
+.color_gray {
+  color: var(--color-gray);
 }
 
 .color_gray100 {
@@ -145,6 +151,7 @@
 
 @media (max-width: 991.98px) {
   :root {
+    --font-xl-large: 32px;
     --font-2xl: 38px;
     --font-3xl: 44px;
   }
@@ -158,6 +165,7 @@
     --font-md: 18px;
     --font-lg: 20px;
     --font-xl: 22px;
+    --font-xl-large: 24px;
     --font-2xl: 36px;
     --font-3xl: 40px;
   }
