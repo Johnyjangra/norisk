@@ -806,7 +806,7 @@
     gsap.registerPlugin(ScrollTrigger);
 
     ScrollTrigger.matchMedia({
-      "(min-width:768px)": function () {
+      "(min-width:768px) and (max-width:991.98px)": function () {
         const process = gsap.timeline();
         process
           .fromTo(
