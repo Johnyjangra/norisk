@@ -2,13 +2,6 @@
     max-width: 1024px !important;
 }
 
-.color_pinkswan {
-    color: var(--color-pink-Swan);
-}
-
-.color_dark_orange {
-    color: var(--color-dark-orange);
-}
 
 .fw_medium {
     font-weight: 500;
