@@ -7,7 +7,7 @@ function showNav() {
   navBar.classList.toggle("showNav");
   body.classList.toggle("nav_mobile_scroll");
   navToggleIcon.src = navBar.classList.contains("showNav")
-    ? "./assets/images/common/Cross.svg"
+    ? "./assets/images/common/cross.svg"
     : "./assets/images/common/nav-toggle.svg";
 }
 
