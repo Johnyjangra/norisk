@@ -181,6 +181,7 @@ button:focus-visible {
     border-top: 1px solid var(--color-gray-500);
 }
 
+
 .review_slider_section_parent {
     background: var(--color-extra-light-black) !important;
     border-radius: 17px;
