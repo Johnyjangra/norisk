@@ -2,20 +2,6 @@
 
 /*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
 :root {
-
-  /* --color-off-white: #f7f7f9;
-  --color-orange: #ed5a31;
-  --color-dark-orange: #f05906;
-  --color-light-black: #2c2c2c;
-  --color-gray: #D5D5D5;
-  --color-gray-100: #86868b;
-  --color-gray-200: #9c9c9c;
-  --color-gray-300: #b3b1b1;
-  --color-gray-400: #444;
-  --color-gray-500: #404040;
-  --color-black-100: #1d1d1d;
-  --color-dark-200: #101010;
-  --color-light-300: #2c2c2c; */
   --color-off-white: #f7f7f9;
   --color-orange: #ed5a31;
   --color-dark-orange: #f05906;
@@ -29,6 +15,8 @@
   --color-Nero: #1d1d1d;
   --color-dark-black: #101010;
   --color-light-black: #2c2c2c;
+  --color-light-300: #2c2c2c;
+  --color-light-400: #2D2D2D;
   --font-xs: 14px;
   --font-sm: 15px;
   --font-base: 17px;
@@ -116,6 +104,10 @@
 
 .bg_light300 {
   background: var(--color-light-black);
+}
+
+.bg_color-light_400 {
+  background: var(--color-light-400);
 }
 
 .text_orange {
