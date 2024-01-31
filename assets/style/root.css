@@ -15,6 +15,7 @@
   --color-black-100: #1d1d1d;
   --color-dark-200: #101010;
   --color-light-300: #2c2c2c;
+  --color-light-400: #2D2D2D;
   --font-xs: 14px;
   --font-sm: 15px;
   --font-base: 17px;
@@ -99,6 +100,10 @@
 
 .bg_gray400 {
   background: var(--color-gray-400);
+}
+
+.bg_color-light_400 {
+  background: var(--color-light-400);
 }
 
 .text_orange {
