@@ -204,11 +204,14 @@ button:focus-visible {
     cursor: pointer !important;
 }
 
+.slider-control-btn {
+    transform: translate(0%, 0%) !important;
+}
+
 .slider-control-btn,
 .slider-control-btn img {
     min-width: 36.262px;
     min-height: 36.262px;
-    transform: translate(0%, 0%) !important;
 }
 
 .slider-control-btn:hover img {
