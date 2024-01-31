@@ -11,6 +11,7 @@
   --color-gray-200: #9c9c9c;
   --color-gray-300: #b3b1b1;
   --color-gray-400: #444;
+  --color-gray-500: #404040;
   --color-black-100: #1d1d1d;
   --color-dark-200: #101010;
   --color-light-300: #2c2c2c;
@@ -95,6 +96,7 @@
 .bg_gray400 {
   background: var(--color-gray-400);
 }
+
 .text_orange {
   color: var(--color-dark-orange) !important;
 }
@@ -214,9 +216,11 @@ button:focus-visible {
   outline: unset !important;
   box-shadow: unset !important;
 }
+
 .border_radius_10px {
   border-radius: 10px !important;
 }
+
 .common_btn:focus,
 .common_btn:hover {
   -webkit-animation: pulse 1s;
