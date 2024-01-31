@@ -177,9 +177,14 @@ button:focus-visible {
     border-radius: 10px !important;
 }
 
-.custom_border_top_gray_500 {
+/* .partners_common_border_top {
     border-top: 1px solid var(--color-gray-500);
+} */
+
+.partners_common_border_top {
+    border-top: 1px solid var(--color-eclipse);
 }
+
 
 .review_slider_section_parent {
     background: var(--color-extra-light-black) !important;
@@ -199,15 +204,57 @@ button:focus-visible {
     cursor: pointer !important;
 }
 
+.slider-control-btn {
+    transform: translate(0%, 0%) !important;
+}
+
 .slider-control-btn,
 .slider-control-btn img {
     min-width: 36.262px;
     min-height: 36.262px;
 }
 
+.slider-control-btn:hover img {
+    transform: scale(1.112) translateY(-4px);
+}
+
+.review_para {
+    max-width: 342px !important;
+}
+
 .slider-control-btn::before,
 .slider-control-btn::after {
     content: unset !important;
+}
+
+@media (max-width:1299.98px) {
+    .review_para {
+        font-size: 18px !important;
+    }
+
+    .video-container {
+        max-height: 425px !important;
+    }
+}
+
+@media (max-width:1199.98px) {
+    .review_para {
+        font-size: 15px !important;
+    }
+
+    .slider-control-btn,
+    .slider-control-btn img {
+        min-width: 28px;
+        min-height: 28px;
+    }
+
+    .play-button {
+        max-width: 54px !important;
+    }
+
+    .video-container {
+        max-height: 312px !important;
+    }
 }
 
 @media (max-width:991.98px) {
@@ -218,5 +265,40 @@ button:focus-visible {
     .middle_section h4,
     .middle_section p {
         font-size: 14px;
+    }
+
+    .review_slider_section_parent {
+        max-height: 100% !important;
+    }
+
+    .video-container {
+        max-height: 100% !important;
+    }
+
+    .slider-control-btn,
+    .slider-control-btn img {
+        min-width: 34px;
+        min-height: 34px;
+    }
+
+    .review_para {
+        font-size: 17px !important;
+    }
+}
+
+@media (max-width:767.98px) {
+    .review_para {
+        font-size: 16px !important;
+    }
+
+    .review_para {
+        max-width: 98% !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width:575.98px) {
+    .play-button {
+        max-width: 33px !important;
     }
 }
