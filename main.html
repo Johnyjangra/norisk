@@ -55,6 +55,7 @@
 
         .review_slider_section_parent {
             border-radius: 17px;
+            max-height: 455px;
         }
 
         .slider-control-btn {
@@ -65,6 +66,17 @@
         .slider-control-btn::before,
         .slider-control-btn::after {
             content: unset !important;
+        }
+
+        .review_para {
+            max-width: 342px !important;
+        }
+
+        @media (max-width:1299.98px) {
+            .review_para {
+                font-size: 16px !important;
+                max-width: 282px !important;
+            }
         }
 
         @media (max-width:991.98px) {
@@ -247,10 +259,10 @@
                 Arbeiten inspirieren.
             </p>
             <div class="row align-items-center review_slider_section_parent bg_color-light_400 pe-0 mb-5">
-                <div class="col-4 pe-0">
+                <div class="col-5 col-xl-4 pe-0 h-100">
                     <div class="slick-slider">
-                        <div class="slider_card py-5 ps-5 pe-3">
-                            <div class="d-flex align-items-center mb-4 pb-3">
+                        <div class="slider_card py-4 py-xl-5 ps-5 pe-3">
+                            <div class="d-flex align-items-center mb-4 pb-xl-3">
                                 <img src="./assets/images/home/karin-image.png" alt="karin-image">
                                 <div class="ms-2 ps-1">
                                     <h5 class="font-md fw_semibold">Karin Horneck</h5>
@@ -258,7 +270,7 @@
                                 </div>
                             </div>
                             <div>
-                                <p class="font-md font-normal mb-3">
+                                <p class="font-md font-normal mb-3 review_para">
                                     The videos exceeded our expectations. The advice was top and the implementation was
                                     fast
                                     and in super quality. I can only recommend No Risk No Film - actually quite
@@ -268,8 +280,8 @@
                                 <img src="./assets/images/home/star_image.svg" alt="star_image">
                             </div>
                         </div>
-                        <div class="slider_card py-5 ps-5 pe-3">
-                            <div class="d-flex align-items-center mb-4 pb-3">
+                        <div class="slider_card py-4 py-xl-5 ps-5 pe-3">
+                            <div class="d-flex align-items-center mb-4 pb-xl-3">
                                 <img src="./assets/images/home/karin-image.png" alt="karin-image">
                                 <div class="ms-2 ps-1">
                                     <h5 class="font-md fw_semibold">Karin Horneck</h5>
@@ -277,14 +289,14 @@
                                 </div>
                             </div>
                             <div>
-                                <p class="font-md font-normal mb-3">
+                                <p class="font-md font-normal mb-3 review_para">
                                     The videos exceeded our expectations. The advice was top and the implementation was
                                     fast and in super quality. </p>
                                 <img src="./assets/images/home/star_image.svg" alt="star_image">
                             </div>
                         </div>
-                        <div class="slider_card py-5 ps-5 pe-3">
-                            <div class="d-flex align-items-center mb-4 pb-3">
+                        <div class="slider_card py-4 py-xl-5 ps-5 pe-3">
+                            <div class="d-flex align-items-center mb-4 pb-xl-3">
                                 <img src="./assets/images/home/karin-image.png" alt="karin-image">
                                 <div class="ms-2 ps-1">
                                     <h5 class="font-md fw_semibold">Karin Horneck</h5>
@@ -292,7 +304,7 @@
                                 </div>
                             </div>
                             <div>
-                                <p class="font-md font-normal mb-3">
+                                <p class="font-md font-normal mb-3 review_para">
                                     The videos exceeded our expectations.
                                 </p>
                                 <img src="./assets/images/home/star_image.svg" alt="star_image">
@@ -311,7 +323,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-8 px-0">
+                <div class="col-7 col-xl-8 px-0 h-100">
                     <img class="w-100" src="./assets/images/home/KUNDENSTIMMEN_video_image.png"
                         alt="KUNDENSTIMMEN_video_image">
                 </div>
