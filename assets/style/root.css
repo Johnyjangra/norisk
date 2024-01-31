@@ -11,6 +11,7 @@
   --color-gray-200: #9c9c9c;
   --color-gray-300: #b3b1b1;
   --color-gray-400: #444;
+  --color-gray-500: #404040;
   --color-black-100: #1d1d1d;
   --color-dark-200: #101010;
   --color-light-300: #2c2c2c;
@@ -99,10 +100,13 @@
   background: var(--color-gray-400);
 }
 
+<<<<<<< HEAD
 .bg_light300 {
   background: var(--color-light-300);
 }
 
+=======
+>>>>>>> a24bdfd3f3ca9d6a4bcb39ca71c75a26dc49165f
 .text_orange {
   color: var(--color-dark-orange) !important;
 }
