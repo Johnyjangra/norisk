@@ -41,7 +41,7 @@
                 <div class="col-12 col-lg-4 pe-0 h-100 order-1 order-lg-0 mt-4 mt-lg-0">
                     <div class="slick-slider">
                         <div class="slider_card py-4 py-xl-5 ps-4 ps-xl-5 pe-3">
-                            <div class="d-flex align-items-center mb-4 pb-xl-3">
+                            <div class="d-flex align-items-center mb-2 mb-xl-4 pb-xl-3">
                                 <img src="./assets/images/home/karin-image.png" alt="karin-image" />
                                 <div class="ms-2 ps-1">
                                     <h5 class="font-md fw_semibold">Karin Horneck</h5>
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div class="slider_card py-4 py-xl-5 ps-4 ps-xl-5 pe-3">
-                            <div class="d-flex align-items-center mb-4 pb-xl-3">
+                            <div class="d-flex align-items-center mb-2 mb-xl-4 pb-xl-3">
                                 <img src="./assets/images/home/karin-image.png" alt="karin-image" />
                                 <div class="ms-2 ps-1">
                                     <h5 class="font-md fw_semibold">Karin Horneck</h5>
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                         <div class="slider_card py-4 py-xl-5 ps-4 ps-xl-5 pe-3">
-                            <div class="d-flex align-items-center mb-4 pb-xl-3">
+                            <div class="d-flex align-items-center mb-2 mb-xl-4 pb-xl-3">
                                 <img src="./assets/images/home/karin-image.png" alt="karin-image" />
                                 <div class="ms-2 ps-1">
                                     <h5 class="font-md fw_semibold">Karin Horneck</h5>
@@ -96,7 +96,8 @@
                         </div>
                     </div>
                     <!--=============== SLICK SLIDER BUTTONS ===============-->
-                    <div class="d-flex align-items-center ps-4 ps-xl-5 my-3 my-xl-0">
+                    <div
+                        class="d-flex align-items-center justify-content-center justify-content-lg-start ps-lg-4 ps-xl-5 my-4 mt-lg-0 mb-lg-3 mb-xl-0">
                         <button class="slider-control-btn slick-prev position-static common_transition me-2 me-xl-3"
                             aria-label="Previous" type="button">
                             Previous
@@ -456,22 +457,23 @@
                 infinite: true,
                 dots: false,
                 arrows: false,
-
-                // responsive: [{
-                //         breakpoint: 600,
-                //         settings: {
-                //             slidesToShow: 2,
-                //             slidesToScroll: 2
-                //         }
-                //     },
-                //     {
-                //         breakpoint: 480,
-                //         settings: {
-                //             slidesToShow: 1,
-                //             slidesToScroll: 1
-                //         }
-                //     }
-                // ]
+                responsive: [{
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            // autoplay: true,
+                            speed: 500,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
             });
 
             // Add click event listeners to the custom buttons

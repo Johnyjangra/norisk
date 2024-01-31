@@ -177,11 +177,11 @@ button:focus-visible {
     border-radius: 10px !important;
 }
 
-/* .custom_border_top_gray_500 {
+/* .partners_common_border_top {
     border-top: 1px solid var(--color-gray-500);
 } */
 
-.custom_border_top_gray_500 {
+.partners_common_border_top {
     border-top: 1px solid var(--color-eclipse);
 }
 
@@ -236,7 +236,6 @@ button:focus-visible {
 @media (max-width:1199.98px) {
     .review_para {
         font-size: 15px !important;
-        /* max-width: 275px !important; */
     }
 
     .slider-control-btn,
@@ -266,5 +265,25 @@ button:focus-visible {
 
     .review_slider_section_parent {
         max-height: 100% !important;
+    }
+
+    .video-container {
+        max-height: 100% !important;
+    }
+
+    .slider-control-btn,
+    .slider-control-btn img {
+        min-width: 34px;
+        min-height: 34px;
+    }
+
+    .review_para {
+        font-size: 17px !important;
+    }
+}
+
+@media (max-width:991.98px) {
+    .review_para {
+        max-width: 342px !important;
     }
 }

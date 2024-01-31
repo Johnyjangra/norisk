@@ -266,7 +266,7 @@
       <div class="row justify-content-between mt-2 mb-md-5 pb-lg-3">
         <!-- 1. -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+          <div class="partners_common_border_top pt-3 pt-sm-4 mx-md-2 mx-xl-4">
             <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
               <span class="me-2 pe-1"><img src="./assets/images/home/partner-icon-1.svg" alt="partner_icon"></span>
               Einzigartigkeit:</h4>
@@ -278,7 +278,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-lg-4 mt-5 mt-sm-0">
-          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+          <div class="partners_common_border_top pt-3 pt-sm-4 mx-md-2 mx-xl-4">
             <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
               <span class="me-2 pe-1"><img src="./assets/images/home/partner-icon-2.svg" alt="partner_icon"></span>
               Transparenz:</h4>
@@ -288,7 +288,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4 mt-lg-0 pt-lg-0">
-          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+          <div class="partners_common_border_top pt-3 pt-sm-4 mx-md-2 mx-xl-4">
             <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
               <span class="me-2 pe-1"><img src="./assets/images/home/partner-icon-3.svg" alt="partner_icon"></span>
               Professionalität:</h4>
@@ -301,7 +301,7 @@
 
         <!-- 2. -->
         <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
-          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+          <div class="partners_common_border_top pt-3 pt-sm-4 mx-md-2 mx-xl-4">
             <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
               <span class="me-2 pe-1"><img src="./assets/images/home/partner-icon-4.svg" alt="partner_icon"></span>
               Flexibilität:</h4>
@@ -311,7 +311,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
-          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+          <div class="partners_common_border_top pt-3 pt-sm-4 mx-md-2 mx-xl-4">
             <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
               <span class="me-2 pe-1"><img src="./assets/images/home/partner-icon-5.svg" alt="partner_icon"></span>
               Kreativität:</h4>
@@ -321,7 +321,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
-          <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
+          <div class="partners_common_border_top pt-3 pt-sm-4 mx-md-2 mx-xl-4">
             <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
               <span class="me-2 pe-1"><img src="./assets/images/home/partner-icon-6.svg" alt="partner_icon"></span>
               Lokale Expertise:</h4>
@@ -811,83 +811,71 @@
   <script src="/assets/js/index.js"></script>
   <script src="./assets/js/main.js"></script>
   <script>
-      gsap.registerPlugin(ScrollTrigger);
-      ScrollTrigger.matchMedia({
-        "(min-width:768px)": function () {
-          const process = gsap.timeline();
-          process
-            .fromTo(
-              ".card_2",
-              {
-                y: "500px",
-              },
-              {
-                y: "-340px",
-              }
-            )
-            .fromTo(
-              ".card_1",
-              {
-                scale: 1,
-              },
-              {
-                scale: 0.7,
-              },
-              "<"
-            )
-            .fromTo(
-              ".card_3",
-              {
-                y: "500px",
-              },
-              {
-                y: "-680px",
-              }
-            )
-            .fromTo(
-              ".card_2",
-              {
-                scale: 1,
-              },
-              {
-                scale: 0.8,
-              },
-              "<"
-            )
-            .fromTo(
-              ".card_4",
-              {
-                y: "500px",
-              },
-              {
-                y: "-1020px",
-              }
-            )
-            .fromTo(
-              ".card_3",
-              {
-                scale: 1,
-              },
-              {
-                scale: 0.9,
-              },
-              "<"
-            );
+    gsap.registerPlugin(ScrollTrigger);
+    ScrollTrigger.matchMedia({
+      "(min-width:768px)": function () {
+        const process = gsap.timeline();
+        process
+          .fromTo(
+            ".card_2", {
+              y: "500px",
+            }, {
+              y: "-340px",
+            }
+          )
+          .fromTo(
+            ".card_1", {
+              scale: 1,
+            }, {
+              scale: 0.7,
+            },
+            "<"
+          )
+          .fromTo(
+            ".card_3", {
+              y: "500px",
+            }, {
+              y: "-680px",
+            }
+          )
+          .fromTo(
+            ".card_2", {
+              scale: 1,
+            }, {
+              scale: 0.8,
+            },
+            "<"
+          )
+          .fromTo(
+            ".card_4", {
+              y: "500px",
+            }, {
+              y: "-1020px",
+            }
+          )
+          .fromTo(
+            ".card_3", {
+              scale: 1,
+            }, {
+              scale: 0.9,
+            },
+            "<"
+          );
 
-          let st = ScrollTrigger.create({
-            trigger: ".parent",
-            start: "top top",
-            end: "+=400%",
-            scrub: true,
-            markers: false,
-            pin: true,
-            animation: process,
-          });
-        },
-      });
+        let st = ScrollTrigger.create({
+          trigger: ".parent",
+          start: "top top",
+          end: "+=400%",
+          scrub: true,
+          markers: false,
+          pin: true,
+          animation: process,
+        });
+      },
+    });
 
-      mm.revert();
-    </script>
+    mm.revert();
+  </script>
   <!-- ========== SLICK SLIDER ========== -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
