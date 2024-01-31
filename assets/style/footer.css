@@ -1,9 +1,13 @@
 .anerkennung_content_box{
     max-width: 1024px !important;
 }
-.lh_normal{
-    line-height: normal;
+.color_pinkswan{
+     color: var(--color-pink-Swan);
 }
+.color_dark_orange {
+    color: var(--color-dark-orange);
+  }
+
 .fw_medium{
     font-weight: 500;
 }
@@ -49,7 +53,7 @@ input:focus {
     background: var(--color-charcoal) !important;
     border: none !important;
     font-weight: 300;
-    color: var(--color-gray) !important;
+    color: var(--color-light-gray) !important;
     background-image: url("../images/common/form-select-arrow.svg") !important;
     background-repeat: no-repeat !important;
     padding: 11px 15px !important;
@@ -58,6 +62,9 @@ input:focus {
 }
 .form-select:focus{
     box-shadow: unset !important;
+}
+textarea:focus-visible {
+    outline:none !important;
 }
 /* DEFINE SWEET ALERT CODE */
   /* ===================DEFINE SWEET ALERT CSS CODE=================== */
