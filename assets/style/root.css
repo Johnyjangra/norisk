@@ -28,7 +28,7 @@
 
 /*================================================= DEFINE-ALL = COLOR-VALUE =========================================== */
 .text_white {
-    color: var(--color-white);
+    color: var(--color-white) !important;
 }
 
 .text_off_white {

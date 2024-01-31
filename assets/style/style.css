@@ -8,7 +8,13 @@
  .ff_poppins {
    font-family: "Poppins", sans-serif;
  }
-
+ @font-face {
+   font-family:SF-Pro;
+   src: url(../font/SF-Pro-Text-Regular.otf);
+ }
+.ff_sf_pro {
+  font-family: 'SF-Pro','sans-serif';
+}
  .hero_heading {
    font-size: var(--font-3xl);
    line-height: normal;
