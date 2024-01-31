@@ -177,8 +177,12 @@ button:focus-visible {
     border-radius: 10px !important;
 }
 
-.custom_border_top_gray_500 {
+/* .custom_border_top_gray_500 {
     border-top: 1px solid var(--color-gray-500);
+} */
+
+.custom_border_top_gray_500 {
+    border-top: 1px solid var(--color-eclipse);
 }
 
 .review_slider_section_parent {
