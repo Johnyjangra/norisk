@@ -218,6 +218,12 @@ button:focus-visible {
     content: unset !important;
 }
 
+@media (max-width:1299.98px) {
+    .review_para {
+        font-size: 18px !important;
+    }
+}
+
 @media (max-width:991.98px) {
     .middle_section h2 {
         font-size: 30px;
