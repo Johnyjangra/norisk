@@ -37,6 +37,9 @@
 .fw_medium {
   font-weight: 500 !important;
 }
+.fw-semibold {
+  font-weight: 600 !important;
+}
 
 /*--------------------- DEFINE-ALL = COLOR-VALUE ------------------------------ */
 .color_offwhite {
