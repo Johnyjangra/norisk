@@ -49,9 +49,6 @@
 /* hero */
 .hero_bg {
   background-image: url("../images/home/header-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 

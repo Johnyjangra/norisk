@@ -100,13 +100,10 @@
   background: var(--color-gray-400);
 }
 
-<<<<<<< HEAD
 .bg_light300 {
   background: var(--color-light-300);
 }
 
-=======
->>>>>>> a24bdfd3f3ca9d6a4bcb39ca71c75a26dc49165f
 .text_orange {
   color: var(--color-dark-orange) !important;
 }
@@ -212,7 +209,11 @@
   color: var(#f7f7f9);
   line-height: normal;
 }
-
+.bg_common {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .sub_para {
   font-size: var(--font-base);
 }
