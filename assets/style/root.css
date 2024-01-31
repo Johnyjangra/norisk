@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
 /*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
 :root {
   --color-off-white: #f7f7f9;
@@ -21,76 +22,103 @@
   --font-2xl: 47px;
   --font-3xl: 57px;
 }
+
 /*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
 .ff_inter {
   font-family: "Inter", sans-serif;
 }
+
 .ff_poppins {
   font-family: "Poppins", sans-serif;
 }
+
+.fw_medium {
+  font-weight: 500 !important;
+}
+
 /*--------------------- DEFINE-ALL = COLOR-VALUE ------------------------------ */
 .color_offwhite {
   color: var(--color-off-white);
 }
+
 .color_orange {
   color: var(--color-orange);
 }
+
 .color_gray100 {
   color: var(--color-gray-100);
 }
+
 .color_gray200 {
   color: var(--color-gray-200);
 }
+
 .color_gray300 {
   color: var(--color-gray-300);
 }
+
 .color_lightblack {
   color: var(--color-light-black);
 }
+
 /*--------------------- DEFINE-ALL = BG-COLOR-VALUE ------------------------------ */
 .bg_white {
-  background-color:var(--color-white);
+  background-color: var(--color-white);
 }
+
 .bg_black100 {
-  background-color:var(--color-black-100);
+  background-color: var(--color-black-100);
 }
+
 .bg_black200 {
-  background-color:var(--color-dark-200);
+  background-color: var(--color-dark-200);
 }
+
 .bg_black300 {
   background-color: var(--color-black-300);
 }
+
 .bg_dark_orange {
   background: var(--color-dark-orange);
 }
+
 .bg_orange {
   background: var(--color-orange);
 }
+
 .bg_gray400 {
   background: var(--color-gray-400);
 }
+
 /*---------------------------- DEFINE-ALL = FONT-SIZES ---------------------------- */
 .font-xs {
   font-size: var(--font-xs) !important;
 }
+
 .font-sm {
   font-size: var(--font-sm) !important;
 }
+
 .font-base {
   font-size: var(--font-base) !important;
 }
+
 .font-md {
   font-size: var(--font-md) !important;
 }
+
 .font-lg {
   font-size: var(--font-lg) !important;
 }
+
 .font-xl {
   font-size: var(--font-xl) !important;
 }
+
 .font-2xl {
   font-size: var(--font-2xl) !important;
 }
+
 .font-3xl {
   font-size: var(--font-3xl) !important;
 }
@@ -103,12 +131,14 @@
     --font-3xl: 50px;
   }
 }
+
 @media (max-width: 991.98px) {
   :root {
     --font-2xl: 38px;
     --font-3xl: 44px;
   }
 }
+
 @media (max-width: 767.98px) {
   :root {
     --font-xs: 14px;
@@ -126,25 +156,28 @@
   :root {
     --font-xs: 12px;
     --font-sm: 14px;
-    --font-base: 16px;
+    --font-base: 14px;
     --font-md: 18px;
     --font-lg: 20px;
     --font-xl: 22px;
-    --font-2xl: 30px;
-    --font-3xl: 32px;
+    --font-2xl: 28px;
+    --font-3xl: 30px;
   }
 }
+
 /* -----------------------------------COMMON-CSS-------------------------- */
 .hero_heading {
   font-size: var(--font-3xl);
   line-height: normal;
   font-weight: 600;
 }
+
 .sub_heading {
   font-size: var(--font-2xl);
   color: var(#f7f7f9);
   line-height: normal;
 }
+
 .sub_para {
   font-size: var(--font-base);
 }
@@ -157,6 +190,7 @@
   border-radius: 100px;
   border: none;
 }
+
 .common_btn:focus,
 .common_btn:hover {
   -webkit-animation: pulse 1s;
@@ -165,7 +199,7 @@
 }
 
 @media (min-width:576px) {
-  .common_btn{
+  .common_btn {
     padding: 14px 74px;
   }
 }
