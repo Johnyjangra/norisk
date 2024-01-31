@@ -95,6 +95,9 @@
 .bg_gray400 {
   background: var(--color-gray-400);
 }
+.bg_light300 {
+  background: var(--color-light-300);
+}
 .text_orange {
   color: var(--color-dark-orange) !important;
 }
@@ -130,6 +133,9 @@
 
 .font-xl {
   font-size: var(--font-xl) !important;
+}
+.font-xl-large {
+  font-size: var(--font-xl-large) !important;
 }
 
 .font-2xl {
