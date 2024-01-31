@@ -1,11 +1,173 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>NRNF</title>
+    <style>
+        /* ====================== NRNF CSS =========================== */
+        .bg-black-fade {
+            background: #101010 !important;
+        }
+
+        .fw_semibold {
+            font-weight: 600 !important;
+        }
+
+        .text_orange {
+            color: #F05906 !important;
+        }
+
+        .text-gray {
+            color: #86868B !important;
+        }
+
+        .lh_normal {
+            line-height: normal !important;
+        }
+
+        .deine_box_parent {
+            background-image: url("./assets/images/home/bg-deine-image.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        .middle_section h2 {
+            font-size: 47px;
+        }
+
+        .middle_section h4,
+        .middle_section p {
+            font-size: 17px;
+        }
+
+        .orange_button {
+            font-size: 17px;
+            padding: 14px 74px;
+            border-radius: 100px;
+            color: #F7F7F9;
+            background: #F05906;
+            font-family: Inter;
+            line-height: normal;
+            max-height: 50px;
+            transition: all .3s ease-in-out;
+        }
+
+        .orange_button:hover {
+            transform: scale(.987);
+        }
+
+        button:focus-visible {
+            outline: unset !important;
+            box-shadow: unset !important;
+        }
+
+        .border_radius_10px {
+            border-radius: 10px !important;
+        }
+
+        @media (max-width:991.98px) {
+            .middle_section h2 {
+                font-size: 30px;
+            }
+
+            .middle_section h4,
+            .middle_section p {
+                font-size: 14px;
+            }
+
+            .orange_button {
+                font-size: 14px;
+                padding: 12px 48px;
+            }
+        }
+
+        /* ====================== NRNF CSS =========================== */
+    </style>
 </head>
+
 <body>
-    
+
+    <section class="bg-black-fade middle_section lh_normal">
+        <div class="container py-5 text-white">
+            <!-- GRENZENLOSE CODE -->
+            <div
+                class="row text-center text-lg-start justify-content-center justify-content-lg-between align-items-center mb-5 pb-4">
+                <div class="col-12 col-sm-10 col-lg-6">
+                    <img class="w-100 border_radius_10px" src="./assets/images/home/grenzenlose-image.png"
+                        alt="grenzenlose-image">
+                </div>
+                <div class="col-12 col-lg-5 mt-4 mt-sm-5 mt-lg-0">
+                    <h4 class="fw_semibold mb-0 text_orange">Grenzenlose Kreativität – Deine Vision, Unsere Mission</h4>
+                    <h2 class="fw_semibold mb-4 pb-1">Kreativität kennt keine Grenzen</h2>
+                    <p class="fw-normal mb-0">
+                        Du suchst nach einer Filmproduktion in Wien, die kreativ, dynamisch und bereit ist, sich jeder
+                        Herausforderung zu stellen? Dann bist du bei uns genau richtig! Wir von NoRiskNoFilm glauben,
+                        dass keine Idee zu groß oder zu komplex ist. Unsere Expertise als Videoproduktionsfirma
+                        ermöglicht es uns, in jeder Phase des Filmemachens innovativ und effektiv zu sein.
+                        <span class="text-gray">
+                            Ob du einen
+                            Imagefilm, einen Unternehmensfilm oder etwas völlig Neues im Kopf hast – wir sind die
+                            Filmproduzenten in Wien, die deine Visionen Realität werden lassen.
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="row text-center text-lg-start justify-content-center justify-content-lg-between align-items-center pt-2">
+                <div class="col-12 col-lg-5 order-1 order-lg-0 mt-4 mt-sm-5 mt-lg-0">
+                    <h2 class="fw_semibold mb-4 pb-1">Deine Idee, unsere Umsetzung</h2>
+                    <p class="fw-normal mb-0">
+                        Du träumst davon, ein Imagevideo erstellen zu lassen, welches die Essenz deines Projekts
+                        einfängt? Oder möchtest du als Regisseur in Österreich einen einzigartigen Kurzfilm realisieren?
+                        Wir sind nicht nur eine weitere Videoproduktion in Wien; wir sind Partner, die deine kreativen
+                        Träume ernst nehmen und sie auf die Leinwand bringen. Wir arbeiten eng mit dir zusammen, um
+                        sicherzustellen, dass das Endprodukt genau das ist, was du dir vorgestellt hast.
+                        <span class="text-gray">
+                            Egal, ob es um Filmproduktion in Österreich oder spezifisch um Produktionsfirmen in Wien
+                            geht – wir sind
+                            hier, um außergewöhnliche Ergebnisse zu liefern.
+                        </span>
+                    </p>
+                </div>
+                <div class="col-12 col-sm-10 col-lg-6 order-0 order-lg-1">
+                    <img class="w-100 border_radius_10px" src="./assets/images/home/Umsetzung-image.png"
+                        alt="Umsetzung-image">
+                </div>
+            </div>
+
+            <!-- DEINE IDEE CODE -->
+            <div class="my-5 py-md-3">
+                <div class="row justify-content-center deine_box_parent my-md-5 py-5 mx-lg-4">
+                    <div class="col-12 col-lg-10 text-center py-md-2 my-md-1">
+                        <h2 class="fw_semibold mb-4 pb-1">Deine Idee, unsere Umsetzung</h2>
+                        <p class="fw-normal mb-5 pb-lg-2">
+                            Jetzt bist du dran! Wir laden dich herzlich ein, Kontakt mit uns aufzunehmen. Lass uns über
+                            deine Ideen, Visionen und Projekte sprechen. Erzähle uns über deine Vorstellungen und lass
+                            uns gemeinsam herausfinden, wie wir es Wirklichkeit werden lassen können. Wir freuen uns
+                            darauf, von dir zu hören und gemeinsam mit dir fantastische Projekte zu verwirklichen!
+                        </p>
+                        <button
+                            class="orange_button fw-normal border-0 text-white d-flex align-items-center justify-content-center mx-auto">
+                            Jetzt Kontakt aufnehmen
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
