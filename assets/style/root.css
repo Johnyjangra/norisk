@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
-
-/*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
+/*=========================================== ROOT-DEFINE-VALUES ================================================= */
 :root {
   --color-white: #fff;
   --color-off-white: #f7f7f9;
@@ -28,53 +26,44 @@
   --font-3xl: 57px;
 }
 
-/*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
-.ff_inter {
-  font-family: "Inter", sans-serif;
+/*================================================= DEFINE-ALL = COLOR-VALUE =========================================== */
+.text_white {
+  color: var(--color-white) !important;
 }
 
-.ff_poppins {
-  font-family: "Poppins", sans-serif;
-}
-
-.fw_medium {
-  font-weight: 500 !important;
-}
-
-.fw-semibold {
-  font-weight: 600 !important;
-}
-
-/*--------------------- DEFINE-ALL = COLOR-VALUE ------------------------------ */
-.color_white {
-  color: var(--color-white);
-}
-
-.color_off_white {
+.text_off_white {
   color: var(--color-off-white);
 }
 
-.color_orange {
+.text_orange {
   color: var(--color-orange);
 }
 
-.color_gray {
+.text_gray {
   color: var(--color-light-gray);
 }
 
-.color_manatee {
+.text_manatee {
   color: var(--color-manatee);
 }
 
-.color_nobel {
+.text_nobel {
   color: var(--color-nobel);
 }
 
-.color_nobel {
+.text_pinkswan {
   color: var(--color-pink-Swan);
 }
 
-.color_charcoal {
+.text_dark_orange {
+  color: var(--color-dark-orange) !important;
+}
+
+.text_manatee {
+  color: var(--color-manatee) !important;
+}
+
+.text_charcoal {
   color: var(--color-charcoal);
 }
 
@@ -114,19 +103,11 @@
   background: var(--color-extra-light-black);
 }
 
-.text_orange {
-  color: var(--color-dark-orange) !important;
-}
-
-.text_manatee {
-  color: var(--color-manatee) !important;
-}
-
 .lh_normal {
   line-height: normal !important;
 }
 
-/*---------------------------- DEFINE-ALL = FONT-SIZES ---------------------------- */
+/*=========================================== DEFINE-ALL = FONT-SIZES ========================================== */
 .font-xs {
   font-size: var(--font-xs) !important;
 }
@@ -163,7 +144,7 @@
   font-size: var(--font-3xl) !important;
 }
 
-/*------------------------ DEFINE-ALL = @media----FONT SIZE-SET--------------------  */
+/*============================================================ DEFINE-ALL = @media----FONT SIZE-SET  ======================================*/
 
 @media (max-width: 1199.98px) {
   :root {
@@ -204,68 +185,5 @@
     --font-xl: 22px;
     --font-2xl: 28px;
     --font-3xl: 30px;
-  }
-}
-
-/* -----------------------------------COMMON-CSS-------------------------- */
-.hero_heading {
-  font-size: var(--font-3xl);
-  line-height: normal;
-}
-
-.sub_heading {
-  font-size: var(--font-2xl);
-  color: var(--color-white);
-  line-height: normal;
-}
-
-.bg_common {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.sub_para {
-  font-size: var(--font-base);
-}
-
-.common_btn {
-  font-size: var(--font-base);
-  color: var(--color-off-white);
-  padding: 12px 48px;
-  background: var(--color-dark-orange);
-  border-radius: 100px;
-  border: none !important;
-}
-
-.common_transition {
-  transition: all 300ms ease-in-out !important;
-}
-
-button:focus-visible {
-  outline: unset !important;
-  box-shadow: unset !important;
-}
-
-.border_radius_10px {
-  border-radius: 10px !important;
-}
-
-.common_btn:focus,
-.common_btn:hover {
-  -webkit-animation: pulse 1s;
-  animation: pulse 1s;
-  box-shadow: 0 0 0 0.7em transparent;
-}
-
-@media (min-width:576px) {
-  .common_btn {
-    padding: 14px 74px;
-  }
-}
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 var(--color-orange);
   }
 }
