@@ -207,11 +207,6 @@
    .Unser_number_circle {
      height: 70px;
      width: 70px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background-color: var(--color-night-rider);
-     border-radius: 100px;
    }
 
    .unser_cards {
@@ -227,11 +222,6 @@
    .Unser_number_circle {
      height: 100px;
      width: 100px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background-color: var(--color-night-rider);
-     border-radius: 100px;
    }
  }
 
