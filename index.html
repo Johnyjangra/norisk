@@ -811,138 +811,83 @@
   <script src="/assets/js/index.js"></script>
   <script src="./assets/js/main.js"></script>
   <script>
-    gsap.registerPlugin(ScrollTrigger);
+      gsap.registerPlugin(ScrollTrigger);
+      ScrollTrigger.matchMedia({
+        "(min-width:768px)": function () {
+          const process = gsap.timeline();
+          process
+            .fromTo(
+              ".card_2",
+              {
+                y: "500px",
+              },
+              {
+                y: "-340px",
+              }
+            )
+            .fromTo(
+              ".card_1",
+              {
+                scale: 1,
+              },
+              {
+                scale: 0.7,
+              },
+              "<"
+            )
+            .fromTo(
+              ".card_3",
+              {
+                y: "500px",
+              },
+              {
+                y: "-680px",
+              }
+            )
+            .fromTo(
+              ".card_2",
+              {
+                scale: 1,
+              },
+              {
+                scale: 0.8,
+              },
+              "<"
+            )
+            .fromTo(
+              ".card_4",
+              {
+                y: "500px",
+              },
+              {
+                y: "-1020px",
+              }
+            )
+            .fromTo(
+              ".card_3",
+              {
+                scale: 1,
+              },
+              {
+                scale: 0.9,
+              },
+              "<"
+            );
 
-    ScrollTrigger.matchMedia({
-      "(min-width:768px) and (max-width:991.98px)": function () {
-        const process = gsap.timeline();
-        process
-          .fromTo(
-            ".card_2", {
-              y: "500px",
-            }, {
-              y: "-320px",
-            }
-          )
-          .fromTo(
-            ".card_1", {
-              y: "0px",
-            }, {
-              y: "40px",
-            }
-          )
-          .fromTo(
-            ".card_1", {
-              scale: 1,
-            }, {
-              scale: 0.7,
-            },
-            "<"
-          )
-          .fromTo(
-            ".card_3", {
-              y: "500px",
-            }, {
-              y: "-680px",
-            }
-          )
-          .fromTo(
-            ".card_2", {
-              scale: 1,
-            }, {
-              scale: 0.8,
-            },
-            "<"
-          )
-          .fromTo(
-            ".card_4", {
-              y: "500px",
-            }, {
-              y: "-1040px",
-            }
-          )
-          .fromTo(
-            ".card_3", {
-              scale: 1,
-            }, {
-              scale: 0.9,
-            },
-            "<"
-          );
+          let st = ScrollTrigger.create({
+            trigger: ".parent",
+            start: "top top",
+            end: "+=400%",
+            scrub: true,
+            markers: false,
+            pin: true,
+            animation: process,
+          });
+        },
+      });
 
-        let st = ScrollTrigger.create({
-          trigger: ".parent",
-          start: "top top",
-          end: "+=400%",
-          scrub: true,
-          markers: false,
-          pin: true,
-          animation: process,
-        });
-      },
-      "(min-width:992px)": function () {
-        const additionalProcess = gsap.timeline();
-        additionalProcess
-          .fromTo(
-            ".card_2", {
-              y: "500px",
-            }, {
-              y: "-340px",
-            }
-          )
-          .fromTo(
-            ".card_1", {
-              scale: 1,
-            }, {
-              scale: 0.7,
-            },
-            "<"
-          )
-          .fromTo(
-            ".card_3", {
-              y: "500px",
-            }, {
-              y: "-680px",
-            }
-          )
-          .fromTo(
-            ".card_2", {
-              scale: 1,
-            }, {
-              scale: 0.8,
-            },
-            "<"
-          )
-          .fromTo(
-            ".card_4", {
-              y: "500px",
-            }, {
-              y: "-1020px",
-            }
-          )
-          .fromTo(
-            ".card_3", {
-              scale: 1,
-            }, {
-              scale: 0.9,
-            },
-            "<"
-          );
-
-        let additionalSt = ScrollTrigger.create({
-          trigger: ".additional-parent",
-          start: "top top",
-          end: "+=400%",
-          scrub: true,
-          markers: false,
-          pin: true,
-          animation: additionalProcess,
-        });
-      },
-    });
-
-    mm.revert();
-  </script>
+      mm.revert();
+    </script>
   <!-- ========== SLICK SLIDER ========== -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
