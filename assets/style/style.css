@@ -143,6 +143,58 @@
    background-image: url("../images/home/header-bg.png");
  }
 
+/*============================================ UNSER ANGEBOT ===========================================*/
+.Unser_number_circle {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-night-rider) !important;
+  border-radius: 100px;
+}
+
+.unser_cards {
+  max-width: 882px;
+  border-radius: 15px;
+  padding: 30px 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  margin: auto;
+  box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.07);
+}
+
+.learn_more:hover image {
+  transform: translateX(5px);
+}
+
+.unser_cards p {
+  font-size: var(--font-md);
+  line-height: 140.83%;
+  color: var(--color-manatee);
+}
+
+.card_1 {
+  z-index: 0;
+  scale: 1;
+  position: relative;
+}
+
+.card_2 {
+  z-index: 1;
+  position: relative;
+}
+
+.card_3 {
+  z-index: 2;
+  position: relative;
+}
+
+.card_4 {
+  z-index: 3;
+  position: relative;
+}
  /*================================================================ MEDIA SCREEN 576 ==============================================*/
  @media (min-width: 576px) {
    .logo {
@@ -160,8 +212,29 @@
    .navbar a {
      font-size: 3vw !important;
    }
+   .Unser_number_circle {
+     height: 70px;
+     width: 70px;
+   }
+
+   .unser_cards {
+     padding: 30px;
+   }
  }
 
+ /*================================================================ MEDIA SCREEN 768 ==============================================*/
+
+@media (min-width:768px) {
+    .unser_cards {
+      padding: 40px 60px;
+    }
+
+    .Unser_number_circle {
+      height: 100px;
+      width: 100px;
+    }
+  
+}
  /*================================================================ MEDIA SCREEN 992 ==============================================*/
  @media (min-width:992px) {
    .navbar a {

@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
-
-/*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
+/*=========================================== ROOT-DEFINE-VALUES ================================================= */
 :root {
     --color-white: #fff;
     --color-off-white: #f7f7f9;
@@ -28,20 +26,7 @@
     --font-3xl: 57px;
 }
 
-/*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
-.ff_inter {
-    font-family: "Inter", sans-serif;
-}
-
-.ff_poppins {
-    font-family: "Poppins", sans-serif;
-}
-
-.fw_medium {
-    font-weight: 500 !important;
-}
-
-/*--------------------- DEFINE-ALL = COLOR-VALUE ------------------------------ */
+/*================================================= DEFINE-ALL = COLOR-VALUE =========================================== */
 .text_white {
     color: var(--color-white);
 }
@@ -122,7 +107,7 @@
     line-height: normal !important;
 }
 
-/*---------------------------- DEFINE-ALL = FONT-SIZES ---------------------------- */
+/*=========================================== DEFINE-ALL = FONT-SIZES ========================================== */
 .font-xs {
     font-size: var(--font-xs) !important;
 }
@@ -159,7 +144,7 @@
     font-size: var(--font-3xl) !important;
 }
 
-/*------------------------ DEFINE-ALL = @media----FONT SIZE-SET--------------------  */
+/*============================================================ DEFINE-ALL = @media----FONT SIZE-SET  ======================================*/
 
 @media (max-width: 1199.98px) {
     :root {
