@@ -38,10 +38,11 @@
             </p>
             <div
                 class="row align-items-center review_slider_section_parent overflow-x-hidden bg_color-light_400 pe-0 mb-5">
-                <div class="col-12 col-lg-4 pe-0 h-100 order-1 order-lg-0 mt-4 mt-lg-0">
+                <div class="col-12 col-lg-4 pe-lg-0 h-100 order-1 order-lg-0 mt-4 mt-lg-0">
                     <div class="slick-slider">
-                        <div class="slider_card py-4 py-xl-5 ps-4 ps-xl-5 pe-3">
-                            <div class="d-flex align-items-center mb-2 mb-xl-4 pb-xl-3">
+                        <div class="slider_card py-4 py-xl-5 px-2 ps-sm-4 ps-xl-5 pe-sm-3">
+                            <div
+                                class="d-flex align-items-center justify-content-center justify-content-md-start mb-2 mb-xl-4 pb-xl-3">
                                 <img src="./assets/images/home/karin-image.png" alt="karin-image" />
                                 <div class="ms-2 ps-1">
                                     <h5 class="font-md fw_semibold">Karin Horneck</h5>
@@ -56,11 +57,13 @@
                                     the implementation was fast and in super quality. I can only
                                     recommend No Risk No Film - actually quite risk-free. ;-)
                                 </p>
-                                <img src="./assets/images/home/star_image.svg" alt="star_image" />
+                                <img class="cursor_pointer m-auto m-md-0" src="./assets/images/home/star_image.svg"
+                                    alt="star_image" />
                             </div>
                         </div>
-                        <div class="slider_card py-4 py-xl-5 ps-4 ps-xl-5 pe-3">
-                            <div class="d-flex align-items-center mb-2 mb-xl-4 pb-xl-3">
+                        <div class="slider_card py-4 py-xl-5 px-2 ps-sm-4 ps-xl-5 pe-sm-3">
+                            <div
+                                class="d-flex align-items-center justify-content-center justify-content-md-start mb-2 mb-xl-4 pb-xl-3">
                                 <img src="./assets/images/home/karin-image.png" alt="karin-image" />
                                 <div class="ms-2 ps-1">
                                     <h5 class="font-md fw_semibold">Karin Horneck</h5>
@@ -74,11 +77,13 @@
                                     The videos exceeded our expectations. The advice was top and
                                     the implementation was fast and in super quality.
                                 </p>
-                                <img src="./assets/images/home/star_image.svg" alt="star_image" />
+                                <img class="cursor_pointer m-auto m-md-0" src="./assets/images/home/star_image.svg"
+                                    alt="star_image" />
                             </div>
                         </div>
-                        <div class="slider_card py-4 py-xl-5 ps-4 ps-xl-5 pe-3">
-                            <div class="d-flex align-items-center mb-2 mb-xl-4 pb-xl-3">
+                        <div class="slider_card py-4 py-xl-5 px-2 ps-sm-4 ps-xl-5 pe-sm-3">
+                            <div
+                                class="d-flex align-items-center justify-content-center justify-content-md-start mb-2 mb-xl-4 pb-xl-3">
                                 <img src="./assets/images/home/karin-image.png" alt="karin-image" />
                                 <div class="ms-2 ps-1">
                                     <h5 class="font-md fw_semibold">Karin Horneck</h5>
@@ -91,7 +96,8 @@
                                 <p class="font-md font-normal mb-3 review_para">
                                     The videos exceeded our expectations.
                                 </p>
-                                <img src="./assets/images/home/star_image.svg" alt="star_image" />
+                                <img class="cursor_pointer m-auto m-md-0" src="./assets/images/home/star_image.svg"
+                                    alt="star_image" />
                             </div>
                         </div>
                     </div>
@@ -462,7 +468,7 @@
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll: 1,
-                            // autoplay: true,
+                            autoplay: true,
                             speed: 500,
                         }
                     },
@@ -470,7 +476,9 @@
                         breakpoint: 768,
                         settings: {
                             slidesToShow: 1,
-                            slidesToScroll: 1
+                            slidesToScroll: 1,
+                            autoplay: true,
+                            speed: 500,
                         }
                     }
                 ]
