@@ -11,103 +11,115 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/style/root.css" />
-  </head>
-  <style>
-    .unser_number_circle {
-      height: 60px;
-      width: 60px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: var(--color-light-300);
-      border-radius: 100px;
-    }
-    .unser_cards {
-      max-width: 882px;
-      border-radius: 15px;
-      padding: 30px 20px;
-      color: white;
-      font-size: 30px;
-      font-weight: 700;
-      margin: auto;
-      border: 1px solid white;
-    }
-    .learn_more:hover span svg {
-      transform: translateX(5px);
-    }
-    .unser_cards p {
-      font-size: var(--font-md);
-      line-height: 140.83%;
-    }
-    .card_1 {
-      z-index: 0;
-      scale: 1;
-      position: relative;
-    }
-    .card_2 {
-      z-index: 1;
-      position: relative;
-    }
-    .card_3 {
-      z-index: 2;
-      position: relative;
-    }
-    .card_4 {
-      z-index: 3;
-      position: relative;
-    }
+    <style>
+      .unser_number_circle {
+        height: 60px;
+        width: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--color-night-rider);
+        border-radius: 100px;
+      }
 
-    @media (min-width: 576px) {
-      .Unser_number_circle {
-        height: 70px;
-        width: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: var(--color-light-300);
-        border-radius: 100px;
-      }
       .unser_cards {
-        padding: 30px;
+        max-width: 882px;
+        border-radius: 15px;
+        padding: 30px 20px;
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        margin: auto;
+        box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.07);
       }
-    }
-    @media (min-width: 768px) {
-      .unser_cards {
-        padding: 40px 60px;
+
+      .learn_more:hover span svg {
+        transform: translateX(5px);
       }
-      .Unser_number_circle {
-        height: 100px;
-        width: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: var(--color-light-300);
-        border-radius: 100px;
+
+      .unser_cards p {
+        font-size: var(--font-md);
+        line-height: 140.83%;
       }
-    }
-  </style>
-  <link rel="stylesheet" href="./assets/style/root.css" />
+
+      .card_1 {
+        z-index: 0;
+        scale: 1;
+        position: relative;
+      }
+
+      .card_2 {
+        z-index: 1;
+        position: relative;
+      }
+
+      .card_3 {
+        z-index: 2;
+        position: relative;
+      }
+
+      .card_4 {
+        z-index: 3;
+        position: relative;
+      }
+
+      @media (min-width: 576px) {
+        .Unser_number_circle {
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: var(--color-night-rider);
+          border-radius: 100px;
+        }
+
+        .unser_cards {
+          padding: 30px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .unser_cards {
+          padding: 40px 60px;
+        }
+
+        .Unser_number_circle {
+          height: 100px;
+          width: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: var(--color-night-rider);
+          border-radius: 100px;
+        }
+      }
+    </style>
+  </head>
+
   <body>
-    <section class="parent vh-100 overflow-hidden bg_black200">
+    <section class="parent overflow-hidden bg_dark_black">
       <div class="container custom_container py-5 my-5">
         <h2 class="sub_heading text-white text-center mb-md-5 mb-sm-3 pb-4">
           Unser Angebot im Überblick
         </h2>
         <div class="card_1">
-          <div class="unser_cards bg_black100">
+          <div class="unser_cards bg_Nero">
             <div
               class="d-flex justify-content-between flex-column flex-sm-row align-items-start"
             >
               <div class="d-flex align-items-center gap-sm-4 gap-3">
-                <h2 class="Unser_number_circle hero_heading mb-0">1</h2>
+                <h2 class="Unser_number_circle hero_heading mb-0 fw-normal">
+                  1
+                </h2>
                 <h3 class="font-xl-large mb-0">Imagefilm</h3>
               </div>
               <a
                 href="#"
                 class="d-flex text-decoration-none align-items-center learn_more gap-sm-2 gap-1 py-3 py-sm-0"
               >
-                <p class="text_orange font-md mb-0">Learn More</p>
-                <span class="mt-1"
+                <p class="text_orange font-md fw-normal mb-0">Learn More</p>
+                <span class="mb-1"
                   ><svg
                     class="common_transition"
                     xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +157,7 @@
               Dein Unternehmen im besten Licht. Unsere Imagefilme für
               Unternehmen aus Wien und Niederösterreich sind mehr als nur Videos
               – sie sind eine emotionale Reise, die die Essenz deiner Marke
-              einfängt.<span class="text-gray">
+              einfängt.<span class="text_manatee">
                 Wir erzählen deine Geschichte, zeigen deine Werte und vermitteln
                 deine Botschaft auf eine Weise, die Eindruck hinterlässt.
               </span>
@@ -153,20 +165,22 @@
           </div>
         </div>
         <div class="card_2">
-          <div class="unser_cards bg_black100">
+          <div class="unser_cards bg_Nero">
             <div
               class="d-flex justify-content-between flex-column flex-sm-row align-items-start"
             >
               <div class="d-flex align-items-center gap-sm-4 gap-3">
-                <h2 class="Unser_number_circle hero_heading mb-0">2</h2>
+                <h2 class="Unser_number_circle hero_heading mb-0 fw-normal">
+                  2
+                </h2>
                 <h3 class="font-xl-large mb-0">Imagefilm</h3>
               </div>
               <a
                 href="#"
                 class="d-flex text-decoration-none align-items-center learn_more gap-sm-2 gap-1 py-3 py-sm-0"
               >
-                <p class="text_orange font-md mb-0">Learn More</p>
-                <span class="mt-1"
+                <p class="text_orange font-md fw-normal mb-0">Learn More</p>
+                <span class="mb-1"
                   ><svg
                     class="common_transition"
                     xmlns="http://www.w3.org/2000/svg"
@@ -204,7 +218,7 @@
               Dein Unternehmen im besten Licht. Unsere Imagefilme für
               Unternehmen aus Wien und Niederösterreich sind mehr als nur Videos
               – sie sind eine emotionale Reise, die die Essenz deiner Marke
-              einfängt.<span class="text-gray">
+              einfängt.<span class="text_manatee">
                 Wir erzählen deine Geschichte, zeigen deine Werte und vermitteln
                 deine Botschaft auf eine Weise, die Eindruck hinterlässt.
               </span>
@@ -212,20 +226,22 @@
           </div>
         </div>
         <div class="card_3">
-          <div class="unser_cards bg_black100">
+          <div class="unser_cards bg_Nero">
             <div
               class="d-flex justify-content-between flex-column flex-sm-row align-items-start"
             >
               <div class="d-flex align-items-center gap-sm-4 gap-3">
-                <h2 class="Unser_number_circle hero_heading mb-0">3</h2>
+                <h2 class="Unser_number_circle hero_heading mb-0 fw-normal">
+                  3
+                </h2>
                 <h3 class="font-xl-large mb-0">Imagefilm</h3>
               </div>
               <a
                 href="#"
                 class="d-flex text-decoration-none align-items-center learn_more gap-sm-2 gap-1 py-3 py-sm-0"
               >
-                <p class="text_orange font-md mb-0">Learn More</p>
-                <span class="mt-1"
+                <p class="text_orange font-md fw-normal mb-0">Learn More</p>
+                <span class="mb-1"
                   ><svg
                     class="common_transition"
                     xmlns="http://www.w3.org/2000/svg"
@@ -263,7 +279,7 @@
               Dein Unternehmen im besten Licht. Unsere Imagefilme für
               Unternehmen aus Wien und Niederösterreich sind mehr als nur Videos
               – sie sind eine emotionale Reise, die die Essenz deiner Marke
-              einfängt.<span class="text-gray">
+              einfängt.<span class="text_manatee">
                 Wir erzählen deine Geschichte, zeigen deine Werte und vermitteln
                 deine Botschaft auf eine Weise, die Eindruck hinterlässt.
               </span>
@@ -271,20 +287,22 @@
           </div>
         </div>
         <div class="card_4">
-          <div class="unser_cards bg_black100">
+          <div class="unser_cards bg_Nero">
             <div
               class="d-flex justify-content-between flex-column flex-sm-row align-items-start"
             >
               <div class="d-flex align-items-center gap-sm-4 gap-3">
-                <h2 class="Unser_number_circle hero_heading mb-0">4</h2>
+                <h2 class="Unser_number_circle fw-normal hero_heading mb-0">
+                  4
+                </h2>
                 <h3 class="font-xl-large mb-0">Imagefilm</h3>
               </div>
               <a
                 href="#"
                 class="d-flex text-decoration-none align-items-center learn_more gap-sm-2 gap-1 py-3 py-sm-0"
               >
-                <p class="text_orange font-md mb-0">Learn More</p>
-                <span class="mt-1"
+                <p class="text_orange font-md fw-normal mb-0">Learn More</p>
+                <span class="mb-1"
                   ><svg
                     class="common_transition"
                     xmlns="http://www.w3.org/2000/svg"
@@ -322,7 +340,7 @@
               Dein Unternehmen im besten Licht. Unsere Imagefilme für
               Unternehmen aus Wien und Niederösterreich sind mehr als nur Videos
               – sie sind eine emotionale Reise, die die Essenz deiner Marke
-              einfängt.<span class="text-gray">
+              einfängt.<span class="text_manatee">
                 Wir erzählen deine Geschichte, zeigen deine Werte und vermitteln
                 deine Botschaft auf eine Weise, die Eindruck hinterlässt.
               </span>
@@ -340,47 +358,81 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script>
       gsap.registerPlugin(ScrollTrigger);
+      ScrollTrigger.matchMedia({
+        "(min-width:768px)": function () {
+          const process = gsap.timeline();
+          process
+            .fromTo(
+              ".card_2",
+              {
+                y: "500px",
+              },
+              {
+                y: "-300px",
+              }
+            )
+            .fromTo(
+              ".card_1",
+              {
+                scale: 1,
+              },
+              {
+                scale: 0.7,
+              },
+              "<"
+            )
+            .fromTo(
+              ".card_3",
+              {
+                y: "500px",
+              },
+              {
+                y: "-600px",
+              }
+            )
+            .fromTo(
+              ".card_2",
+              {
+                scale: 1,
+              },
+              {
+                scale: 0.8,
+              },
+              "<"
+            )
+            .fromTo(
+              ".card_4",
+              {
+                y: "500px",
+              },
+              {
+                y: "-900px",
+              }
+            )
+            .fromTo(
+              ".card_3",
+              {
+                scale: 1,
+              },
+              {
+                scale: 0.9,
+              },
+              "<"
+            );
 
-      const process = gsap.timeline();
-
-      process
-        .fromTo(
-          ".card_2",
-          {
-            y: "500px",
-          },
-          {
-            y: "-300px",
-          }
-        )
-        .fromTo(
-          ".card_3",
-          {
-            y: "500px",
-          },
-          {
-            y: "-600px",
-          }
-        )
-        .fromTo(
-          ".card_4",
-          {
-            y: "500px",
-          },
-          {
-            y: "-900px",
-          }
-        );
-
-      let st = ScrollTrigger.create({
-        trigger: ".parent",
-        start: "top top",
-        end: "+=400%",
-        scrub: true,
-        markers: true,
-        pin: true,
-        animation: process,
+          let st = ScrollTrigger.create({
+            trigger: ".parent",
+            start: "top top",
+            end: "+=400%",
+            scrub: true,
+            markers: false,
+            pin: true,
+            animation: process,
+          });
+        },
       });
+
+      mm.revert();
     </script>
   </body>
 </html>
