@@ -9,6 +9,6 @@ body {
 
 @media (min-width: 1320px) and (max-width: 1599.98px) {
   .custom_container {
-    max-width: 1240px;
+    max-width: 1240px !important;
   }
 }
