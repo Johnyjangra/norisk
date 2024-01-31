@@ -182,13 +182,27 @@ button:focus-visible {
 }
 
 .review_slider_section_parent {
-    background: var( --color-extra-light-black) !important;
+    background: var(--color-extra-light-black) !important;
     border-radius: 17px;
+    max-height: 455px !important;
 }
 
-.slider-control-btn {
-    width: 36.262px;
-    height: 36.262px;
+.video-container {
+    max-height: 455px !important;
+}
+
+.video-container video {
+    max-height: 475px !important;
+}
+
+.cursor_pointer {
+    cursor: pointer !important;
+}
+
+.slider-control-btn,
+.slider-control-btn img {
+    min-width: 36.262px;
+    min-height: 36.262px;
 }
 
 .slider-control-btn::before,
