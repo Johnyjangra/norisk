@@ -1,15 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <!-- DEFINE CSS LINK -->
-    <link rel="stylesheet" href="./assets/style/root.css">
+    <link rel="stylesheet" href="./assets/style/root.css" />
+    <link rel="stylesheet" href="./assets/style/home.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
   </head>
   <body>
-    <button class="common_btn">submit</button>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ <header class="hero_bg min_vh_custom d-flex flex-column">
+      <nav class="custom_container container mt-sm-4 mt-2 pt-2">
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="#" aria-label="home">
+            <img
+              class="logo"
+              src="./assets/images/common/logo.svg"
+              alt="logo"
+            />
+          </a>
+          <div>
+            <div class="d-flex navbar py-0" id="navBar">
+              <a
+                onclick="showNav()"
+                aria-label="Home"
+                href="#"
+                class="text-white text-decoration-none"
+                >Home
+              </a>
+              <a
+                onclick="showNav()"
+                aria-label="About Us"
+                href="#"
+                class="text-white text-decoration-none"
+                >About Us</a
+              >
+              <a
+                onclick="showNav()"
+                aria-label="Services"
+                href="#"
+                class="text-white text-decoration-none"
+                >Services
+              </a>
+              <a
+                aria-label="Live Stream"
+                onclick="showNav()"
+                href="#"
+                class="text-white text-decoration-none"
+                >Live Stream</a
+              >
+              <a
+                onclick="showNav()"
+                href="#"
+                class="bg-white font-base border-0 rounded-5 text-black text-decoration-none nav_btn d-lg-none"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+          <div>
+            <div class="mobile-navbar-btn d-none">
+              <img
+                onclick="showNav()"
+                class="mobile-nav-icon cursor_pointer"
+                id="navToggleIcon"
+                src="./assets/images/common/nav-toggle.svg"
+                alt="toggle"
+              />
+            </div>
+
+            <a
+              href="#"
+              class="d-none d-lg-inline-block font-base nav_btn border-0 bg-white text-black text-decoration-none rounded-5"
+              onclick="showNav()"
+              href="#"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!----------------------------------------------- HERO START HERE --------------------------------------------->
+      <section
+        class="custom_container container flex-column justify-content-center flex-grow-1 d-flex h-100 align-items-center"
+      >
+        <h1 class="hero_heading text-white lh_normal col-lg-10 col-12 text-center max_w_929 mx-auto">
+          Professionelle Filmproduktion in Wien und Niederösterreich
+        </h1>
+        <p
+          class="text-center max_w_762 sub_para lh_normal col-lg-8 px-lg-4 text-white mb-0 fw-medium pt-2 mt-1 mb-sm-5 mb-3 pb-2"
+        >
+          Entdecke individuelle Lösungen für Unternehmensfilme, Industriefilme,
+          Live Streaming und mehr, alles aus einer Hand in Wien und Umgebung.
+          Wir verwandeln Ideen in visuelle Meisterwerke für Unternehmen jeder
+          Größe.
+        </p>
+        <button class="common_btn">Jetzt Kontakt aufnehmen</button>
+      </section>
+      <!------------------------------------------------ HERO END HERE ---------------------------------------------->
+    </header>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/index.js"></script>
   </body>
 </html>
