@@ -28,6 +28,7 @@
 .ff_poppins {
   font-family: "Poppins", sans-serif;
 }
+.fw_medium{font-weight: 500 !important;}
 /*--------------------- DEFINE-ALL = COLOR-VALUE ------------------------------ */
 .color_offwhite {
   color: var(--color-off-white);

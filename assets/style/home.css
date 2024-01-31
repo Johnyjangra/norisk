@@ -16,7 +16,8 @@
 }
 
 .nav_btn {
-  padding: 11px 29px;
+  padding: 9px 29px;
+  border-radius: 100px;
   transition: all 300ms linear !important;
 }
 
@@ -30,6 +31,7 @@
   background-image: url("../images/home/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .max_w_929 {
