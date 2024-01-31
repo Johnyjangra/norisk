@@ -205,6 +205,14 @@ button:focus-visible {
     min-height: 36.262px;
 }
 
+.slider-control-btn:hover img {
+    transform: scale(1.112) translateY(-4px);
+}
+
+.review_para {
+    max-width: 342px !important;
+}
+
 .slider-control-btn::before,
 .slider-control-btn::after {
     content: unset !important;
