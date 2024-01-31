@@ -89,7 +89,7 @@ textarea:focus-visible {
 
 .swal2-styled.swal2-confirm {
     background: var(--color-white) !important;
-    color: var(--color-dark-200) !important;
+    color: var(--color-dark-orange) !important;
     font-weight: 700;
     font-family: "Inter", sans-serif;
 }
