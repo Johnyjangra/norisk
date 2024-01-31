@@ -78,15 +78,17 @@ textarea:focus-visible {
 }
 
 .swal2-popup {
-    color: white !important;
+    color: var(--color-white) !important;
+
 }
 
 .swal2-title {
-    color: #fff !important;
+    color: var(--color-white) !important;
+
 }
 
 .swal2-styled.swal2-confirm {
-    background: white !important;
+    background: var(--color-white) !important;
     color: var(--color-dark-200) !important;
     font-weight: 700;
     font-family: "Inter", sans-serif;
@@ -97,13 +99,13 @@ textarea:focus-visible {
 }
 
 .swal2-icon.swal2-success {
-    color: #fff !important;
-    border-color: white !important;
+    color: var(--color-white) !important;
+    border-color: var(--color-white) !important;
 }
 
 .swal2-icon.swal2-success [class^=swal2-success-line] {
-    background-color: white !important;
-    border-color: white !important;
+    background-color: var(--color-white) !important;
+    border-color: var(--color-white) !important;
 }
 
 /* ===============DEFINE FOOTER SECTION CSS=============== */
