@@ -89,6 +89,17 @@
 .bg_gray400 {
   background: var(--color-gray-400);
 }
+.text_orange {
+  color: var(--color-dark-orange) !important;
+}
+
+.text-gray {
+  color: var(--color-gray-100) !important;
+}
+
+.lh_normal {
+  line-height: normal !important;
+}
 
 /*---------------------------- DEFINE-ALL = FONT-SIZES ---------------------------- */
 .font-xs {
@@ -184,13 +195,20 @@
 
 .common_btn {
   font-size: var(--font-base);
-  color: white;
-  padding: 10px 48px;
+  color: var(--color-off-white);
+  padding: 12px 48px;
   background: var(--color-dark-orange);
   border-radius: 100px;
-  border: none;
+  border: none !important;
 }
 
+button:focus-visible {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+.border_radius_10px {
+  border-radius: 10px !important;
+}
 .common_btn:focus,
 .common_btn:hover {
   -webkit-animation: pulse 1s;
