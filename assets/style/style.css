@@ -251,6 +251,10 @@
    .header_custom_vh {
      min-height: 100vh;
    }
+   .navbar a {
+     position: relative;
+     font-size: var(--font-base) !important;
+   }
 
  }
 

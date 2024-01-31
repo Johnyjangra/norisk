@@ -102,11 +102,6 @@
 .bg_extra_light_black {
   background: var(--color-extra-light-black);
 }
-
-.lh_normal {
-  line-height: normal !important;
-}
-
 /*=========================================== DEFINE-ALL = FONT-SIZES ========================================== */
 .font-xs {
   font-size: var(--font-xs) !important;
