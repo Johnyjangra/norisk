@@ -15,8 +15,7 @@
   --color-Nero: #1d1d1d;
   --color-dark-black: #101010;
   --color-light-black: #2c2c2c;
-  --color-light-300: #2c2c2c;
-  --color-light-400: #2D2D2D;
+  --color-extra-light-black: #2D2D2D;
   --font-xs: 14px;
   --font-sm: 15px;
   --font-base: 17px;
@@ -47,7 +46,7 @@
 
 /*--------------------- DEFINE-ALL = COLOR-VALUE ------------------------------ */
 .color_offwhite {
-  color: var(--color-dark-orange);
+  color: var(--color-off-white);
 }
 
 .color_orange {
@@ -58,7 +57,7 @@
   color: var(--color-light-gray);
 }
 
-.color_gray100 {
+.color_manatee {
   color: var(--color-manatee);
 }
 
@@ -66,27 +65,27 @@
   color: var(--color-nobel);
 }
 
-.color_gray300 {
+.color_nobel {
   color: var(--color-pink-Swan);
 }
 
-.color_lightblack {
+.color_charcoal {
   color: var(--color-charcoal);
 }
 
-.bg_white {
+.bg_off_white {
   background-color: var(--color-off-white);
 }
 
-.bg_black100 {
+.bg_Nero {
   background-color: var(--color-Nero);
 }
 
-.bg_black200 {
+.bg_dark_black {
   background-color: var(--color-dark-black);
 }
 
-.bg_black300 {
+.bg_light_black {
   background-color: var(--color-light-black);
 }
 
@@ -98,16 +97,16 @@
   background: var(--color-orange);
 }
 
-.bg_gray400 {
+.bg_charcoal {
   background: var(--color-charcoal);
 }
 
-.bg_light300 {
+.bg_light_black {
   background: var(--color-light-black);
 }
 
-.bg_color-light_400 {
-  background: var(--color-light-400);
+.bg_extra_light_black {
+  background: var(--color-extra-light-black);
 }
 
 .text_orange {
