@@ -1,380 +1,506 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <title>NRNF</title>
-    <link rel="stylesheet" href="./assets/style/root.css">
-    <link rel="stylesheet" href="./assets/style/style.css">
-    <link rel="shortcut icon" href="./assets/images/common/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/root.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/common/favicon.svg"
+      type="image/x-icon"
+    />
 
     <!-- Slick Slider CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
 
     <style>
-        /* ====================== NRNF CSS =========================== */
-        .text_orange {
-            color: var(--color-dark-orange) !important;
-        }
+      /* ====================== NRNF CSS =========================== */
+      .text_orange {
+        color: var(--color-dark-orange) !important;
+      }
 
-        .text-gray {
-            color: var(--color-gray-100) !important;
-        }
+      .text-gray {
+        color: var(--color-gray-100) !important;
+      }
 
-        .lh_normal {
-            line-height: normal !important;
-        }
+      .lh_normal {
+        line-height: normal !important;
+      }
 
-        .deine_box_parent {
-            background-image: url("./assets/images/home/bg-deine-image.png");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            border-radius: 10px;
-        }
+      .deine_box_parent {
+        background-image: url("./assets/images/home/bg-deine-image.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+      }
 
-        button:focus-visible {
-            outline: unset !important;
-            box-shadow: unset !important;
-        }
+      button:focus-visible {
+        outline: unset !important;
+        box-shadow: unset !important;
+      }
 
-        .border_radius_10px {
-            border-radius: 10px !important;
-        }
+      .border_radius_10px {
+        border-radius: 10px !important;
+      }
 
-        .custom_border_top_gray_500 {
-            border-top: 1px solid var(--color-gray-500);
-        }
+      .custom_border_top_gray_500 {
+        border-top: 1px solid var(--color-gray-500);
+      }
 
-        .review_slider_section_parent {
-            border-radius: 17px;
-            max-height: 455px;
-        }
+      .review_slider_section_parent {
+        border-radius: 17px;
+        max-height: 455px;
+      }
 
-        .slider-control-btn {
-            width: 36.262px;
-            height: 36.262px;
-        }
+      .slider-control-btn {
+        width: 36.262px;
+        height: 36.262px;
+      }
 
-        .slider-control-btn::before,
-        .slider-control-btn::after {
-            content: unset !important;
-        }
+      .slider-control-btn::before,
+      .slider-control-btn::after {
+        content: unset !important;
+      }
 
+      .review_para {
+        max-width: 342px !important;
+      }
+
+      @media (max-width: 1299.98px) {
         .review_para {
-            max-width: 342px !important;
+          font-size: 16px !important;
+          max-width: 282px !important;
+        }
+      }
+
+      @media (max-width: 991.98px) {
+        .middle_section h2 {
+          font-size: 30px;
         }
 
-        @media (max-width:1299.98px) {
-            .review_para {
-                font-size: 16px !important;
-                max-width: 282px !important;
-            }
+        .middle_section h4,
+        .middle_section p {
+          font-size: 14px;
         }
+      }
 
-        @media (max-width:991.98px) {
-            .middle_section h2 {
-                font-size: 30px;
-            }
-
-            .middle_section h4,
-            .middle_section p {
-                font-size: 14px;
-            }
-        }
-
-        /* ====================== NRNF CSS =========================== */
+      /* ====================== NRNF CSS =========================== */
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--================= PARTNER SECTION =================-->
     <section class="bg-black py-4 py-5 text-white lh_normal">
-        <div class="container custom_container py-5">
-            <h2 class="font-2xl fw_semibold text-center mb-5 pb-md-4">Warum wir ein geeigneter Partner sind</h2>
-            <div class="row justify-content-between mt-2 mb-sm-5 pb-lg-3">
-                <!-- 1. -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                        <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                            <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_1.svg"
-                                    alt="partner_icon"></span>
-                            Einzigartigkeit:</h4>
-                        <p class="font-sm fw-normal text-gray mb-0">
-                            Wir sind nicht nur eine Filmproduktion, sondern kreative Geschichtenerzähler, die jedes
-                            Projekt
-                            einzigartig machen.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 mt-5 mt-sm-0">
-                    <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                        <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                            <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_2.svg"
-                                    alt="partner_icon"></span>
-                            Transparenz:</h4>
-                        <p class="font-sm fw-normal text-gray mb-0">
-                            Offene Kommunikation und klare Prozesse bilden das Fundament unserer Zusammenarbeit.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4 mt-lg-0 pt-lg-0">
-                    <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                        <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                            <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_3.svg"
-                                    alt="partner_icon"></span>
-                            Professionalität:</h4>
-                        <p class="font-sm fw-normal text-gray mb-0">
-                            Unsere Expertise in Film und Marketing gewährleistet höchste Qualität in jedem Aspekt deines
-                            Projekts.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- 2. -->
-                <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
-                    <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                        <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                            <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_4.svg"
-                                    alt="partner_icon"></span>
-                            Flexibilität:</h4>
-                        <p class="font-sm fw-normal text-gray mb-0">
-                            Anpassungsfähig an jedes Projekt, ob groß oder klein, wir bieten maßgeschneiderte Lösungen.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
-                    <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                        <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                            <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_5.svg"
-                                    alt="partner_icon"></span>
-                            Kreativität:</h4>
-                        <p class="font-sm fw-normal text-gray mb-0">
-                            Innovative Ideen und frische Perspektiven prägen jedes unserer Videoprojekte.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
-                    <div class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4">
-                        <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
-                            <span class="me-2 pe-1"><img src="./assets/images/home/partner_icon_6.svg"
-                                    alt="partner_icon"></span>
-                            Lokale Expertise:</h4>
-                        <p class="font-sm fw-normal text-gray mb-0 pe-xl-1">
-                            Tief verwurzelt in Wien und Niederösterreich, kennen wir den Markt und seine Anforderungen.
-                        </p>
-                    </div>
-                </div>
+      <div class="container custom_container py-5">
+        <h2 class="font-2xl fw_semibold text-center mb-5 pb-md-4">
+          Warum wir ein geeigneter Partner sind
+        </h2>
+        <div class="row justify-content-between mt-2 mb-sm-5 pb-lg-3">
+          <!-- 1. -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div
+              class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4"
+            >
+              <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+                <span class="me-2 pe-1"
+                  ><img
+                    src="./assets/images/home/partner_icon_1.svg"
+                    alt="partner_icon"
+                /></span>
+                Einzigartigkeit:
+              </h4>
+              <p class="font_xs fw-normal text-gray mb-0">
+                Wir sind nicht nur eine Filmproduktion, sondern kreative
+                Geschichtenerzähler, die jedes Projekt einzigartig machen.
+              </p>
             </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-5 mt-sm-0">
+            <div
+              class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4"
+            >
+              <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+                <span class="me-2 pe-1"
+                  ><img
+                    src="./assets/images/home/partner_icon_2.svg"
+                    alt="partner_icon"
+                /></span>
+                Transparenz:
+              </h4>
+              <p class="font_xs fw-normal text-gray mb-0">
+                Offene Kommunikation und klare Prozesse bilden das Fundament
+                unserer Zusammenarbeit.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4 mt-lg-0 pt-lg-0">
+            <div
+              class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4"
+            >
+              <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+                <span class="me-2 pe-1"
+                  ><img
+                    src="./assets/images/home/partner_icon_3.svg"
+                    alt="partner_icon"
+                /></span>
+                Professionalität:
+              </h4>
+              <p class="font_xs fw-normal text-gray mb-0">
+                Unsere Expertise in Film und Marketing gewährleistet höchste
+                Qualität in jedem Aspekt deines Projekts.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2. -->
+          <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
+            <div
+              class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4"
+            >
+              <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+                <span class="me-2 pe-1"
+                  ><img
+                    src="./assets/images/home/partner_icon_4.svg"
+                    alt="partner_icon"
+                /></span>
+                Flexibilität:
+              </h4>
+              <p class="font_xs fw-normal text-gray mb-0">
+                Anpassungsfähig an jedes Projekt, ob groß oder klein, wir bieten
+                maßgeschneiderte Lösungen.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
+            <div
+              class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4"
+            >
+              <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+                <span class="me-2 pe-1"
+                  ><img
+                    src="./assets/images/home/partner_icon_5.svg"
+                    alt="partner_icon"
+                /></span>
+                Kreativität:
+              </h4>
+              <p class="font_xs fw-normal text-gray mb-0">
+                Innovative Ideen und frische Perspektiven prägen jedes unserer
+                Videoprojekte.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-5 pt-sm-4">
+            <div
+              class="custom_border_top_gray_500 pt-3 pt-sm-4 mx-md-2 mx-xl-4"
+            >
+              <h4 class="font-md fw_medium mb-3 d-flex align-items-center">
+                <span class="me-2 pe-1"
+                  ><img
+                    src="./assets/images/home/partner_icon_6.svg"
+                    alt="partner_icon"
+                /></span>
+                Lokale Expertise:
+              </h4>
+              <p class="font_xs fw-normal text-gray mb-0 pe-xl-1">
+                Tief verwurzelt in Wien und Niederösterreich, kennen wir den
+                Markt und seine Anforderungen.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="bg_black200 middle_section lh_normal">
-        <div class="container custom_container py-5 text-white">
-            <!-- GRENZENLOSE CODE -->
-            <div
-                class="row text-center text-lg-start justify-content-center justify-content-lg-between align-items-center mb-5 pb-4">
-                <div class="col-12 col-sm-10 col-lg-6">
-                    <img class="w-100 border_radius_10px" src="./assets/images/home/grenzenlose-image.png"
-                        alt="grenzenlose-image">
-                </div>
-                <div class="col-12 col-lg-5 mt-4 mt-sm-5 mt-lg-0">
-                    <h4 class="font-base fw_semibold mb-0 text_orange">Grenzenlose Kreativität – Deine Vision, Unsere
-                        Mission</h4>
-                    <h2 class="font-2xl fw_semibold mb-4 pb-1">Kreativität kennt keine Grenzen</h2>
-                    <p class="font-base fw-normal mb-0">
-                        Du suchst nach einer Filmproduktion in Wien, die kreativ, dynamisch und bereit ist, sich jeder
-                        Herausforderung zu stellen? Dann bist du bei uns genau richtig! Wir von NoRiskNoFilm glauben,
-                        dass keine Idee zu groß oder zu komplex ist. Unsere Expertise als Videoproduktionsfirma
-                        ermöglicht es uns, in jeder Phase des Filmemachens innovativ und effektiv zu sein.
-                        <span class="text-gray">
-                            Ob du einen
-                            Imagefilm, einen Unternehmensfilm oder etwas völlig Neues im Kopf hast – wir sind die
-                            Filmproduzenten in Wien, die deine Visionen Realität werden lassen.
-                        </span>
-                    </p>
-                </div>
-            </div>
-
-            <div
-                class="row text-center text-lg-start justify-content-center justify-content-lg-between align-items-center pt-2">
-                <div class="col-12 col-lg-5 order-1 order-lg-0 mt-4 mt-sm-5 mt-lg-0">
-                    <h2 class="font-2xl fw_semibold mb-4 pb-1">Deine Idee, unsere Umsetzung</h2>
-                    <p class="font-base fw-normal mb-0">
-                        Du träumst davon, ein Imagevideo erstellen zu lassen, welches die Essenz deines Projekts
-                        einfängt? Oder möchtest du als Regisseur in Österreich einen einzigartigen Kurzfilm realisieren?
-                        Wir sind nicht nur eine weitere Videoproduktion in Wien; wir sind Partner, die deine kreativen
-                        Träume ernst nehmen und sie auf die Leinwand bringen. Wir arbeiten eng mit dir zusammen, um
-                        sicherzustellen, dass das Endprodukt genau das ist, was du dir vorgestellt hast.
-                        <span class="text-gray">
-                            Egal, ob es um Filmproduktion in Österreich oder spezifisch um Produktionsfirmen in Wien
-                            geht – wir sind
-                            hier, um außergewöhnliche Ergebnisse zu liefern.
-                        </span>
-                    </p>
-                </div>
-                <div class="col-12 col-sm-10 col-lg-6 order-0 order-lg-1">
-                    <img class="w-100 border_radius_10px" src="./assets/images/home/Umsetzung-image.png"
-                        alt="Umsetzung-image">
-                </div>
-            </div>
-
-            <!-- DEINE IDEE CODE -->
-            <div class="my-5 py-md-3">
-                <div class="row justify-content-center deine_box_parent my-md-5 py-5">
-                    <div class="col-12 col-lg-10 text-center py-md-2 my-md-1">
-                        <h2 class="font-2xl fw_semibold mb-4 pb-1">Deine Idee, unsere Umsetzung</h2>
-                        <p class="font-base fw-normal mb-5 pb-lg-2">
-                            Jetzt bist du dran! Wir laden dich herzlich ein, Kontakt mit uns aufzunehmen. Lass uns über
-                            deine Ideen, Visionen und Projekte sprechen. Erzähle uns über deine Vorstellungen und lass
-                            uns gemeinsam herausfinden, wie wir es Wirklichkeit werden lassen können. Wir freuen uns
-                            darauf, von dir zu hören und gemeinsam mit dir fantastische Projekte zu verwirklichen!
-                        </p>
-                        <button
-                            class="common_btn fw-normal border-0 text-white d-flex align-items-center justify-content-center mx-auto">
-                            Jetzt Kontakt aufnehmen
-                        </button>
-                    </div>
-                </div>
-            </div>
+      <div class="container custom_container py-5 text-white">
+        <!-- GRENZENLOSE CODE -->
+        <div
+          class="row text-center text-lg-start justify-content-center justify-content-lg-between align-items-center mb-5 pb-4"
+        >
+          <div class="col-12 col-sm-10 col-lg-6">
+            <img
+              class="w-100 border_radius_10px"
+              src="./assets/images/home/grenzenlose-image.png"
+              alt="grenzenlose-image"
+            />
+          </div>
+          <div class="col-12 col-lg-5 mt-4 mt-sm-5 mt-lg-0">
+            <h4 class="font_xs fw_semibold mb-0 text_orange">
+              Grenzenlose Kreativität – Deine Vision, Unsere Mission
+            </h4>
+            <h2 class="font-2xl fw_semibold mb-4 pb-1">
+              Kreativität kennt keine Grenzen
+            </h2>
+            <p class="font_xs fw-normal mb-0">
+              Du suchst nach einer Filmproduktion in Wien, die kreativ,
+              dynamisch und bereit ist, sich jeder Herausforderung zu stellen?
+              Dann bist du bei uns genau richtig! Wir von NoRiskNoFilm glauben,
+              dass keine Idee zu groß oder zu komplex ist. Unsere Expertise als
+              Videoproduktionsfirma ermöglicht es uns, in jeder Phase des
+              Filmemachens innovativ und effektiv zu sein.
+              <span class="text-gray">
+                Ob du einen Imagefilm, einen Unternehmensfilm oder etwas völlig
+                Neues im Kopf hast – wir sind die Filmproduzenten in Wien, die
+                deine Visionen Realität werden lassen.
+              </span>
+            </p>
+          </div>
         </div>
+
+        <div
+          class="row text-center text-lg-start justify-content-center justify-content-lg-between align-items-center pt-2"
+        >
+          <div class="col-12 col-lg-5 order-1 order-lg-0 mt-4 mt-sm-5 mt-lg-0">
+            <h2 class="font-2xl fw_semibold mb-4 pb-1">
+              Deine Idee, unsere Umsetzung
+            </h2>
+            <p class="font_xs fw-normal mb-0">
+              Du träumst davon, ein Imagevideo erstellen zu lassen, welches die
+              Essenz deines Projekts einfängt? Oder möchtest du als Regisseur in
+              Österreich einen einzigartigen Kurzfilm realisieren? Wir sind
+              nicht nur eine weitere Videoproduktion in Wien; wir sind Partner,
+              die deine kreativen Träume ernst nehmen und sie auf die Leinwand
+              bringen. Wir arbeiten eng mit dir zusammen, um sicherzustellen,
+              dass das Endprodukt genau das ist, was du dir vorgestellt hast.
+              <span class="text-gray">
+                Egal, ob es um Filmproduktion in Österreich oder spezifisch um
+                Produktionsfirmen in Wien geht – wir sind hier, um
+                außergewöhnliche Ergebnisse zu liefern.
+              </span>
+            </p>
+          </div>
+          <div class="col-12 col-sm-10 col-lg-6 order-0 order-lg-1">
+            <img
+              class="w-100 border_radius_10px"
+              src="./assets/images/home/Umsetzung-image.png"
+              alt="Umsetzung-image"
+            />
+          </div>
+        </div>
+
+        <!-- DEINE IDEE CODE -->
+        <div class="my-5 py-md-3">
+          <div class="row justify-content-center deine_box_parent my-md-5 py-5">
+            <div class="col-12 col-lg-10 text-center py-md-2 my-md-1">
+              <h2 class="font-2xl fw_semibold mb-4 pb-1">
+                Deine Idee, unsere Umsetzung
+              </h2>
+              <p class="font_xs fw-normal mb-5 pb-lg-2">
+                Jetzt bist du dran! Wir laden dich herzlich ein, Kontakt mit uns
+                aufzunehmen. Lass uns über deine Ideen, Visionen und Projekte
+                sprechen. Erzähle uns über deine Vorstellungen und lass uns
+                gemeinsam herausfinden, wie wir es Wirklichkeit werden lassen
+                können. Wir freuen uns darauf, von dir zu hören und gemeinsam
+                mit dir fantastische Projekte zu verwirklichen!
+              </p>
+              <button
+                class="common_btn fw-normal border-0 text-white d-flex align-items-center justify-content-center mx-auto"
+              >
+                Jetzt Kontakt aufnehmen
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--================= KUNDENSTIMMEN SECTION =================-->
     <section class="bg_black200 lh_normal">
-        <div class="container custom_container py-5 text-white">
-            <h2 class="font-2xl fw_semibold text-center mb-4 pb-1 text-center">
-                Referenzprojekte und Kundenstimmen einfügen
-            </h2>
-            <p class="font-base font-normal color_gray100 text-center mb-5 pb-4">
-                Entdecken Sie einige unserer herausragenden Projekte und lesen Sie, was unsere Kunden über unsere Arbeit
-                sagen. Jedes Projekt erzählt eine einzigartige Geschichte – lassen Sie sich von unseren bisherigen
-                Arbeiten inspirieren.
-            </p>
-            <div class="row align-items-center review_slider_section_parent bg_color-light_400 pe-0 mb-5">
-                <div class="col-5 col-xl-4 pe-0 h-100">
-                    <div class="slick-slider">
-                        <div class="slider_card py-4 py-xl-5 ps-5 pe-3">
-                            <div class="d-flex align-items-center mb-4 pb-xl-3">
-                                <img src="./assets/images/home/karin-image.png" alt="karin-image">
-                                <div class="ms-2 ps-1">
-                                    <h5 class="font-md fw_semibold">Karin Horneck</h5>
-                                    <p class="font-sm fw-normal color_gray100 mb-0">Co-founder and CEO, bits4kids</p>
-                                </div>
-                            </div>
-                            <div>
-                                <p class="font-md font-normal mb-3 review_para">
-                                    The videos exceeded our expectations. The advice was top and the implementation was
-                                    fast
-                                    and in super quality. I can only recommend No Risk No Film - actually quite
-                                    risk-free.
-                                    ;-)
-                                </p>
-                                <img src="./assets/images/home/star_image.svg" alt="star_image">
-                            </div>
-                        </div>
-                        <div class="slider_card py-4 py-xl-5 ps-5 pe-3">
-                            <div class="d-flex align-items-center mb-4 pb-xl-3">
-                                <img src="./assets/images/home/karin-image.png" alt="karin-image">
-                                <div class="ms-2 ps-1">
-                                    <h5 class="font-md fw_semibold">Karin Horneck</h5>
-                                    <p class="font-sm fw-normal color_gray100 mb-0">Co-founder and CEO, bits4kids</p>
-                                </div>
-                            </div>
-                            <div>
-                                <p class="font-md font-normal mb-3 review_para">
-                                    The videos exceeded our expectations. The advice was top and the implementation was
-                                    fast and in super quality. </p>
-                                <img src="./assets/images/home/star_image.svg" alt="star_image">
-                            </div>
-                        </div>
-                        <div class="slider_card py-4 py-xl-5 ps-5 pe-3">
-                            <div class="d-flex align-items-center mb-4 pb-xl-3">
-                                <img src="./assets/images/home/karin-image.png" alt="karin-image">
-                                <div class="ms-2 ps-1">
-                                    <h5 class="font-md fw_semibold">Karin Horneck</h5>
-                                    <p class="font-sm fw-normal color_gray100 mb-0">Co-founder and CEO, bits4kids</p>
-                                </div>
-                            </div>
-                            <div>
-                                <p class="font-md font-normal mb-3 review_para">
-                                    The videos exceeded our expectations.
-                                </p>
-                                <img src="./assets/images/home/star_image.svg" alt="star_image">
-                            </div>
-                        </div>
-                    </div>
-                    <!--=============== SLICK SLIDER BUTTONS ===============-->
-                    <div class="d-flex align-items-center ps-5">
-                        <button class="slider-control-btn slick-prev position-static me-3" aria-label="Previous"
-                            type="button">Previous
-                            <img class="w-100 h-100" src="./assets/images/home/slick-prev-icon.svg" alt="slick_icon">
-                        </button>
-                        <button class="slider-control-btn slick-next position-static ms-1" aria-label="Next"
-                            type="button">Next
-                            <img class="w-100 h-100" src="./assets/images/home/slick-next-icon.svg" alt="slick_icon">
-                        </button>
-                    </div>
+      <div class="container custom_container py-5 text-white">
+        <h2 class="font-2xl fw_semibold text-center mb-4 pb-1 text-center">
+          Referenzprojekte und Kundenstimmen einfügen
+        </h2>
+        <p class="font_xs font-normal color_gray100 text-center mb-5 pb-4">
+          Entdecken Sie einige unserer herausragenden Projekte und lesen Sie,
+          was unsere Kunden über unsere Arbeit sagen. Jedes Projekt erzählt eine
+          einzigartige Geschichte – lassen Sie sich von unseren bisherigen
+          Arbeiten inspirieren.
+        </p>
+        <div
+          class="row align-items-center review_slider_section_parent bg_color-light_400 pe-0 mb-5"
+        >
+          <div class="col-5 col-xl-4 pe-0 h-100">
+            <div class="slick-slider">
+              <div class="slider_card py-4 py-xl-5 ps-5 pe-3">
+                <div class="d-flex align-items-center mb-4 pb-xl-3">
+                  <img
+                    src="./assets/images/home/karin-image.png"
+                    alt="karin-image"
+                  />
+                  <div class="ms-2 ps-1">
+                    <h5 class="font-md fw_semibold">Karin Horneck</h5>
+                    <p class="font_xs fw-normal color_gray100 mb-0">
+                      Co-founder and CEO, bits4kids
+                    </p>
+                  </div>
                 </div>
-                <div class="col-7 col-xl-8 px-0 h-100">
-                    <img class="w-100" src="./assets/images/home/KUNDENSTIMMEN_video_image.png"
-                        alt="KUNDENSTIMMEN_video_image">
+                <div>
+                  <p class="font-md font-normal mb-3 review_para">
+                    The videos exceeded our expectations. The advice was top and
+                    the implementation was fast and in super quality. I can only
+                    recommend No Risk No Film - actually quite risk-free. ;-)
+                  </p>
+                  <img
+                    src="./assets/images/home/star_image.svg"
+                    alt="star_image"
+                  />
                 </div>
+              </div>
+              <div class="slider_card py-4 py-xl-5 ps-5 pe-3">
+                <div class="d-flex align-items-center mb-4 pb-xl-3">
+                  <img
+                    src="./assets/images/home/karin-image.png"
+                    alt="karin-image"
+                  />
+                  <div class="ms-2 ps-1">
+                    <h5 class="font-md fw_semibold">Karin Horneck</h5>
+                    <p class="font_xs fw-normal color_gray100 mb-0">
+                      Co-founder and CEO, bits4kids
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p class="font-md font-normal mb-3 review_para">
+                    The videos exceeded our expectations. The advice was top and
+                    the implementation was fast and in super quality.
+                  </p>
+                  <img
+                    src="./assets/images/home/star_image.svg"
+                    alt="star_image"
+                  />
+                </div>
+              </div>
+              <div class="slider_card py-4 py-xl-5 ps-5 pe-3">
+                <div class="d-flex align-items-center mb-4 pb-xl-3">
+                  <img
+                    src="./assets/images/home/karin-image.png"
+                    alt="karin-image"
+                  />
+                  <div class="ms-2 ps-1">
+                    <h5 class="font-md fw_semibold">Karin Horneck</h5>
+                    <p class="font_xs fw-normal color_gray100 mb-0">
+                      Co-founder and CEO, bits4kids
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p class="font-md font-normal mb-3 review_para">
+                    The videos exceeded our expectations.
+                  </p>
+                  <img
+                    src="./assets/images/home/star_image.svg"
+                    alt="star_image"
+                  />
+                </div>
+              </div>
             </div>
+            <!--=============== SLICK SLIDER BUTTONS ===============-->
+            <div class="d-flex align-items-center ps-5">
+              <button
+                class="slider-control-btn slick-prev position-static me-3"
+                aria-label="Previous"
+                type="button"
+              >
+                Previous
+                <img
+                  class="w-100 h-100"
+                  src="./assets/images/home/slick-prev-icon.svg"
+                  alt="slick_icon"
+                />
+              </button>
+              <button
+                class="slider-control-btn slick-next position-static ms-1"
+                aria-label="Next"
+                type="button"
+              >
+                Next
+                <img
+                  class="w-100 h-100"
+                  src="./assets/images/home/slick-next-icon.svg"
+                  alt="slick_icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="col-7 col-xl-8 px-0 h-100">
+            <img
+              class="w-100"
+              src="./assets/images/home/KUNDENSTIMMEN_video_image.png"
+              alt="KUNDENSTIMMEN_video_image"
+            />
+          </div>
         </div>
+      </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <!-- ========== SLICK SLIDER ========== -->
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            $('.slick-slider').slick({
-                infinite: false,
-                speed: 300,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: false,
-                arrows: false,
+      document.addEventListener("DOMContentLoaded", function () {
+        $(".slick-slider").slick({
+          infinite: false,
+          speed: 300,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+          arrows: false,
 
-                // responsive: [{
-                //         breakpoint: 600,
-                //         settings: {
-                //             slidesToShow: 2,
-                //             slidesToScroll: 2
-                //         }
-                //     },
-                //     {
-                //         breakpoint: 480,
-                //         settings: {
-                //             slidesToShow: 1,
-                //             slidesToScroll: 1
-                //         }
-                //     }
-                // ]
-            });
-
-            // Add click event listeners to the custom buttons
-            $('.slick-prev').click(function () {
-                $('.slick-slider').slick('slickPrev'); // Go to the previous slide
-            });
-
-            $('.slick-next  ').click(function () {
-                $('.slick-slider').slick('slickNext'); // Go to the next slide
-            });
+          // responsive: [{
+          //         breakpoint: 600,
+          //         settings: {
+          //             slidesToShow: 2,
+          //             slidesToScroll: 2
+          //         }
+          //     },
+          //     {
+          //         breakpoint: 480,
+          //         settings: {
+          //             slidesToShow: 1,
+          //             slidesToScroll: 1
+          //         }
+          //     }
+          // ]
         });
-    </script>
-</body>
 
+        // Add click event listeners to the custom buttons
+        $(".slick-prev").click(function () {
+          $(".slick-slider").slick("slickPrev"); // Go to the previous slide
+        });
+
+        $(".slick-next  ").click(function () {
+          $(".slick-slider").slick("slickNext"); // Go to the next slide
+        });
+      });
+    </script>
+  </body>
 </html>

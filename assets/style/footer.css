@@ -41,7 +41,7 @@ input::-webkit-inner-spin-button {
 }
 
 .input-form::placeholder {
-    font-size: var(--font-sm) !important;
+    font-size: var(--font_xs) !important;
     font-weight: 500;
     color: var(--color-light-gray) !important;
 }
