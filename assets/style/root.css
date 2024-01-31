@@ -5,6 +5,7 @@
   --color-orange: #ed5a31;
   --color-dark-orange: #f05906;
   --color-light-black: #2c2c2c;
+  --color-gray:#D5D5D5;
   --color-gray-100: #86868b;
   --color-gray-200: #9c9c9c;
   --color-gray-300: #b3b1b1;
@@ -35,6 +36,9 @@
 }
 .color_orange {
   color: var(--color-orange);
+}
+.color_gray {
+  color: var(--color-gray);
 }
 .color_gray100 {
   color: var(--color-gray-100);

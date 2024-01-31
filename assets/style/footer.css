@@ -1,3 +1,51 @@
 .anerkennung_content_box{
     max-width: 1024px !important;
 }
+.lh_normal{
+    line-height: normal;
+}
+
+/* DEFINE CONTACT US SECTIONS CSS ================================================================*/
+
+.input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.contact_bg_shade{
+  max-width: 500px !important;
+  right: 14%;
+  top: 0%;
+}
+
+.input-form {
+    background: var(--color-gray-400);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 11px 15px !important;
+    color: var(--color-gray) !important;
+}
+
+.input-form::placeholder {
+    font-size: var(--font-sm) !important;
+    font-weight: 500;
+    color: var(--color-gray) !important;
+}
+
+input:focus {
+    outline: none !important;
+}
+.form-select{
+    background: var(--color-gray-400) !important;
+    border: none !important;
+    font-weight: 300;
+    color: var(--color-gray) !important;
+    background-image: url("../images/common/form-select-arrow.svg") !important;
+    background-repeat: no-repeat !important;
+    padding: 11px 15px !important;
+    border-radius: 10px !important;
+    background-position: right 0.75rem center !important;
+}
+.form-select:focus{
+    box-shadow: unset !important;
+}
