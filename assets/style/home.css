@@ -5,7 +5,7 @@
   color: var(--color-light-orange) !important;
 }
 
-.contact_hero_link:hover svg path {
+.contact_hero_link svg path {
   fill: var(--color-light-orange) !important;
 }
 
@@ -23,10 +23,108 @@
   min-height: 300px !important;
 }
 
+.vision_top_line::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-light-orange);
+  top: -40%;
+}
+
+.filmproduction_box {
+  box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 1);
+  padding: 16px !important;
+  border-radius: 16px;
+}
+
+.filmproduction_left_img {
+  left: -20%;
+  top: 50%;
+  width: 58%;
+  transform: translateY(-50%);
+  object-fit: cover;
+}
+
+.filmproduction_sm_img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+
+/*  SCHNELL SECTION START HERE */
+.Schnell_bg {
+  background-image: url("../images/contact/schnell-bg.png");
+}
+
+.lass_bg {
+  background-image: url("../images/contact/lass-bg.png");
+  background-position: center;
+  background-size: 100%, 100%;
+}
+
+.max_w_1920 {
+  max-width: 1920px !important;
+}
+
+@media (min-width:992px) {
+  .vision_top_line::after {
+    top: -10%;
+    width: 321px;
+  }
+}
+
+@media (min-width:768px) {
+  .filmproduction_box {
+    padding: 30px 50px !important;
+    border-radius: 16px;
+  }
+}
+
+@media (min-width:992px) {
+  .filmproduction_box {
+    padding: 30px !important;
+
+    transform: translateX(-16%);
+  }
+}
+
 @media (min-width:1200px) {
   .hero_map {
     max-width: 576px;
-    min-height: 300px !important;
+    min-height: 482px !important;
+  }
+
+  .filmproduction_box {
+    padding: 30px 30px 30px 81px !important;
+
+    transform: translateX(-36%);
+  }
+
+  .filmproduction_left_img {
+    left: -9%;
+    top: 50%;
+    width: 50%;
+    transform: translateY(-50%);
+    object-fit: cover;
+  }
+
+
+}
+
+@media (min-width:1536px) {
+  .hero_map {
+    max-width: 100%;
+  }
+
+  .filmproduction_left_img {
+    left: -10px;
+    top: 50%;
+    width: 45%;
+    transform: translateY(-50%);
+    object-fit: cover;
   }
 
 

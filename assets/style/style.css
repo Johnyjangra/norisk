@@ -163,6 +163,8 @@
 
  .hero_bg {
    background-image: url("../images/home/header-bg.png");
+   background-position-x: left;
+   background-size: 100% 100%;
  }
 
  /*============================================ UNSER ANGEBOT ===========================================*/
@@ -445,7 +447,7 @@
 
 
    .hero_btn {
-     padding: 14px 74px;
+     padding: 12px 80px;
    }
 
    .play-button {
@@ -491,16 +493,27 @@
    }
 
    .header_custom_vh {
-     min-height: 100vh;
+     min-height: 92vh;
    }
 
    .navbar a {
      position: relative;
      font-size: var(--font-base) !important;
    }
+
    .common_btn {
-    padding: 14px 74px;
-  }
+     padding: 14px 74px;
+   }
+ }
+
+ @media (min-width: 1600px) {
+   .header_custom_vh {
+     min-height: 85vh;
+   }
+
+   .expertise_parent_exp1 {
+     padding-top: 96px !important;
+   }
  }
 
  /*=================================== MEDIA SCREEN MAX-WIDTH 1299===================================*/
