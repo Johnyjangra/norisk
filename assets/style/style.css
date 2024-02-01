@@ -567,6 +567,21 @@
    .video-container {
      max-height: 312px !important;
    }
+
+   .slider_card_person_img {
+     max-width: 49px;
+     max-height: 49px;
+   }
+ }
+
+ @media (min-width: 992px) and (max-width:1199.98px) {
+   .slider_card_content_scc h5 {
+     font-size: 17px !important;
+   }
+
+   .slider_card_content_scc p {
+     font-size: 13px !important;
+   }
  }
 
  /*=================================== MEDIA SCREEN MAX-WIDTH 992 ===================================*/
@@ -627,11 +642,6 @@
 
    .review_para {
      font-size: 17px !important;
-   }
-
-   .slider_card_person_img {
-     max-width: 49px;
-     max-height: 49px;
    }
  }
 
