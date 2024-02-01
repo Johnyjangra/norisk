@@ -90,21 +90,28 @@
 }
 
 .roadmap_border_para {
-    border-top: 7px solid white;
+    /* border-top: 7px solid white;
     border-right: 7px solid white;
-    border-bottom: 7px solid white;
+    border-bottom: 7px solid white; */
+    border-top: 7px solid white;
     border-bottom-right-radius: 60px;
     border-bottom-width: 7px !important;
+    z-index: 1;
 
 }
 
 .roadmap_border_para::before {
+    z-index: -1;
     content: "";
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
     position: absolute;
-    width: calc(100% - 55.5px);
-    height: 11px;
-    bottom: -9px;
-    left: 0;
+    /* width: calc(100% - 55.5px); */
+    width: 50%;
+    height: 100%;
+    border-bottom-right-radius: 60px;
+    bottom: 1px;
+    right: 0;
     background-color: var(--color-dark-200);
 }
 
