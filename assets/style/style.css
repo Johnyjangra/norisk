@@ -443,9 +443,6 @@
      max-width: 208px;
    }
 
-   .common_btn {
-     padding: 14px 74px;
-   }
 
    .hero_btn {
      padding: 14px 74px;
@@ -501,7 +498,9 @@
      position: relative;
      font-size: var(--font-base) !important;
    }
-
+   .common_btn {
+    padding: 14px 74px;
+  }
  }
 
  /*=================================== MEDIA SCREEN MAX-WIDTH 1299===================================*/
