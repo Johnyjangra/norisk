@@ -68,6 +68,7 @@
    border-radius: 100px;
    border: none !important;
  }
+
  .hero_btn:focus,
  .hero_btn:hover {
    -webkit-animation: pulse 1s;
@@ -443,6 +444,14 @@
 
  .grenzenlose_img {
    max-width: 571px;
+ }
+
+ .film_produktion_card_fpc {
+   border: 1px solid transparent;
+ }
+
+ .film_produktion_card_fpc:hover {
+   border: 1px solid var(--color-dark-orange);
  }
 
  /*================================================================ MEDIA SCREEN 576 ==============================================*/
