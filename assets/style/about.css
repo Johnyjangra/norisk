@@ -1,22 +1,25 @@
 /* DEFINE HERO SECTION CSS */
-.about_hero_heading{
+.about_hero_heading {
     border-bottom: 2px solid var(--color-dark-orange) !important;
     max-width: 229px;
 }
+
 /* DEFINE WARUM SECTION CSS */
-.warum_bg{
+.warum_bg {
     background-image: url("../images/about/warum-img.png");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
 }
-.about_hero_para{
-    max-width:970px ;
+
+.about_hero_para {
+    max-width: 970px;
 }
 
-.lh_23{
-    line-height: 23.77px ;
+.lh_23 {
+    line-height: 23.77px;
 }
+
 .roadmap_para_lh {
     line-height: 135.52%;
 }
@@ -40,6 +43,7 @@
     z-index: 1;
 
 }
+
 .roadmap_border_para::before {
     z-index: -1;
     content: "";
@@ -53,32 +57,40 @@
     right: 0;
     background-color: var(--color-dark-200);
 }
+
 .mt-nagtive {
     margin-top: -7px;
 }
+
 .roadmap_padding_top {
     padding-top: 83px;
 
 }
+
 .roadmap_padding_bottom {
     padding-bottom: 83px;
 }
+
 .roadmap_border_second_para {
     border-left: 7px solid white;
     border-top: 7px solid white;
     border-top-left-radius: 60px;
 }
+
 .roadap_mr {
     margin-right: 60px;
 }
+
 .roadmap_pl {
     padding-left: 54px;
 }
+
 .roadmap_border_third_para {
     border-top: 7px solid white;
     border-right: 7px solid white;
     border-top-right-radius: 60px;
 }
+
 .roadmap_border_third_para::after {
     content: "";
     position: absolute;
@@ -89,6 +101,7 @@
     z-index: 1;
     background-color: var(--color-dark-200);
 }
+
 .roadmap_circle {
     width: 56px;
     height: 56px;
@@ -304,23 +317,24 @@
         width: 30px;
         height: 30px;
     }
-     .erreiche_img {
-         position: unset !important;
-         transform: unset !important;
-         max-width: unset !important;
-         border-radius: 10px !important;
-     }
 
-     .einzigartige_img {
-         position: unset !important;
-         transform: unset !important;
-         max-width: unset !important;
-         border-radius: 10px !important;
-     }
+    .erreiche_img {
+        position: unset !important;
+        transform: unset !important;
+        max-width: unset !important;
+        border-radius: 10px !important;
+    }
 
-     .lh_23 {
-         line-height: unset;
-     }
+    .einzigartige_img {
+        position: unset !important;
+        transform: unset !important;
+        max-width: unset !important;
+        border-radius: 10px !important;
+    }
+
+    .lh_23 {
+        line-height: unset;
+    }
 }
 
 @media (max-width: 575.98px) {
