@@ -29,7 +29,7 @@
    line-height: normal;
  }
 
- .mt_-2 {
+ .mt_minus_2 {
    margin-top: -2px;
  }
 
@@ -223,14 +223,17 @@
  .anerkennung_content_box {
    max-width: 1024px !important;
  }
- .riff_award_img{
-  max-width: 187px;
+
+ .riff_award_img {
+   max-width: 187px;
  }
- .cut_award_img{
-  max-width: 216px;
+
+ .cut_award_img {
+   max-width: 216px;
  }
- .cuckoo_award_img{
-  max-width: 195px;
+
+ .cuckoo_award_img {
+   max-width: 195px;
  }
 
  /* DEFINE CONTACT US SECTIONS CSS ================================================================*/
@@ -365,9 +368,6 @@
    color: var(--color-dark-orange);
  }
 
- .text_copyright_hover:hover {
-   opacity: 1 !important;
- }
 
  /* ====================== NRNF CSS =========================== */
 
@@ -432,8 +432,9 @@
  .slider-control-btn::after {
    content: unset !important;
  }
- .grenzenlose_img{
-  max-width: 571px;
+
+ .grenzenlose_img {
+   max-width: 571px;
  }
 
  /*================================================================ MEDIA SCREEN 576 ==============================================*/
@@ -442,9 +443,6 @@
      max-width: 208px;
    }
 
-   .common_btn {
-     padding: 14px 74px;
-   }
 
    .hero_btn {
      padding: 14px 74px;
@@ -500,7 +498,9 @@
      position: relative;
      font-size: var(--font-base) !important;
    }
-
+   .common_btn {
+    padding: 14px 74px;
+  }
  }
 
  /*=================================== MEDIA SCREEN MAX-WIDTH 1299===================================*/
@@ -548,7 +548,7 @@
      justify-content: center;
      gap: 30px;
      height: 100vh;
-    background: var(--color-black);
+     background: var(--color-black);
      width: 100%;
      transition: all 300ms linear;
      z-index: 50;
