@@ -78,6 +78,8 @@
   background-color: var(--color-Nero);
 }
 
+.bg_night_rider{background-color: var(--color-night-rider);}
+
 .bg_dark_black {
   background-color: var(--color-dark-black);
 }
@@ -157,6 +159,7 @@
     --font-xl-large: 32px;
     --font-2xl: 38px;
     --font-3xl: 44px;
+    --font-base: 16px;
   }
 }
 
@@ -164,7 +167,6 @@
   :root {
     --font-xs: 14px;
     --font-sm: 15px;
-    --font-base: 16px;
     --font-md: 18px;
     --font-lg: 20px;
     --font-xl: 22px;
