@@ -22,78 +22,98 @@
 .hero_map {
   min-height: 300px !important;
 }
-.vision_top_line::after{position: absolute;
-content: '';
-height: 2px;
-width: 250px;
-left: 50%;
-transform: translateX(-50%);
-background-color: var(--color-light-orange);
-top: -40%;
+
+.vision_top_line::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-light-orange);
+  top: -40%;
 }
+
 .filmproduction_box {
   box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 1);
   padding: 16px !important;
   border-radius: 16px;
 }
-.filmproduction_left_img{
+
+.filmproduction_left_img {
   left: 0;
   top: 50%;
-  width:38%;
+  width: 38%;
   transform: translateY(-50%);
   object-fit: cover;
 }
-.filmproduction_sm_img{
+
+.filmproduction_sm_img {
   max-height: 400px;
   object-fit: cover;
 }
 
 
 /*  SCHNELL SECTION START HERE */
-.Schnell_bg{background-image: url(../images/contact/schnell-bg.png);}
-.max_w_1920{max-width: 1920px !important;}
+.Schnell_bg {
+  background-image: url(../images/contact/schnell-bg.png);
+}
+
+.max_w_1920 {
+  max-width: 1920px !important;
+}
+
 @media (min-width:992px) {
   .vision_top_line::after {
     top: -10%;
     width: 321px;
   }
 }
+
 @media (min-width:768px) {
   .filmproduction_box {
     box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 1);
-    padding: 30px 50px  !important;
+    padding: 30px 50px !important;
     border-radius: 16px;
   }
-  }
+}
+
 @media (min-width:992px) {
   .filmproduction_box {
     box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 1);
-    padding: 30px  !important;
+    padding: 30px !important;
     border-radius: 16px;
   }
-  }
+}
+
 @media (min-width:1200px) {
   .hero_map {
     max-width: 576px;
     min-height: 482px !important;
   }
-    .filmproduction_box {
-      box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 1);
-      padding: 30px 30px 30px 81px !important;
-      border-radius: 16px;
-      transform: translateX(-20%);
-    }
-    .min_vh_xl{min-height: 100vh;}
-.filmproduction_left_img {
-  left: 0;
-  top: 50%;
-  width: 42%;
-  transform: translateY(-50%);
-  object-fit: cover;
-}
+
+  .filmproduction_box {
+    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 1);
+    padding: 30px 30px 30px 81px !important;
+    border-radius: 16px;
+    transform: translateX(-20%);
+  }
+
+  .min_vh_xl {
+    min-height: 100vh;
+  }
+
+  .filmproduction_left_img {
+    left: 0;
+    top: 50%;
+    width: 42%;
+    transform: translateY(-50%);
+    object-fit: cover;
+  }
 
 
 }
+
 @media (min-width:1536px) {
   .hero_map {
     max-width: 100%;
