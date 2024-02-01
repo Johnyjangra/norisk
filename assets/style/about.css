@@ -10,6 +10,10 @@
     background-size:cover;
     background-position: center;
 }
+.about_hero_para{
+    max-width:970px ;
+}
+
 .lh_23{
     line-height: 23.77px !important;
 }
@@ -42,11 +46,11 @@
 
 @media (min-width:992px) {
     .erreiche_img{
-        width: 42% !important;
+        width: 43.2% !important;
      
     }
     .einzigartige_img{
-        width: 42% !important;
+        width: 43.2% !important;
     }
     .custom_einzigartige_margin{
         margin: 15% 0 !important;
