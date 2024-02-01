@@ -1,11 +1,11 @@
 /*=========================================== ROOT-DEFINE-VALUES ================================================= */
 :root {
-  --color-black:#000;
+  --color-black: #000;
   --color-white: #fff;
   --color-off-white: #f7f7f9;
   --color-orange: #ed5a31;
   --color-dark-orange: #f05906;
-  --color-light-orange:#FF5A00;
+  --color-light-orange: #FF5A00;
   --color-night-rider: #2c2c2c;
   --color-light-gray: #D5D5D5;
   --color-manatee: #86868b;
@@ -32,7 +32,10 @@
 .text_white {
   color: var(--color-white) !important;
 }
-.text_light_orange{color:var(--color-light-orange);}
+
+.text_light_orange {
+  color: var(--color-light-orange);
+}
 
 .text_off_white {
   color: var(--color-off-white);
@@ -78,7 +81,9 @@
   background-color: var(--color-Nero);
 }
 
-.bg_night_rider{background-color: var(--color-night-rider);}
+.bg_night_rider {
+  background-color: var(--color-night-rider);
+}
 
 .bg_dark_black {
   background-color: var(--color-dark-black);
@@ -95,7 +100,10 @@
 .bg_orange {
   background: var(--color-orange);
 }
-.bg_black{background-color: var(--color-black);}
+
+.bg_black {
+  background-color: var(--color-black);
+}
 
 .bg_charcoal {
   background: var(--color-charcoal);
@@ -108,6 +116,7 @@
 .bg_extra_light_black {
   background: var(--color-extra-light-black);
 }
+
 /*=========================================== DEFINE-ALL = FONT-SIZES ========================================== */
 .font-xs {
   font-size: var(--font-xs) !important;
@@ -182,8 +191,8 @@
     --font-sm: 14px;
     --font-base: 14px;
     --font-md: 16px;
-    --font-lg: 20px;
-    --font-xl: 22px;
+    --font-lg: 18px;
+    --font-xl: 20px;
     --font-2xl: 28px;
     --font-3xl: 30px;
   }
