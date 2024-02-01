@@ -1,77 +1,24 @@
 /* DEFINE HERO SECTION CSS */
-.about_hero_heading{
+.about_hero_heading {
     border-bottom: 2px solid var(--color-dark-orange) !important;
     max-width: 229px;
 }
+
 /* DEFINE WARUM SECTION CSS */
-.warum_bg{
+.warum_bg {
     background-image: url("../images/about/warum-img.png");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
 }
-.lh_23{
-    line-height: 23.77px !important;
+
+.about_hero_para {
+    max-width: 970px;
 }
 
-
-@media (min-width:768px) {
-    .erreiche_img{
-        width: 40% !important;
-        max-height: 606px;
-        object-fit: cover;
-        border-radius: 10px 0px 0px 10px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    .einzigartige_img{
-        width: 40% !important;
-        max-height: 606px;
-        object-fit: cover;
-        border-radius: 0px 10px 10px 0px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    .custom_einzigartige_margin{
-        margin: 9% 0 !important;
-     }
-     .erreiche_top_spacing{
-        margin-top: 9%  !important;
-     }
+.lh_23 {
+    line-height: 23.77px;
 }
-
-@media (min-width:992px) {
-    .erreiche_img{
-        width: 42% !important;
-     
-    }
-    .einzigartige_img{
-        width: 42% !important;
-    }
-    .custom_einzigartige_margin{
-        margin: 15% 0 !important;
-     }
-     .erreiche_top_spacing{
-        margin-top: 10.2%  !important;
-     }
-}
-
-
-@media (max-width:767.98px) {
-    .erreiche_img{
-        position: unset !important;
-        transform: unset !important;
-        max-width: unset !important;
-        border-radius: 10px !important;
-    }
-    .einzigartige_img{
-        position: unset !important;
-        transform: unset !important;
-        max-width: unset !important;
-        border-radius: 10px !important;
-    }
-}
-
 
 .roadmap_para_lh {
     line-height: 135.52%;
@@ -90,24 +37,39 @@
 }
 
 .roadmap_border_para {
-    border-top: 7px solid white;
-    border-right: 7px solid white;
-    border-bottom: 7px solid white;
+    /* border-top: 7px solid white; */
     border-bottom-right-radius: 60px;
     border-bottom-width: 7px !important;
+    z-index: 1;
 
 }
 
 .roadmap_border_para::before {
+    z-index: -1;
     content: "";
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
     position: absolute;
-    width: calc(100% - 55.5px);
-    height: 11px;
-    bottom: -9px;
-    left: 0;
-    background-color: var(--color-dark-200);
+    width: 50%;
+    height: 100%;
+    border-bottom-right-radius: 60px;
+    bottom: 0;
+    right: 0;
+    background-color: var(--color-dark-black);
 }
 
+.roadmap_border_para::after {
+    z-index: -1;
+    content: "";
+    border-right: 7px solid white;
+    border-top: 7px solid white;
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: -5px;
+    right: 0;
+    background-color: var(--color-dark-black);
+}
 
 .mt-nagtive {
     margin-top: -7px;
@@ -136,7 +98,6 @@
     padding-left: 54px;
 }
 
-
 .roadmap_border_third_para {
     border-top: 7px solid white;
     border-right: 7px solid white;
@@ -151,10 +112,8 @@
     width: 11px;
     height: 25%;
     z-index: 1;
-    background-color: var(--color-dark-200);
+    background-color: var(--color-dark-black);
 }
-
-
 
 .roadmap_circle {
     width: 56px;
@@ -171,8 +130,8 @@
 
 .second_circle_position {
     top: 50%;
-    right: -3.5px;
-    transform: translate(50%, -50%);
+    right: -24.5px;
+    transform: translatey(-50%);
 }
 
 .third_circle_position {
@@ -201,7 +160,7 @@
 }
 
 .third_img_position {
-    left: -57.5px;
+    left: -70.5px;
     top: 50%;
     transform: translate(-100%, -50%);
 }
@@ -230,6 +189,53 @@
 .roadmap_mobile_cirle_position {
     top: 60px;
     left: -48px;
+}
+
+@media (min-width:768px) {
+    .erreiche_img {
+        width: 40% !important;
+        max-height: 606px;
+        object-fit: cover;
+        border-radius: 10px 0px 0px 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .einzigartige_img {
+        width: 40% !important;
+        max-height: 606px;
+        object-fit: cover;
+        border-radius: 0px 10px 10px 0px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .custom_einzigartige_margin {
+        margin: 9% 0 !important;
+    }
+
+    .erreiche_top_spacing {
+        margin-top: 9% !important;
+    }
+}
+
+@media (min-width:992px) {
+    .erreiche_img {
+        width: 43.2% !important;
+
+    }
+
+    .einzigartige_img {
+        width: 43.2% !important;
+    }
+
+    .custom_einzigartige_margin {
+        margin: 15% 0 !important;
+    }
+
+    .erreiche_top_spacing {
+        margin-top: 10.2% !important;
+    }
 }
 
 @media (max-width: 1199.98px) {
@@ -272,24 +278,32 @@
 }
 
 @media (max-width: 991.98px) {
+    .roadmap_border_para::before {
+        bottom: 1px;
+    }
+
     .roadmap_circle {
         width: 40px;
         height: 40px;
     }
 
+    .second_circle_position {
+        right: -16.5px;
+    }
+
     .first_img_position,
     .third_img_position {
-        left: -20.5px;
+        left: -30.5px;
     }
 
     .second_img_position,
     .fourth_img_position {
-        right: -20.5px;
+        right: -30.5px;
     }
 
     .roadmap_image {
-        height: 120px;
-        width: 120px;
+        height: 100px;
+        width: 100px;
     }
 
     .roadmap_maxwidth {
@@ -324,11 +338,35 @@
         width: 30px;
         height: 30px;
     }
+
+    .erreiche_img {
+        position: unset !important;
+        transform: unset !important;
+        max-width: unset !important;
+        border-radius: 10px !important;
+    }
+
+    .einzigartige_img {
+        position: unset !important;
+        transform: unset !important;
+        max-width: unset !important;
+        border-radius: 10px !important;
+    }
+
+    .lh_23 {
+        line-height: unset;
+    }
 }
 
 @media (max-width: 575.98px) {
     .roadmap_mobile_cirle_position {
         top: 60px;
-        left: -24px;
+        left: -21.5px;
     }
+
+    .roadmap_circle {
+        width: 25px;
+        height: 25px;
+    }
+
 }

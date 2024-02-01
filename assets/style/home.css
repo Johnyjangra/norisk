@@ -56,7 +56,7 @@
 
 
 /*  SCHNELL SECTION START HERE */
-.Schnell_bg {
+.schnell_bg {
   background-image: url("../images/contact/schnell-bg.png");
 }
 
@@ -88,7 +88,7 @@
 @media (min-width:992px) {
   .filmproduction_box {
     padding: 24px !important;
-width: 680px !important;
+    width: 680px !important;
     transform: translateX(-18%);
   }
 }
@@ -101,17 +101,14 @@ width: 680px !important;
 
   .filmproduction_box {
     padding: 30px 30px 30px 81px !important;
-width: 800px !important;
+    width: 800px !important;
     transform: translateX(-22%);
   }
 
   .filmproduction_left_img {
     left: -16%;
-    top: 50%;
     min-height: 700px;
     width: 60%;
-    transform: translateY(-50%);
-    object-fit: cover;
   }
 
 
@@ -124,11 +121,6 @@ width: 800px !important;
 
   .filmproduction_left_img {
     left: -2%;
-    top: 50%;
     width: 45%;
-    transform: translateY(-50%);
-    object-fit: cover;
   }
-
-
 }
