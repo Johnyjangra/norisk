@@ -29,7 +29,7 @@
    line-height: normal;
  }
 
- .mt_-2 {
+ .mt_minus_2 {
    margin-top: -2px;
  }
 
@@ -368,9 +368,6 @@
    color: var(--color-dark-orange);
  }
 
- .text_copyright_hover:hover {
-   opacity: 1 !important;
- }
 
  /* ====================== NRNF CSS =========================== */
 
@@ -446,9 +443,6 @@
      max-width: 208px;
    }
 
-   .common_btn {
-     padding: 14px 74px;
-   }
 
    .hero_btn {
      padding: 12px 80px;
@@ -504,7 +498,9 @@
      position: relative;
      font-size: var(--font-base) !important;
    }
-
+   .common_btn {
+    padding: 14px 74px;
+  }
  }
 
  /*=================================== MEDIA SCREEN MAX-WIDTH 1299===================================*/

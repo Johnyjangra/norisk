@@ -2,3 +2,38 @@
 
 
 
+.warum_bg{
+    background-image: url("../images/about/warum-img.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.lh_23{
+    line-height: 23.77px !important;
+}
+.erreiche_img{
+    max-width: 571px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.custom_einzigartige_padding{
+    margin-top: 48px !important;
+}
+@media (max-width:1198.98px) {
+    .erreiche_img{
+        max-width: 400px;
+    }
+}
+@media (max-width:991.98px) {
+    .erreiche_img{
+        max-width: 325px;
+    }
+}
+@media (max-width:767.98px) {
+    .erreiche_img{
+        position: unset !important;
+        transform: unset !important;
+        max-width: unset !important;
+        border-radius: 10px !important;
+    }
+}
