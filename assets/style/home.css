@@ -1,0 +1,6 @@
+
+/* CONTACT HERO START HERE */
+.contact_hero_link:hover{color: var(--color-dark-black) !important;}
+.contact_hero_link:hover svg path {
+  fill: var(--color-dark-black) !important;
+}

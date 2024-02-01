@@ -1,5 +1,6 @@
 /*=========================================== ROOT-DEFINE-VALUES ================================================= */
 :root {
+  --color-black:#000;
   --color-white: #fff;
   --color-off-white: #f7f7f9;
   --color-orange: #ed5a31;
@@ -90,6 +91,7 @@
 .bg_orange {
   background: var(--color-orange);
 }
+.bg_black{background-color: var(--color-black);}
 
 .bg_charcoal {
   background: var(--color-charcoal);
