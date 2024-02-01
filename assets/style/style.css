@@ -254,8 +254,12 @@
    color: var(--color-dark-orange) !important;
  }
 
- .form_icons_hover:hover {
-   transform: translateY(-7px) !important;
+ .form_icons_hover svg path {
+   transition: all .3s ease-in-out;
+ }
+
+ .form_icons_hover:hover svg path {
+   fill: var(--color-dark-orange);
  }
 
  .mt_minus_4 {
@@ -424,7 +428,7 @@
  }
 
  .slider-control-btn:hover img {
-   transform: scale(1.112) translateY(-4px);
+   transform: scale(0.98);
  }
 
  .review_para {
@@ -451,6 +455,19 @@
  .slider_card_person_img {
    max-width: 59px;
    max-height: 59px;
+ }
+
+ .custom_form_fields_cff {
+   max-width: 563px;
+   height: 46px;
+ }
+
+ .submit_btn_sb {
+   line-height: 110%;
+ }
+
+ .form_textarea_field_ftf {
+   min-height: 194px !important;
  }
 
  /*================================================================ MEDIA SCREEN 576 ==============================================*/
@@ -517,6 +534,10 @@
 
    .common_btn {
      padding: 14px 74px;
+   }
+
+   .footer_links_custom_gap_flcg {
+     gap: 37px !important;
    }
  }
 
@@ -637,6 +658,14 @@
    .review_para {
      font-size: 17px !important;
    }
+
+   .custom_form_fields_cff {
+     max-width: unset !important;
+   }
+
+   .form_textarea_field_ftf {
+     min-height: unset !important;
+   }
  }
 
  /*=================================== MEDIA SCREEN MAX-WIDTH 767 ===================================*/
@@ -663,6 +692,10 @@
 
    .play-button {
      max-width: 33px !important;
+   }
+
+   .custom_form_fields_cff {
+     height: unset !important;
    }
  }
 

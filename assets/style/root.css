@@ -34,31 +34,31 @@
 }
 
 .text_light_orange {
-  color: var(--color-light-orange);
+  color: var(--color-light-orange) !important;
 }
 
 .text_off_white {
-  color: var(--color-off-white);
+  color: var(--color-off-white) !important;
 }
 
 .text_orange {
-  color: var(--color-orange);
+  color: var(--color-orange) !important;
 }
 
 .text_gray {
-  color: var(--color-light-gray);
+  color: var(--color-light-gray) !important;
 }
 
 .text_manatee {
-  color: var(--color-manatee);
+  color: var(--color-manatee) !important;
 }
 
 .text_nobel {
-  color: var(--color-nobel);
+  color: var(--color-nobel) !important;
 }
 
 .text_pinkswan {
-  color: var(--color-pink-Swan);
+  color: var(--color-pink-Swan) !important;
 }
 
 .text_dark_orange {
