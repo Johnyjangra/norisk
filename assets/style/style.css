@@ -10,12 +10,12 @@
  }
 
  @font-face {
-   font-family: 'SF-Pro', 'sans-serif';
+   font-family: SF-Pro;
    src: url(../font/sf-pro-regular.otf);
  }
 
  .ff_sf_pro {
-   font-family: 'SF-Pro', 'sans-serif';
+   font-family: SF-Pro !important;
  }
 
  .hero_heading {
