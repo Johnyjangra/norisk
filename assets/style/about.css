@@ -37,7 +37,7 @@
 }
 
 .roadmap_border_para {
-    border-top: 7px solid white;
+    /* border-top: 7px solid white; */
     border-bottom-right-radius: 60px;
     border-bottom-width: 7px !important;
     z-index: 1;
@@ -53,9 +53,22 @@
     width: 50%;
     height: 100%;
     border-bottom-right-radius: 60px;
-    bottom: 1px;
+    bottom: 0;
     right: 0;
-    background-color: var(--color-dark-200);
+    background-color: var(--color-dark-black);
+}
+
+.roadmap_border_para::after {
+    z-index: -1;
+    content: "";
+    border-right: 7px solid white;
+    border-top: 7px solid white;
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: -5px;
+    right: 0;
+    background-color: var(--color-dark-black);
 }
 
 .mt-nagtive {
@@ -99,7 +112,7 @@
     width: 11px;
     height: 25%;
     z-index: 1;
-    background-color: var(--color-dark-200);
+    background-color: var(--color-dark-black);
 }
 
 .roadmap_circle {
@@ -117,8 +130,8 @@
 
 .second_circle_position {
     top: 50%;
-    right: -3.5px;
-    transform: translate(50%, -50%);
+    right: -24.5px;
+    transform: translatey(-50%);
 }
 
 .third_circle_position {
@@ -147,7 +160,7 @@
 }
 
 .third_img_position {
-    left: -57.5px;
+    left: -70.5px;
     top: 50%;
     transform: translate(-100%, -50%);
 }
@@ -265,24 +278,32 @@
 }
 
 @media (max-width: 991.98px) {
+    .roadmap_border_para::before {
+        bottom: 1px;
+    }
+
     .roadmap_circle {
         width: 40px;
         height: 40px;
     }
 
+    .second_circle_position {
+        right: -16.5px;
+    }
+
     .first_img_position,
     .third_img_position {
-        left: -20.5px;
+        left: -30.5px;
     }
 
     .second_img_position,
     .fourth_img_position {
-        right: -20.5px;
+        right: -30.5px;
     }
 
     .roadmap_image {
-        height: 120px;
-        width: 120px;
+        height: 100px;
+        width: 100px;
     }
 
     .roadmap_maxwidth {
@@ -340,6 +361,12 @@
 @media (max-width: 575.98px) {
     .roadmap_mobile_cirle_position {
         top: 60px;
-        left: -24px;
+        left: -21.5px;
     }
+
+    .roadmap_circle {
+        width: 25px;
+        height: 25px;
+    }
+
 }
