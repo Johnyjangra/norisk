@@ -12,8 +12,12 @@
     background-position: center;
 }
 
+.about_hero_para {
+    max-width: 970px;
+}
+
 .lh_23 {
-    line-height: 23.77px !important;
+    line-height: 23.77px;
 }
 
 
@@ -47,12 +51,12 @@
 
 @media (min-width:992px) {
     .erreiche_img {
-        width: 42% !important;
+        width: 43.2% !important;
 
     }
 
     .einzigartige_img {
-        width: 42% !important;
+        width: 43.2% !important;
     }
 
     .custom_einzigartige_margin {
@@ -77,6 +81,10 @@
         transform: unset !important;
         max-width: unset !important;
         border-radius: 10px !important;
+    }
+
+    .lh_23 {
+        line-height: unset;
     }
 }
 
