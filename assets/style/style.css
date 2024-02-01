@@ -474,6 +474,10 @@
    content: unset !important;
  }
 
+ .footer_links_custom_gap_flcg a:hover {
+   color: var(--color-dark-orange) !important;
+ }
+
  /*================================================================ MEDIA SCREEN 576 ==============================================*/
  @media (min-width: 576px) {
    .logo {
