@@ -5,6 +5,7 @@
   --color-off-white: #f7f7f9;
   --color-orange: #ed5a31;
   --color-dark-orange: #f05906;
+  --color-light-orange:#FF5A00;
   --color-night-rider: #2c2c2c;
   --color-light-gray: #D5D5D5;
   --color-manatee: #86868b;
@@ -31,6 +32,7 @@
 .text_white {
   color: var(--color-white) !important;
 }
+.text_light_orange{color:var(--color-light-orange);}
 
 .text_off_white {
   color: var(--color-off-white);

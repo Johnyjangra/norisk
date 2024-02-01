@@ -1,6 +1,33 @@
+@import url(./root.css);
 
 /* CONTACT HERO START HERE */
-.contact_hero_link:hover{color: var(--color-dark-black) !important;}
+.contact_hero_link:hover {
+  color: var(--color-light-orange) !important;
+}
+
 .contact_hero_link:hover svg path {
-  fill: var(--color-dark-black) !important;
+  fill: var(--color-light-orange) !important;
+}
+
+.contact_hero_link svg path {
+  transition: all 300ms linear;
+}
+
+.contact_hero_layer {
+  top: 10%;
+  z-index: -1;
+  max-width: 1254px;
+}
+
+.hero_map {
+  min-height: 300px !important;
+}
+
+@media (min-width:1200px) {
+  .hero_map {
+    max-width: 576px;
+    min-height: 300px !important;
+  }
+
+
 }
