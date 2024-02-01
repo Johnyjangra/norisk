@@ -223,6 +223,15 @@
  .anerkennung_content_box {
    max-width: 1024px !important;
  }
+ .riff_award_img{
+  max-width: 187px;
+ }
+ .cut_award_img{
+  max-width: 216px;
+ }
+ .cuckoo_award_img{
+  max-width: 195px;
+ }
 
  /* DEFINE CONTACT US SECTIONS CSS ================================================================*/
  .transition_all {
@@ -423,6 +432,9 @@
  .slider-control-btn::after {
    content: unset !important;
  }
+ .grenzenlose_img{
+  max-width: 571px;
+ }
 
  /*================================================================ MEDIA SCREEN 576 ==============================================*/
  @media (min-width: 576px) {
@@ -536,7 +548,7 @@
      justify-content: center;
      gap: 30px;
      height: 100vh;
-     backdrop-filter: blur(30px);
+    background: var(--color-black);
      width: 100%;
      transition: all 300ms linear;
      z-index: 50;
