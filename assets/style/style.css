@@ -10,8 +10,8 @@
  }
 
  @font-face {
-   font-family: SF-Pro;
-   src: url(../font/SF-Pro-Text-Regular.otf);
+   font-family: 'SF-Pro', 'sans-serif';
+   src: url(../font/sf-pro-regular.otf);
  }
 
  .ff_sf_pro {
@@ -175,7 +175,7 @@
  }
 
  /*============================================ UNSER ANGEBOT ===========================================*/
- .Unser_number_circle {
+ .unser_number_circle {
    height: 60px;
    width: 60px;
    display: flex;
@@ -478,7 +478,7 @@
      font-size: 3vw !important;
    }
 
-   .Unser_number_circle {
+   .unser_number_circle {
      height: 70px;
      width: 70px;
    }
@@ -495,7 +495,7 @@
      padding: 40px 60px;
    }
 
-   .Unser_number_circle {
+   .unser_number_circle {
      height: 100px;
      width: 100px;
    }

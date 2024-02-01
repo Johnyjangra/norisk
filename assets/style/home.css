@@ -56,7 +56,7 @@
 
 
 /*  SCHNELL SECTION START HERE */
-.Schnell_bg {
+.schnell_bg {
   background-image: url("../images/contact/schnell-bg.png");
 }
 
@@ -107,11 +107,8 @@ width: 800px !important;
 
   .filmproduction_left_img {
     left: -16%;
-    top: 50%;
     min-height: 700px;
     width: 60%;
-    transform: translateY(-50%);
-    object-fit: cover;
   }
 
 
@@ -124,10 +121,7 @@ width: 800px !important;
 
   .filmproduction_left_img {
     left: -2%;
-    top: 50%;
     width: 45%;
-    transform: translateY(-50%);
-    object-fit: cover;
   }
 
 
