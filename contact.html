@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/root.css" />
+  <link rel="stylesheet" href="./assets/style/style.css" />
+  <link rel="stylesheet" href="./assets/style/footer.css" />
+  <!-- DEFINE FAVICON CODE -->
+  <link rel="shortcut icon" href="./assets/images/common/favicon.svg" type="image/x-icon" />
+
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.4/dist/sweetalert2.min.css" rel="stylesheet">
+
+  <!-- ======DEFINE SLICK SLIDER====== -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+</head>
+<body>
+    <header>
+         <nav class="custom_container container mt-sm-4 mt-2 pt-2">
+      <div class="d-flex justify-content-between align-items-center">
+        <a href="#" aria-label="home">
+          <img class="logo" src="./assets/images/common/logo.svg" alt="logo" />
+        </a>
+        <div>
+          <div class="d-flex navbar py-0" id="navBar">
+            <a onclick="showNav()" aria-label="Home" href="#" class="text-white text-decoration-none">Home
+            </a>
+            <a onclick="showNav()" aria-label="About Us" href="#" class="text-white text-decoration-none">About Us</a>
+            <a onclick="showNav()" aria-label="Services" href="#" class="text-white text-decoration-none">Services
+            </a>
+            <a aria-label="Live Stream" onclick="showNav()" href="#" class="text-white text-decoration-none">Live
+              Stream</a>
+            <a onclick="showNav()" href="#"
+              class="bg-white font-xs border-0 rounded-5 text-black text-decoration-none nav_btn d-lg-none">Contact
+              Us</a>
+          </div>
+        </div>
+        <div>
+          <div class="mobile_navbar_btn d-none">
+            <img onclick="showNav()" class="mobile_nav_toggle cursor_pointer" id="navToggleIcon"
+              src="./assets/images/common/nav-toggle.svg" alt="toggle" />
+          </div>
+
+          <a href="#" aria-label="contact Us"
+            class="d-none d-lg-inline-block font-base nav_btn border-0 bg-white text-black text-decoration-none rounded-5"
+            onclick="showNav()" href="#">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+    </header>
+</body>
+</html>
