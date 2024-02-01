@@ -470,6 +470,10 @@
    min-height: 194px !important;
  }
 
+ .overlay_contact_btn_ocb::after {
+   content: unset !important;
+ }
+
  /*================================================================ MEDIA SCREEN 576 ==============================================*/
  @media (min-width: 576px) {
    .logo {
@@ -682,6 +686,10 @@
 
  /*=================================== MEDIA SCREEN MAX-WIDTH 575 ===================================*/
  @media (max-width:575.98px) {
+   .review_para {
+     max-width: 95% !important;
+   }
+
    .input-form {
      padding: 6px 15px !important;
    }
@@ -696,6 +704,10 @@
 
    .custom_form_fields_cff {
      height: unset !important;
+   }
+
+   .hero_btn {
+     padding: 9px 36px;
    }
  }
 
