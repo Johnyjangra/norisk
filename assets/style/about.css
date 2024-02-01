@@ -15,7 +15,7 @@
 }
 
 .lh_23{
-    line-height: 23.77px !important;
+    line-height: 23.77px ;
 }
 
 
@@ -73,6 +73,9 @@
         transform: unset !important;
         max-width: unset !important;
         border-radius: 10px !important;
+    }
+    .lh_23{
+        line-height: unset;
     }
 }
 
