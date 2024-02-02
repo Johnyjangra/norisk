@@ -176,11 +176,6 @@
     transform: translate(100%, -50%);
 }
 
-.roadmap_image {
-    height: 215px;
-    width: 215px;
-}
-
 .mobile_roadmap::before {
     width: 2px;
     content: "";
