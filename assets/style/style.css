@@ -598,17 +598,20 @@
    max-width: 544px;
  }
 
- .mt_minus_7{
-  margin-top: -7px;
+ .mt_minus_7 {
+   margin-top: -7px;
  }
- .mt_minus_7{
-  margin-top: -7px;
+
+ .mt_minus_7 {
+   margin-top: -7px;
  }
- .mt_minus_2{
-  margin-top: -2px;
+
+ .mt_minus_2 {
+   margin-top: -2px;
  }
- .lh_base{
-  line-height: 1.4;
+
+ .lh_base {
+   line-height: 1.4;
  }
 
  .roadmap_para_lh {
@@ -1186,8 +1189,9 @@
      width: 40px;
      height: 40px;
    }
+
    .mt_minus_7 {
-    margin-top: -8px !important;
+     margin-top: -8px !important;
    }
 
    .second_circle_position {
@@ -1251,16 +1255,18 @@
      z-index: 1;
      background-color: rgba(0, 0, 0, 0.74);
    }
+
    .warum_bg::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.74);
-  }
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     z-index: 1;
+     background-color: rgba(0, 0, 0, 0.74);
+   }
+
    .roadmap_maxwidth {
      max-width: 500px;
 
@@ -1291,11 +1297,12 @@
  }
 
  @media (max-width:575.98px) {
-  .about_hero_img{
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
+   .about_hero_img {
+     height: 150px;
+     object-fit: cover;
+     border-radius: 10px;
+   }
+
    .review_para {
      max-width: 95% !important;
    }
