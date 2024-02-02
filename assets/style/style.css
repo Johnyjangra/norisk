@@ -543,6 +543,15 @@
      gap: 37px !important;
    }
 
+   .schaufenster-image img {
+     width: 41.7% !important;
+     min-height: 610px !important;
+   }
+
+   .hero_btn {
+     min-height: 49px !important;
+   }
+
    .grenzenlose_img {
      max-width: 550px;
    }
