@@ -65,7 +65,7 @@
    font-size: var(--font-base);
    color: var(--color-off-white);
    padding: 12px 48px;
-   background: var(--color-dark-orange);
+   background: var(--color-light-orange);
    border-radius: 100px;
    border: none !important;
  }
@@ -74,7 +74,7 @@
    font-size: var(--font-base);
    color: var(--color-off-white);
    padding: 12px 48px;
-   background: var(--color-light-orange) !important;
+   background: var(--color-orange) !important;
    border-radius: 100px;
    border: none !important;
  }
@@ -598,7 +598,18 @@
    max-width: 544px;
  }
 
-
+ .mt_minus_7{
+  margin-top: -7px;
+ }
+ .mt_minus_7{
+  margin-top: -7px;
+ }
+ .mt_minus_2{
+  margin-top: -2px;
+ }
+ .lh_base{
+  line-height: 1.4;
+ }
 
  .roadmap_para_lh {
    line-height: 135.52%;
@@ -1175,6 +1186,9 @@
      width: 40px;
      height: 40px;
    }
+   .mt_minus_7 {
+    margin-top: -8px !important;
+   }
 
    .second_circle_position {
      right: -16.5px;
@@ -1237,7 +1251,16 @@
      z-index: 1;
      background-color: rgba(0, 0, 0, 0.74);
    }
-
+   .warum_bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.74);
+  }
    .roadmap_maxwidth {
      max-width: 500px;
 
@@ -1268,6 +1291,11 @@
  }
 
  @media (max-width:575.98px) {
+  .about_hero_img{
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
    .review_para {
      max-width: 95% !important;
    }
