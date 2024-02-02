@@ -370,8 +370,8 @@
    fill: var(--color-dark-orange);
  }
 
- .footer_footer_border_top {
-   border-top: 1px solid var(--blue-charcoal) !important;
+ .footer_border_top {
+   border-top: 1px solid var(--color-blue-charcoal) !important;
  }
 
  .footer_link_hover:hover {
@@ -564,10 +564,6 @@
      min-height: 49px !important;
    }
 
-   .grenzenlose_img {
-     max-width: 550px;
-   }
-
    .custom_schaufenster_margin {
      margin-top: 180px !important;
      margin-bottom: 114px !important;
@@ -594,8 +590,16 @@
      padding-top: 96px !important;
    }
 
+   .Grenzenlose_text_align {
+     padding-left: 48px !important;
+   }
+
    .grenzenlose_img {
      max-width: 585px;
+   }
+
+   .Filmproduktion_para {
+     max-width: 620px;
    }
  }
 
@@ -643,6 +647,8 @@
    .slider_card_content_scc p {
      font-size: 13px !important;
    }
+
+
  }
 
  @media (max-width: 991.98px) {
@@ -725,6 +731,17 @@
    .review_para {
      max-width: 98% !important;
      text-align: center !important;
+   }
+
+   .schnell_bg::after {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     z-index: 1;
+     background-color: rgba(0, 0, 0, 0.74);
    }
  }
 
