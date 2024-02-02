@@ -410,8 +410,11 @@
 
  .video-container {
    max-height: 455px !important;
+   max-width: 565px !important;
  }
-
+.video_content_box{
+  max-width: 598px !important;
+}
  .video-container video {
    max-height: 425px !important;
    object-fit: cover !important;
@@ -600,6 +603,9 @@
    .Filmproduktion_para {
      max-width: 620px;
    }
+   .video-container{
+    max-width: unset !important;
+   }
  }
 
  @media (max-width:1299.98px) {
@@ -610,6 +616,7 @@
 
    .video-container {
      max-height: 425px !important;
+     max-width: 450px !important;
    }
  }
 
@@ -696,12 +703,16 @@
 
    .review_slider_section_parent {
      max-height: 100% !important;
+    
    }
 
    .video-container {
      max-height: 100% !important;
+     max-width: unset !important;
    }
-
+   .video_content_box{
+    max-width: unset !important;
+   }
    .slider-control-btn,
    .slider-control-btn img {
      min-width: 34px;
