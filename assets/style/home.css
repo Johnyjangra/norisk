@@ -66,6 +66,14 @@
   background-size: 100%, 100%;
 }
 
+.service_custom_vh {
+  min-height: 80vh;
+}
+
+.services_hero_bg {
+  background-image: url('../images/services/hero-img.png');
+}
+
 @media (min-width:992px) {
   .vision_top_line::after {
     top: -4%;
@@ -92,6 +100,10 @@
   .hero_map {
     max-width: 576px;
     min-height: 482px !important;
+  }
+
+  .service_custom_vh {
+    min-height: 100vh;
   }
 
   .filmproduction_box {
