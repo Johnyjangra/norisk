@@ -11,12 +11,13 @@
  }
 
  @font-face {
-   font-family: SF-Pro;
+   font-family: 'SF-Pro','san-serif';
    src: url(../font/sf-pro-regular.otf);
  }
 
  .ff_sf_pro {
-   font-family: SF-Pro !important;
+   font-family: 'SF-Pro',
+   'san-serif';
  }
 
  .hero_heading {
@@ -141,9 +142,9 @@
 
  .nav_btn {
    font-size: var(--font-xs);
-   color: black;
+   color: var(--color-black);
    padding: 9px 29px;
-   background: white;
+   background: var(--color-white);
    border-radius: 100px;
    border: none;
  }
@@ -161,7 +162,7 @@
 
  @keyframes nav_btn_animation {
    0% {
-     box-shadow: 0 0 0 0 white;
+     box-shadow: 0 0 0 0 var(--color-white);
    }
  }
 
@@ -185,8 +186,8 @@
  .unser_cards {
    max-width: 882px;
    border-radius: 15px;
-   padding: 30px 20px;
-   color: white;
+   padding:20px;
+   color: var(--color-white);
    font-size: 30px;
    font-weight: 700;
    margin: auto;
@@ -328,7 +329,7 @@
  }
 
  .swal2-icon.swal2-success .swal2-success-ring {
-   border: 0.25em solid white !important;
+   border: 0.25em solid var(--color-white) !important;
  }
 
  .swal2-icon.swal2-success {
@@ -348,7 +349,7 @@
 
  .contact_link {
    text-decoration: none;
-   color: white;
+   color: var(--color-white);
    transition: color 0.3s ease;
  }
 
