@@ -66,11 +66,6 @@
   background-size: 100%, 100%;
 }
 
-.max_w_1920 {
-  max-width: 1920px !important;
-}
-
-
 @media (min-width:992px) {
   .vision_top_line::after {
     top: -4%;
