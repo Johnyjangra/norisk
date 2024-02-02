@@ -463,6 +463,10 @@
    max-width: 571px;
  }
 
+ .live_streaming_img_lsi {
+   max-width: 531px;
+ }
+
  .film_produktion_card_fpc {
    border: 1px solid transparent;
  }
@@ -977,6 +981,10 @@
 
    .grenzenlose_img {
      max-width: 585px;
+   }
+
+   .live_streaming_img_lsi {
+     max-width: 571px;
    }
 
    .Filmproduktion_para {
