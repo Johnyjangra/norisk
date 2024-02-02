@@ -11,13 +11,12 @@
  }
 
  @font-face {
-   font-family: 'SF-Pro', 'san-serif';
+   font-family: SF-Pro;
    src: url(../font/sf-pro-regular.otf);
  }
 
  .ff_sf_pro {
-   font-family: 'SF-Pro',
-     'san-serif';
+   font-family: SF-Pro;
  }
 
  .hero_heading {
@@ -168,8 +167,6 @@
 
  .hero_bg {
    background-image: url("../images/home/header-bg.png");
-   background-position-x: left;
-   background-size: 100% 100%;
  }
 
  .livestreaming_hero_bg {
@@ -567,6 +564,11 @@
      margin-top: 180px !important;
      margin-bottom: 114px !important;
    }
+
+   .hero_bg {
+     background-position-x: left;
+     background-size: 100% 100%;
+   }
  }
 
  @media (min-width:1200px) {
@@ -590,9 +592,6 @@
  }
 
  @media (max-width:1299.98px) {
-   :root {
-     --font-2xl: 44px;
-   }
 
    .review_para {
      font-size: 18px !important;
