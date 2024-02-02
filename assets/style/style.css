@@ -11,13 +11,13 @@
  }
 
  @font-face {
-   font-family: 'SF-Pro','san-serif';
+   font-family: 'SF-Pro', 'san-serif';
    src: url(../font/sf-pro-regular.otf);
  }
 
  .ff_sf_pro {
    font-family: 'SF-Pro',
-   'san-serif';
+     'san-serif';
  }
 
  .hero_heading {
@@ -186,7 +186,7 @@
  .unser_cards {
    max-width: 882px;
    border-radius: 15px;
-   padding:20px;
+   padding: 20px;
    color: var(--color-white);
    font-size: 30px;
    font-weight: 700;
@@ -541,6 +541,10 @@
    .footer_links_custom_gap_flcg {
      gap: 37px !important;
    }
+
+   .grenzenlose_img {
+     max-width: 550px;
+   }
  }
 
  @media (min-width: 1600px) {
@@ -550,6 +554,10 @@
 
    .expertise_parent_exp1 {
      padding-top: 96px !important;
+   }
+
+   .grenzenlose_img {
+     max-width: 585px;
    }
  }
 
