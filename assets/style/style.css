@@ -235,7 +235,6 @@
  }
 
  /* DEFINE ANERKENNUNG SECTION CSS ============================================================= */
-
  .anerkennung_content_box {
    max-width: 1024px !important;
  }
@@ -378,9 +377,7 @@
    color: var(--color-dark-orange);
  }
 
-
  /* ====================== NRNF CSS =========================== */
-
  .deine_box_parent {
    background-image: url("../images/home/bg-deine-image.png");
    background-repeat: no-repeat;
@@ -459,8 +456,6 @@
    max-width: 59px;
    max-height: 59px;
  }
-
-
 
  .submit_btn_sb {
    line-height: 110%;
@@ -601,7 +596,6 @@
  }
 
  @media (max-width:1299.98px) {
-
    .review_para {
      font-size: 18px !important;
    }
@@ -634,6 +628,11 @@
      max-width: 49px;
      max-height: 49px;
    }
+
+   .ihr_schaufenster_section,
+   .lh_143 {
+     line-height: 134% !important;
+   }
  }
 
  @media (min-width: 992px) and (max-width:1199.98px) {
@@ -644,8 +643,6 @@
    .slider_card_content_scc p {
      font-size: 13px !important;
    }
-
-
  }
 
  @media (max-width: 991.98px) {
