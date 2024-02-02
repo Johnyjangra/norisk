@@ -33,7 +33,6 @@
   <!-- DEFINE CSS LINK -->
   <link rel="stylesheet" href="./assets/style/root.css" />
   <link rel="stylesheet" href="./assets/style/style.css" />
-  <link rel="stylesheet" href="./assets/style/footer.css" />
   <!-- DEFINE FAVICON CODE -->
   <link rel="shortcut icon" href="./assets/images/common/favicon.svg" type="image/x-icon" />
 
@@ -193,7 +192,7 @@
       <h2 class="sub_heading text-white text-center fw_semibold mb-md-5 mb-sm-3 pb-4">
         Unser Angebot im Überblick
       </h2>
-      <div class="card_1 mt-3">
+      <div class="animate_card_1 mt-3">
         <div class="unser_cards bg_Nero">
           <div class="d-flex justify-content-between flex-column flex-sm-row align-items-start">
             <div class="d-flex align-items-center gap-sm-4 gap-3">
@@ -224,7 +223,7 @@
           </a>
         </div>
       </div>
-      <div class="card_2 mt-3">
+      <div class="animate_card_2 mt-3">
         <div class="unser_cards bg_Nero">
           <div class="d-flex justify-content-between flex-column flex-sm-row align-items-start">
             <div class="d-flex align-items-center gap-sm-4 gap-3">
@@ -255,7 +254,7 @@
           </a>
         </div>
       </div>
-      <div class="card_3 mt-3">
+      <div class="animate_card_3 mt-3">
         <div class="unser_cards bg_Nero">
           <div class="d-flex justify-content-between flex-column flex-sm-row align-items-start">
             <div class="d-flex align-items-center gap-sm-4 gap-3">
@@ -286,7 +285,7 @@
           </a>
         </div>
       </div>
-      <div class="card_4 mt-3">
+      <div class="animate_card_4 mt-3">
         <div class="unser_cards bg_Nero">
           <div class="d-flex justify-content-between flex-column flex-sm-row align-items-start">
             <div class="d-flex align-items-center gap-sm-4 gap-3">
@@ -898,14 +897,14 @@
         const process = gsap.timeline();
         process
           .fromTo(
-            ".card_2", {
+            ".animate_card_2", {
               y: "500px",
             }, {
               y: "-340px",
             }
           )
           .fromTo(
-            ".card_1", {
+            ".animate_card_1", {
               scale: 1,
             }, {
               scale: 0.7,
@@ -913,14 +912,14 @@
             "<"
           )
           .fromTo(
-            ".card_3", {
+            ".animate_card_3", {
               y: "500px",
             }, {
               y: "-680px",
             }
           )
           .fromTo(
-            ".card_2", {
+            ".animate_card_2", {
               scale: 1,
             }, {
               scale: 0.8,
@@ -928,14 +927,14 @@
             "<"
           )
           .fromTo(
-            ".card_4", {
+            ".animate_card_4", {
               y: "500px",
             }, {
               y: "-1020px",
             }
           )
           .fromTo(
-            ".card_3", {
+            ".animate_card_3", {
               scale: 1,
             }, {
               scale: 0.9,
