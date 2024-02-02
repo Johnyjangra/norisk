@@ -172,6 +172,10 @@
    background-size: 100% 100%;
  }
 
+ .livestreaming_hero_bg {
+   background-image: url("../images/livestreaming/livestreaming_hero_section.png");
+ }
+
  /*============================================ UNSER ANGEBOT ===========================================*/
  .unser_number_circle {
    height: 60px;
@@ -472,7 +476,7 @@
    color: var(--color-dark-orange) !important;
  }
 
- /*================================================================ MEDIA SCREEN 576 ==============================================*/
+ /* ================ MEDIA SCREENS ================ */
  @media (min-width: 576px) {
    .logo {
      max-width: 208px;
@@ -501,8 +505,6 @@
    }
  }
 
- /*=================================== MEDIA SCREEN 768 ===================================*/
-
  @media (min-width:768px) {
    .unser_cards {
      padding: 40px 60px;
@@ -519,7 +521,6 @@
 
  }
 
- /*===================================MEDIA SCREEN 992 ===================================*/
  @media (min-width:992px) {
    .navbar a {
      font-size: var(--font-xs) !important;
@@ -553,8 +554,6 @@
    }
  }
 
- /*=================================== MEDIA SCREEN MAX-WIDTH 1299===================================*/
-
  @media (max-width:1299.98px) {
    .review_para {
      font-size: 18px !important;
@@ -565,7 +564,6 @@
    }
  }
 
- /*=================================== MEDIA SCREEN MAX-WIDTH 1199 ===================================*/
  @media (max-width:1199.98px) {
    .review_para {
      font-size: 15px !important;
@@ -601,7 +599,6 @@
    }
  }
 
- /*=================================== MEDIA SCREEN MAX-WIDTH 992 ===================================*/
  @media (max-width: 991.98px) {
    .navbar {
      position: absolute;
@@ -668,9 +665,12 @@
    .form_textarea_field_ftf {
      min-height: unset !important;
    }
+
+   .livestreaming_hero_bg {
+     min-height: 75vh !important;
+   }
  }
 
- /*=================================== MEDIA SCREEN MAX-WIDTH 767 ===================================*/
  @media (max-width:767.98px) {
    .review_para {
      font-size: 16px !important;
@@ -682,7 +682,6 @@
    }
  }
 
- /*=================================== MEDIA SCREEN MAX-WIDTH 575 ===================================*/
  @media (max-width:575.98px) {
    .review_para {
      max-width: 95% !important;
@@ -709,7 +708,6 @@
    }
  }
 
- /*=================================== CUSTOM CONTAINER ===================================*/
  @media (min-width: 1320px) and (max-width: 1599.98px) {
    .custom_container {
      max-width: 1240px !important;
