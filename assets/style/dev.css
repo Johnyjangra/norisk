@@ -24,7 +24,7 @@
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url("../image/svg/negative-icon.svg") !important;
+  background-image: url("../images/livestreaming/faq-orange-arrow-icon.svg") !important;
   -webkit-transform: none !important;
   -ms-transform: none !important;
   transform: none !important;
@@ -32,10 +32,10 @@
 }
 
 .accordion-button::after {
-  background-image: url("../image/svg/positive-icon.svg") !important;
+  background-image: url("../images/livestreaming/faq-arrow-icon.svg") !important;
   background-size: contain;
-  width: 1rem !important;
-  height: 1rem !important;
+  width: 2rem !important;
+  height: 2rem !important;
 }
 
 .accordion-button {
@@ -53,15 +53,4 @@
 
 .accordion-item.active h2.accordion-header button {
   color: var(--color-dark-orange) !important;
-}
-.faq_parent .accordion-button:not(.collapsed)::after {
-  content: "";
-  background-image: url("/assets/images/svg/faq-orange-arrow-icon.svg");
-  top: 0 !important;
-  right: 0 !important;
-}
-
-.faq_parent .accordion-button::after {
-  content: "";
-  background-image: url("/assets/images/svg/faq-arrow-icon.svg");
 }
