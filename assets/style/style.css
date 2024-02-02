@@ -519,6 +519,10 @@
      height: 100vh;
    }
 
+   .custom_schaufenster_margin {
+     margin-top: 0px;
+     margin-bottom: 96px !important;
+   }
  }
 
  @media (min-width:992px) {
@@ -543,9 +547,12 @@
      gap: 37px !important;
    }
 
+   .schaufenster-content {
+     min-height: 560px !important;
+   }
+
    .schaufenster-image img {
      width: 41.7% !important;
-     min-height: 610px !important;
    }
 
    .hero_btn {
@@ -554,6 +561,17 @@
 
    .grenzenlose_img {
      max-width: 550px;
+   }
+
+   .custom_schaufenster_margin {
+     margin-top: 180px !important;
+     margin-bottom: 114px !important;
+   }
+ }
+
+ @media (min-width:1200px) {
+   .schaufenster-content {
+     min-height: 610px !important;
    }
  }
 
@@ -572,6 +590,10 @@
  }
 
  @media (max-width:1299.98px) {
+   :root {
+     --font-2xl: 44px;
+   }
+
    .review_para {
      font-size: 18px !important;
    }
