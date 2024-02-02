@@ -361,8 +361,8 @@
    fill: var(--color-dark-orange);
  }
 
- .border_top {
-   border-top: 1px solid #192532;
+ .footer_footer_border_top {
+   border-top: 1px solid var(--blue-charcoal) !important;
  }
 
  .footer_link_hover:hover {
@@ -389,7 +389,7 @@
    border-radius: 10px !important;
  }
 
- .partners_common_border_top {
+ .partners_common_footer_border_top {
    border-top: 1px solid var(--color-eclipse);
  }
 
