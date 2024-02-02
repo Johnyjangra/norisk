@@ -11,9 +11,14 @@
     background-size: cover;
     background-position: center;
 }
-
+.warum_para{
+    max-width: 976px !important;
+}
 .about_hero_para {
     max-width: 970px;
+}
+.erreiche_para{
+    max-width:544px ;
 }
 
 .lh_23 {

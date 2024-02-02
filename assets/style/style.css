@@ -3,6 +3,7 @@
  /*==================================================== COMMON CSS ==========================================*/
  body {
    font-family: "inter", "sans-serif";
+   background-color: var(--color-black) !important;
  }
 
  .ff_poppins {
@@ -10,12 +11,13 @@
  }
 
  @font-face {
-   font-family: SF-Pro;
+   font-family: 'SF-Pro','san-serif';
    src: url(../font/sf-pro-regular.otf);
  }
 
  .ff_sf_pro {
-   font-family: SF-Pro !important;
+   font-family: 'SF-Pro',
+   'san-serif';
  }
 
  .hero_heading {
@@ -27,10 +29,6 @@
    font-size: var(--font-2xl);
    color: var(--color-white);
    line-height: normal;
- }
-
- .mt_minus_2 {
-   margin-top: -2px;
  }
 
  .lh_normal {
@@ -144,9 +142,9 @@
 
  .nav_btn {
    font-size: var(--font-xs);
-   color: black;
+   color: var(--color-black);
    padding: 9px 29px;
-   background: white;
+   background: var(--color-white);
    border-radius: 100px;
    border: none;
  }
@@ -192,8 +190,8 @@
  .unser_cards {
    max-width: 882px;
    border-radius: 15px;
-   padding: 30px 20px;
-   color: white;
+   padding:20px;
+   color: var(--color-white);
    font-size: 30px;
    font-weight: 700;
    margin: auto;
@@ -266,10 +264,6 @@
    fill: var(--color-dark-orange);
  }
 
- .mt_minus_4 {
-   margin-top: -4px;
- }
-
  .contact_bg_shade {
    max-width: 500px !important;
    right: 14%;
@@ -339,7 +333,7 @@
  }
 
  .swal2-icon.swal2-success .swal2-success-ring {
-   border: 0.25em solid white !important;
+   border: 0.25em solid var(--color-white) !important;
  }
 
  .swal2-icon.swal2-success {
@@ -359,7 +353,7 @@
 
  .contact_link {
    text-decoration: none;
-   color: white;
+   color: var(--color-white);
    transition: color 0.3s ease;
  }
 
@@ -371,8 +365,8 @@
    fill: var(--color-dark-orange);
  }
 
- .border_top {
-   border-top: 1px solid #192532;
+ .footer_footer_border_top {
+   border-top: 1px solid var(--blue-charcoal) !important;
  }
 
  .footer_link_hover:hover {
@@ -399,7 +393,7 @@
    border-radius: 10px !important;
  }
 
- .partners_common_border_top {
+ .partners_common_footer_border_top {
    border-top: 1px solid var(--color-eclipse);
  }
 
