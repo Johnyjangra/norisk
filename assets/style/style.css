@@ -213,23 +213,23 @@ button:focus-visible {
   color: var(--color-manatee);
 }
 
-.card_1 {
+.unser_card_1 {
   z-index: 0;
   scale: 1;
   position: relative;
 }
 
-.card_2 {
+.unser_card_2 {
   z-index: 1;
   position: relative;
 }
 
-.card_3 {
+.unser_card_3 {
   z-index: 2;
   position: relative;
 }
 
-.card_4 {
+.unser_card_4 {
   z-index: 3;
   position: relative;
 }
