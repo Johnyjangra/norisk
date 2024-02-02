@@ -1,5 +1,6 @@
  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
-@import url(./root.css);
+ @import url(./root.css);
+
  /*==================================================== COMMON CSS ==========================================*/
  body {
    font-family: "inter", "sans-serif";
@@ -37,6 +38,7 @@
  .lh_125 {
    line-height: 125% !important;
  }
+
  .lh_23 {
    line-height: 23.77px;
  }
@@ -72,7 +74,7 @@
    font-size: var(--font-base);
    color: var(--color-off-white);
    padding: 12px 48px;
-   background: var(--color-orange) !important;
+   background: var(--color-light-orange) !important;
    border-radius: 100px;
    border: none !important;
  }
@@ -411,21 +413,23 @@
    max-height: 455px !important;
  }
 
- .slider_video_container{
-  max-height: 455px !important;
+ .slider_video_container {
+   max-height: 455px !important;
  }
 
  .video-container {
    max-height: 455px !important;
    max-width: 565px !important;
  }
-.video_content_box{
-  max-width: 598px !important;
-}
+
+ .video_content_box {
+   max-width: 598px !important;
+ }
+
  .video-container video {
    max-height: 425px !important;
    object-fit: cover !important;
-  border-radius: 10px !important;
+   border-radius: 10px !important;
  }
 
  .cursor_pointer {
@@ -489,6 +493,7 @@
  .footer_links_custom_gap_flcg a:hover {
    color: var(--color-dark-orange) !important;
  }
+
  /*========================================================== CONTACT CSS START HERE ===============================*/
  .contact_hero_link:hover {
    color: var(--color-light-orange) !important;
@@ -546,6 +551,7 @@
    max-height: 400px;
    object-fit: cover;
  }
+
  /*==================================================  SERVICES SECTION START HERE =============================*/
  .schnell_bg {
    background-image: url("../images/contact/schnell-bg.png");
@@ -803,35 +809,37 @@
      margin-top: 0px;
      margin-bottom: 96px !important;
    }
+
    .filmproduction_box {
      padding: 30px 50px !important;
      border-radius: 16px;
    }
-    .erreiche_img {
-      width: 40% !important;
-      max-height: 606px;
-      object-fit: cover;
-      border-radius: 10px 0px 0px 10px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
 
-    .einzigartige_img {
-      width: 40% !important;
-      max-height: 606px;
-      object-fit: cover;
-      border-radius: 0px 10px 10px 0px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
+   .erreiche_img {
+     width: 40% !important;
+     max-height: 606px;
+     object-fit: cover;
+     border-radius: 10px 0px 0px 10px;
+     top: 50%;
+     transform: translateY(-50%);
+   }
 
-    .custom_einzigartige_margin {
-      margin: 9% 0 !important;
-    }
+   .einzigartige_img {
+     width: 40% !important;
+     max-height: 606px;
+     object-fit: cover;
+     border-radius: 0px 10px 10px 0px;
+     top: 50%;
+     transform: translateY(-50%);
+   }
 
-    .erreiche_top_spacing {
-      margin-top: 9% !important;
-    }
+   .custom_einzigartige_margin {
+     margin: 9% 0 !important;
+   }
+
+   .erreiche_top_spacing {
+     margin-top: 9% !important;
+   }
  }
 
  @media (min-width:992px) {
@@ -877,64 +885,67 @@
      background-position-x: left;
      background-size: 100% 100%;
    }
-     .filmproduction_box {
-       padding: 24px !important;
-       width: 680px !important;
-       transform: translateX(-18%);
-     }
 
-     .vision_top_line::after {
-       top: -4%;
-       width: 321px;
-     }
+   .filmproduction_box {
+     padding: 24px !important;
+     width: 680px !important;
+     transform: translateX(-18%);
+   }
 
-     .contact_filimproduction {
-       min-height: 700px !important;
-     }
-        .erreiche_img {
-          width: 43.2% !important;
+   .vision_top_line::after {
+     top: -4%;
+     width: 321px;
+   }
 
-        }
+   .contact_filimproduction {
+     min-height: 700px !important;
+   }
 
-        .einzigartige_img {
-          width: 43.2% !important;
-        }
+   .erreiche_img {
+     width: 43.2% !important;
 
-        .custom_einzigartige_margin {
-          margin: 15% 0 !important;
-        }
+   }
 
-        .erreiche_top_spacing {
-          margin-top: 10.2% !important;
-        }
+   .einzigartige_img {
+     width: 43.2% !important;
+   }
+
+   .custom_einzigartige_margin {
+     margin: 15% 0 !important;
+   }
+
+   .erreiche_top_spacing {
+     margin-top: 10.2% !important;
+   }
  }
 
  @media (min-width:1200px) {
    .schaufenster-content {
      min-height: 610px !important;
    }
-    .hero_map {
-      max-width: 576px;
-      min-height: 482px !important;
-    }
 
-    .service_custom_vh {
-      min-height: 100vh;
-    }
+   .hero_map {
+     max-width: 576px;
+     min-height: 482px !important;
+   }
 
-    .filmproduction_box {
-      padding: 30px 30px 30px 81px !important;
-      width: 800px !important;
-      transform: translateX(-23%);
-      font-size: var(--font-xl) !important;
+   .service_custom_vh {
+     min-height: 100vh;
+   }
 
-    }
+   .filmproduction_box {
+     padding: 30px 30px 30px 81px !important;
+     width: 800px !important;
+     transform: translateX(-23%);
+     font-size: var(--font-xl) !important;
 
-    .filmproduction_left_img {
-      left: -16%;
-      min-height: 700px;
-      width: 60%;
-    }
+   }
+
+   .filmproduction_left_img {
+     left: -16%;
+     min-height: 700px;
+     width: 60%;
+   }
  }
 
  @media (min-width: 1600px) {
@@ -957,17 +968,19 @@
    .Filmproduktion_para {
      max-width: 620px;
    }
-   .video-container{
-    max-width: unset !important;
-   }
-    .hero_map {
-      max-width: 100%;
-    }
 
-    .filmproduction_left_img {
-      left: -2%;
-      width: 45%;
-    }
+   .video-container {
+     max-width: 556px !important;
+   }
+
+   .hero_map {
+     max-width: 100%;
+   }
+
+   .filmproduction_left_img {
+     left: -2%;
+     width: 45%;
+   }
  }
 
  @media (max-width:1299.98px) {
@@ -980,21 +993,25 @@
      max-height: 425px !important;
      max-width: 450px !important;
    }
-   .slider_video_container{
-    max-height: 455px !important;
+
+   .slider_video_container {
+     max-height: 455px !important;
    }
-   .slider_video_container video{
-    height: 460px !important;
+
+   .slider_video_container video {
+     height: 460px !important;
    }
  }
 
  @media (max-width:1199.98px) {
-  .video-container video {
-    max-height: 320px !important;
-  }
-   .slider_video_container video{
-    height: 100% !important;
+   .video-container video {
+     max-height: 320px !important;
    }
+
+   .slider_video_container video {
+     height: 100% !important;
+   }
+
    .review_para {
      font-size: 15px !important;
    }
@@ -1017,42 +1034,43 @@
      max-width: 49px;
      max-height: 49px;
    }
-    .roadmap_circle {
-      width: 50px;
-      height: 50px;
-    }
 
-    .first_img_position,
-    .third_img_position {
-      left: -30.5px;
-    }
+   .roadmap_circle {
+     width: 50px;
+     height: 50px;
+   }
 
-    .second_img_position,
-    .fourth_img_position {
-      right: -30.5px;
-    }
+   .first_img_position,
+   .third_img_position {
+     left: -30.5px;
+   }
 
-    .roadmap_image {
-      height: 170px;
-      width: 170px;
-    }
+   .second_img_position,
+   .fourth_img_position {
+     right: -30.5px;
+   }
 
-    .roadmap_maxwidth {
-      max-width: 590px;
-    }
+   .roadmap_image {
+     height: 170px;
+     width: 170px;
+   }
 
-    .roadmap_padding_top {
-      padding-top: 83px;
+   .roadmap_maxwidth {
+     max-width: 590px;
+   }
 
-    }
+   .roadmap_padding_top {
+     padding-top: 83px;
 
-    .roadmap_padding_bottom {
-      padding-bottom: 83px;
-    }
+   }
 
-    .roadmap_pl {
-      padding-left: 55px;
-    }
+   .roadmap_padding_bottom {
+     padding-bottom: 83px;
+   }
+
+   .roadmap_pl {
+     padding-left: 55px;
+   }
  }
 
  @media (min-width: 992px) and (max-width:1199.98px) {
@@ -1110,16 +1128,18 @@
 
    .review_slider_section_parent {
      max-height: 100% !important;
-    
+
    }
 
    .video-container {
      max-height: 100% !important;
      max-width: unset !important;
    }
-   .video_content_box{
-    max-width: unset !important;
+
+   .video_content_box {
+     max-width: unset !important;
    }
+
    .slider-control-btn,
    .slider-control-btn img {
      min-width: 34px;
@@ -1146,54 +1166,55 @@
      width: 100% !important;
      max-height: 430px !important;
    }
-     .roadmap_border_para::before {
-       bottom: 1px;
-     }
 
-     .roadmap_circle {
-       width: 40px;
-       height: 40px;
-     }
+   .roadmap_border_para::before {
+     bottom: 1px;
+   }
 
-     .second_circle_position {
-       right: -16.5px;
-     }
+   .roadmap_circle {
+     width: 40px;
+     height: 40px;
+   }
 
-     .first_img_position,
-     .third_img_position {
-       left: -30.5px;
-     }
+   .second_circle_position {
+     right: -16.5px;
+   }
 
-     .second_img_position,
-     .fourth_img_position {
-       right: -30.5px;
-     }
+   .first_img_position,
+   .third_img_position {
+     left: -30.5px;
+   }
 
-     .roadmap_image {
-       height: 100px;
-       width: 100px;
-     }
+   .second_img_position,
+   .fourth_img_position {
+     right: -30.5px;
+   }
 
-     .roadmap_maxwidth {
-       max-width: 480px;
-     }
+   .roadmap_image {
+     height: 100px;
+     width: 100px;
+   }
 
-     .third_circle_position {
-       left: -24.5px;
-     }
+   .roadmap_maxwidth {
+     max-width: 480px;
+   }
 
-     .roadmap_padding_top {
-       padding-top: 60px;
+   .third_circle_position {
+     left: -24.5px;
+   }
 
-     }
+   .roadmap_padding_top {
+     padding-top: 60px;
 
-     .roadmap_padding_bottom {
-       padding-bottom: 60px;
-     }
+   }
 
-     .roadmap_pl {
-       padding-left: 24px;
-     }
+   .roadmap_padding_bottom {
+     padding-bottom: 60px;
+   }
+
+   .roadmap_pl {
+     padding-left: 24px;
+   }
  }
 
  @media (max-width:767.98px) {
@@ -1216,33 +1237,34 @@
      z-index: 1;
      background-color: rgba(0, 0, 0, 0.74);
    }
-    .roadmap_maxwidth {
-      max-width: 500px;
 
-    }
+   .roadmap_maxwidth {
+     max-width: 500px;
 
-    .roadmap_circle {
-      width: 30px;
-      height: 30px;
-    }
+   }
 
-    .erreiche_img {
-      position: unset !important;
-      transform: unset !important;
-      max-width: unset !important;
-      border-radius: 10px !important;
-    }
+   .roadmap_circle {
+     width: 30px;
+     height: 30px;
+   }
 
-    .einzigartige_img {
-      position: unset !important;
-      transform: unset !important;
-      max-width: unset !important;
-      border-radius: 10px !important;
-    }
+   .erreiche_img {
+     position: unset !important;
+     transform: unset !important;
+     max-width: unset !important;
+     border-radius: 10px !important;
+   }
 
-    .lh_23 {
-      line-height: unset;
-    }
+   .einzigartige_img {
+     position: unset !important;
+     transform: unset !important;
+     max-width: unset !important;
+     border-radius: 10px !important;
+   }
+
+   .lh_23 {
+     line-height: unset;
+   }
  }
 
  @media (max-width:575.98px) {
@@ -1269,15 +1291,16 @@
    .hero_btn {
      padding: 9px 36px;
    }
-     .roadmap_mobile_cirle_position {
-       top: 60px;
-       left: -21.5px;
-     }
 
-     .roadmap_circle {
-       width: 25px;
-       height: 25px;
-     }
+   .roadmap_mobile_cirle_position {
+     top: 60px;
+     left: -21.5px;
+   }
+
+   .roadmap_circle {
+     width: 25px;
+     height: 25px;
+   }
  }
 
  @media (min-width: 1320px) and (max-width: 1599.98px) {
