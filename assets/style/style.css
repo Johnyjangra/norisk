@@ -551,6 +551,10 @@
    .hero_btn {
      min-height: 49px !important;
    }
+
+   .grenzenlose_img {
+     max-width: 550px;
+   }
  }
 
  @media (min-width: 1600px) {
@@ -560,6 +564,10 @@
 
    .expertise_parent_exp1 {
      padding-top: 96px !important;
+   }
+
+   .grenzenlose_img {
+     max-width: 585px;
    }
  }
 

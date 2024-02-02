@@ -24,6 +24,7 @@
   --font-md: 20px;
   --font-lg: 22px;
   --font-xl: 24px;
+  --font-xl-medium: 30px;
   --font-xl-large: 37px;
   --font-2xl: 47px;
   --font-3xl: 57px;
@@ -143,6 +144,10 @@
   font-size: var(--font-xl) !important;
 }
 
+.font-xl-medium {
+  font-size: var(--font-xl-medium) !important;
+}
+
 .font-xl-large {
   font-size: var(--font-xl-large) !important;
 }
@@ -166,6 +171,7 @@
 
 @media (max-width: 991.98px) {
   :root {
+    --font-xl-medium:28px;
     --font-xl-large: 32px;
     --font-2xl: 36px;
     --font-3xl: 42px;
@@ -180,6 +186,7 @@
     --font-md: 18px;
     --font-lg: 20px;
     --font-xl: 22px;
+    --font-xl-medium:24px;
     --font-xl-large: 26px;
     --font-2xl: 36px;
     --font-3xl: 40px;
