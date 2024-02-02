@@ -460,10 +460,7 @@
    max-height: 59px;
  }
 
- .custom_form_fields_cff {
-   max-width: 563px;
-   height: 46px;
- }
+
 
  .submit_btn_sb {
    line-height: 110%;
@@ -708,10 +705,6 @@
 
    .review_para {
      font-size: 17px !important;
-   }
-
-   .custom_form_fields_cff {
-     max-width: unset !important;
    }
 
    .form_textarea_field_ftf {
