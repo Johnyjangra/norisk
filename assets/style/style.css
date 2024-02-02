@@ -413,7 +413,9 @@
  }
 
  .video-container video {
-   max-height: 475px !important;
+   max-height: 425px !important;
+   object-fit: cover !important;
+  border-radius: 10px !important;
  }
 
  .cursor_pointer {
@@ -612,6 +614,9 @@
  }
 
  @media (max-width:1199.98px) {
+  .video-container video {
+    max-height: 320px !important;
+  }
    .review_para {
      font-size: 15px !important;
    }
