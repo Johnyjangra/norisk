@@ -40,6 +40,10 @@
   border-radius: 16px;
 }
 
+.filmproduction_box {
+  font-size: var(--font-md) !important;
+}
+
 .filmproduction_left_img {
   left: -20%;
   top: 50%;
@@ -94,6 +98,10 @@
     width: 680px !important;
     transform: translateX(-18%);
   }
+
+  .contact_filimproduction {
+    min-height: 700px !important;
+  }
 }
 
 @media (min-width:1200px) {
@@ -109,7 +117,9 @@
   .filmproduction_box {
     padding: 30px 30px 30px 81px !important;
     width: 800px !important;
-    transform: translateX(-22%);
+    transform: translateX(-23%);
+    font-size: var(--font-xl) !important;
+
   }
 
   .filmproduction_left_img {
