@@ -1,24 +1,45 @@
 // VIDEO JS CODE
-document.getElementById("playButton").addEventListener("click", function () {
-    var video = document.getElementById("myVideo");
+var currentVideo = null;
 
-    if (video.paused) {
-        video.play();
-        this.style.display = "none";
-    } else {
-        video.pause();
-        this.style.display = "block";
-    }
+document.querySelectorAll(".play-button").forEach(function (playButton) {
+    playButton.addEventListener("click", function () {
+        var videoContainer = this.parentElement;
+        var video = videoContainer.querySelector("video");
+
+        if (video.paused) {
+            // Pause the currently playing video (if any)
+            if (currentVideo && currentVideo !== video) {
+                currentVideo.pause();
+                currentVideo.parentElement.querySelector(".play-button").style.display = "block";
+            }
+
+            video.play();
+            this.style.display = "none";
+            currentVideo = video;
+        } else {
+            video.pause();
+            this.style.display = "block";
+        }
+    });
 });
 
-document.getElementById("myVideo").addEventListener("click", function () {
-    var playButton = document.getElementById("playButton");
+document.querySelectorAll("video").forEach(function (video) {
+    video.addEventListener("click", function () {
+        var playButton = this.parentElement.querySelector(".play-button");
 
-    if (this.paused) {
-        this.play();
-        playButton.style.display = "none";
-    } else {
-        this.pause();
-        playButton.style.display = "block";
-    }
+        if (this.paused) {
+            // Pause the currently playing video (if any)
+            if (currentVideo && currentVideo !== this) {
+                currentVideo.pause();
+                currentVideo.parentElement.querySelector(".play-button").style.display = "block";
+            }
+
+            this.play();
+            playButton.style.display = "none";
+            currentVideo = this;
+        } else {
+            this.pause();
+            playButton.style.display = "block";
+        }
+    });
 });
