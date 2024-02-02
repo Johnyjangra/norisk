@@ -715,6 +715,15 @@
    .livestreaming_hero_bg {
      min-height: 75vh !important;
    }
+
+   .schaufenster-image img {
+     position: unset !important;
+     transform: unset !important;
+     max-width: unset !important;
+     border-radius: 10px !important;
+     width: 100% !important;
+     max-height: 430px !important;
+   }
  }
 
  @media (max-width:767.98px) {
