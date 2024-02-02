@@ -3,6 +3,7 @@
  /*==================================================== COMMON CSS ==========================================*/
  body {
    font-family: "inter", "sans-serif";
+   background-color: var(--color-black) !important;
  }
 
  .ff_poppins {
@@ -27,10 +28,6 @@
    font-size: var(--font-2xl);
    color: var(--color-white);
    line-height: normal;
- }
-
- .mt_minus_2 {
-   margin-top: -2px;
  }
 
  .lh_normal {
@@ -260,10 +257,6 @@
 
  .form_icons_hover:hover svg path {
    fill: var(--color-dark-orange);
- }
-
- .mt_minus_4 {
-   margin-top: -4px;
  }
 
  .contact_bg_shade {
