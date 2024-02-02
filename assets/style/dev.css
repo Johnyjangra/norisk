@@ -1,0 +1,67 @@
+.accordion-button:not(.collapsed) {
+  /* color: #000000 !important; */
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  border-color: var(--color-black) !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--color-dark-orange) !important;
+}
+
+
+.accordion-item {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #b3b3b3 !important;
+  border-radius: 0px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../image/svg/negative-icon.svg") !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+  background-position-y: center !important;
+}
+
+.accordion-button::after {
+  background-image: url("../image/svg/positive-icon.svg") !important;
+  background-size: contain;
+  width: 1rem !important;
+  height: 1rem !important;
+}
+
+.accordion-button {
+  padding: 1.25rem 0rem 1.25rem 0rem !important;
+  text-align: left;
+  background-color: transparent !important;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+}
+
+.accordion-body {
+  padding: 0rem 0rem 1.25rem 0rem !important;
+}
+
+.accordion-item.active h2.accordion-header button {
+  color: var(--color-dark-orange) !important;
+}
+.faq_parent .accordion-button:not(.collapsed)::after {
+  content: "";
+  background-image: url("/assets/images/svg/faq-orange-arrow-icon.svg");
+  top: 0 !important;
+  right: 0 !important;
+}
+
+.faq_parent .accordion-button::after {
+  content: "";
+  background-image: url("/assets/images/svg/faq-arrow-icon.svg");
+}
