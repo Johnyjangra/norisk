@@ -34,6 +34,14 @@
    line-height: normal !important;
  }
 
+ .lh_125 {
+   line-height: 125% !important;
+ }
+
+ .lh_143 {
+   line-height: 143% !important;
+ }
+
  .fw_medium {
    font-weight: 500 !important;
  }

@@ -14,9 +14,9 @@
 }
 
 .contact_hero_layer {
-  top: 10%;
+  top: 8%;
   z-index: -1;
-  max-width: 1254px;
+  min-height: 605px;
 }
 
 .hero_map {
