@@ -1,0 +1,88 @@
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  border-color: var(--color-black) !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--color-dark-orange) !important;
+}
+
+
+.accordion-item {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 0px !important;
+  border-bottom: 2px solid #b3b3b3 !important;
+}
+.accordion-item.active {
+  border-bottom: 2px solid transparent !important;
+}
+.accordion-item.show .accordion-collapse {
+  border: none; /* Set the border to none for active state */
+}
+
+
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/livestreaming/faq-orange-arrow-icon.svg") !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+  background-position-y: center !important;
+}
+
+.accordion-button::after {
+  background-image: url("../images/livestreaming/faq-arrow-icon.svg") !important;
+  background-size: contain;
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.accordion-button {
+  padding: 1.25rem 0rem 1.25rem 0rem !important;
+  font-size: 27px !important;
+  background-color: transparent !important;
+}
+
+.accordion-body {
+  max-width: 536px !important;
+  padding: 0 0 36px 0 !important;
+}
+
+.accordion-item.active h2.accordion-header button {
+  color: var(--color-dark-orange) !important;
+}
+
+/* ======DEFINE HEADLINE HERE CSS====== */
+.headline_bg{
+  background-image: url("../images/livestreaming/headline-here-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+@media (max-width:991.98px) {
+.headline_bg{
+background-position: center;}
+.accordion-body {
+  padding: 0 0 20px 0 !important;
+}
+.accordion-button{
+  font-size: 24px !important;
+}
+}
+@media (max-width:767.98px) {
+.accordion-button{
+  font-size: 22px !important;
+}
+}
+@media (max-width:575.98px) {
+.accordion-button{
+  font-size: 20px !important;
+}
+}
