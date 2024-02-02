@@ -408,6 +408,10 @@
    max-height: 455px !important;
  }
 
+ .slider_video_container{
+  max-height: 455px !important;
+ }
+
  .video-container {
    max-height: 455px !important;
    max-width: 565px !important;
@@ -618,12 +622,21 @@
      max-height: 425px !important;
      max-width: 450px !important;
    }
+   .slider_video_container{
+    max-height: 455px !important;
+   }
+   .slider_video_container video{
+    height: 460px !important;
+   }
  }
 
  @media (max-width:1199.98px) {
   .video-container video {
     max-height: 320px !important;
   }
+   .slider_video_container video{
+    height: 100% !important;
+   }
    .review_para {
      font-size: 15px !important;
    }
