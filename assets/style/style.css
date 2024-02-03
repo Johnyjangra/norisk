@@ -594,27 +594,17 @@ button:focus-visible {
 }
 
 .grenzenlose_img {
-  max-width: 571px;
+  max-width: 551px;
 }
 
 .live_streaming_img_lsi {
   max-width: 531px;
 }
 
-.film_produktion_card_fpc {
-  border: 1px solid transparent;
-}
-
-.film_produktion_card_fpc:hover {
-  border: 1px solid var(--color-dark-orange);
-}
-
 .slider_card_person_img {
   max-width: 59px;
   max-height: 59px;
 }
-
-
 
 .submit_btn_sb {
   line-height: 110%;
@@ -1249,6 +1239,7 @@ button:focus-visible {
 
   .grenzenlose_img {
     max-width: 585px;
+    margin-left: auto !important;
   }
 
   .live_streaming_img_lsi {
