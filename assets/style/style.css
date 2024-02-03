@@ -218,23 +218,23 @@
    color: var(--color-manatee);
  }
 
- .card_1 {
+ .animation_card_1 {
    z-index: 0;
    scale: 1;
    position: relative;
  }
 
- .card_2 {
+ .animation_card_2 {
    z-index: 1;
    position: relative;
  }
 
- .card_3 {
+ .animation_card_3 {
    z-index: 2;
    position: relative;
  }
 
- .card_4 {
+ .animation_card_4 {
    z-index: 3;
    position: relative;
  }
@@ -1217,8 +1217,8 @@
    }
 
    .roadmap_image {
-     height: 100px;
-     width: 100px;
+     height: 120px;
+     width: 120px;
    }
 
    .roadmap_maxwidth {
