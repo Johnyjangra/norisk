@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>about</title>
+    <meta
+      name="title"
+      content="Professionelle Filmproduktion in Wien und Niederösterreich"
+    />
+    <meta
+      name="description"
+      content="Entdecke individuelle Lösungen für Unternehmensfilme, Industriefilme, Live Streaming und mehr, alles aus einer Hand in Wien und Umgebung. Wir verwandeln Ideen in visuelle Meisterwerke für Unternehmen jeder Größe."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://norisknofilm.web.app/" />
+    <meta
+      property="og:title"
+      content="Professionelle Filmproduktion in Wien und Niederösterreich"
+    />
+    <meta
+      property="og:description"
+      content="Entdecke individuelle Lösungen für Unternehmensfilme, Industriefilme, Live Streaming und mehr, alles aus einer Hand in Wien und Umgebung. Wir verwandeln Ideen in visuelle Meisterwerke für Unternehmen jeder Größe."
+    />
+    <meta
+      property="og:image"
+      content="https://norisknofilm.web.app/assets/images/home/homepage-meta-img.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://norisknofilm.web.app/" />
+    <meta
+      property="twitter:title"
+      content="Professionelle Filmproduktion in Wien und Niederösterreich"
+    />
+    <meta
+      property="twitter:description"
+      content="Entdecke individuelle Lösungen für Unternehmensfilme, Industriefilme, Live Streaming und mehr, alles aus einer Hand in Wien und Umgebung. Wir verwandeln Ideen in visuelle Meisterwerke für Unternehmen jeder Größe."
+    />
+    <meta
+      property="twitter:image"
+      content="https://norisknofilm.web.app/assets/images/home/homepage-meta-img.png"
+    />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- DEFINE CSS LINK -->
+    <link rel="stylesheet" href="./assets/style/root.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="stylesheet" href="./assets/style/dev.css" />
+    <!-- DEFINE FAVICON CODE -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/common/favicon.svg"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body class="bg-black">
+    <!-- HEADER SECTION START -->
+    <header class="bg_common header_custom_vh d-flex flex-column">
+      <nav class="custom_container container mt-lg-4 mt-2 pt-2">
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="./index.html" aria-label="home">
+            <img
+              class="logo"
+              src="./assets/images/common/logo.svg"
+              alt="logo"
+            />
+          </a>
+          <div class="d-lg-none">
+            <div class="d-flex navbar py-0" id="navBar">
+              <a
+                onclick="showNav()"
+                aria-label="Home"
+                href="./index.html"
+                class="text-white text-decoration-none"
+                >Home
+              </a>
+              <a
+                onclick="showNav()"
+                aria-label="About Us"
+                href="./about.html"
+                class="text-white text-decoration-none"
+                >About Us</a
+              >
+              <a
+                onclick="showNav()"
+                aria-label="Services"
+                href="#"
+                class="text-white text-decoration-none"
+                >Services
+              </a>
+              <a
+                aria-label="Live Stream"
+                onclick="showNav()"
+                href="#"
+                class="text-white text-decoration-none"
+                >Live Stream</a
+              >
+              <a
+                onclick="showNav()"
+                href="./contact.html"
+                class="bg-white font-xs border-0 rounded-5 text-black text-decoration-none nav_btn d-lg-none overlay_contact_btn_ocb"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+          <div class="d-none d-lg-block">
+            <div class="d-flex navbar py-0" id="navBar">
+              <a
+                aria-label="Home"
+                href="./index.html"
+                class="text-white text-decoration-none"
+                >Home
+              </a>
+              <a
+                aria-label="About Us"
+                href="./about.html"
+                class="text-white text-decoration-none"
+                >About Us</a
+              >
+              <a
+                aria-label="Services"
+                href="#"
+                class="text-white text-decoration-none"
+                >Services
+              </a>
+              <a
+                aria-label="Live Stream"
+                href="#"
+                class="text-white text-decoration-none"
+                >Live Stream</a
+              >
+              <a
+                onclick="showNav()"
+                href="./contact.html"
+                class="bg-white font-xs border-0 rounded-5 text-black text-decoration-none nav_btn d-lg-none"
+                >Contact Us</a
+              >
+              <a
+                onclick="showNav()"
+                href="./contact.html"
+                aria-label="contact Us"
+                class="font-base nav_btn d-lg-none border-0 bg-white text-black text-decoration-none rounded-5"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+          <div>
+            <div class="mobile_navbar_btn d-none">
+              <img
+                onclick="showNav()"
+                class="mobile_nav_toggle cursor_pointer"
+                id="navToggleIcon"
+                src="./assets/images/common/nav-toggle.svg"
+                alt="toggle"
+              />
+            </div>
+            <a
+              href="./contact.html"
+              aria-label="contact Us"
+              class="font-base nav_btn d-none d-lg-block border-0 bg-white text-black text-decoration-none rounded-5"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!--------------------------------------------------------------- HERO START HERE --------------------------------------------->
+      <section class="py-5 mt-md-3">
+        <div class="custom_container container pb-md-5 mb-xl-3 pt-md-1">
+          <h1
+            class="hero_heading about_hero_heading fw-semibold text-white lh_normal text-center pb-3 pb-md-4 mx-auto mb-4 mb-md-5"
+          >
+            Über
+          </h1>
+          <p
+            class="text-center about_hero_para font-base lh_23 px-lg-4 text-white mb-4 fw-normal mb-sm-5 pb-lg-5 mx-auto"
+          >
+            Hallo und herzlich willkommen bei NoRiskNoFilm! Ich bin Johannes,
+            der Gründer und das kreative Herz von NoRiskNoFilm. Als
+            Solo-Künstler in der Welt der Filmproduktion in Wien habe ich es mir
+            zur Aufgabe gemacht, Deine Visionen auf die Leinwand zu bringen.
+            Mein Weg zur Filmproduktion war zwar unkonventionell, aber genau das
+            macht die Geschichten, die ich erzähle, so einzigartig und
+            authentisch.
+          </p>
+          <img
+            class="w-100"
+            src="./assets/images/about/about-hero-img.png"
+            alt="about-hero-img"
+          />
+        </div>
+      </section>
+    </header>
+    <!-- DEFINE ANERKENNUNG UNSERER SECTION -->
+    <section class="bg_dark_black py-5">
+      <div class="container custom_container pb-md-2 pt-md-4 py-lg-5">
+        <div class="text-center mx-auto">
+          <h3 class="text-white fw-normal font-md mb-1">Unsere Technik</h3>
+          <h2
+            class="sub_heading text-white ff_inter fw-semibold leading-normal pb-3 pb-sm-4 pb-lg-5 mb-0"
+          >
+            Hochwertig, Vielseitig, Professionel
+          </h2>
+          <p class="font-base fw_medium text_manatee ff_inter mb-0">
+            Meine Leidenschaft und mein Engagement für die Filmproduktion haben
+            bereits Früchte getragen. Mein erster Kurzfilm, ein Herzensprojekt,
+            hat nicht nur international Aufmerksamkeit erregt, sondern auch
+            Auszeichnungen gewonnen. Diese Erfahrungen bereichern meine Arbeit
+            und inspirieren mich, immer neue kreative Wege zu beschreiten.
+          </p>
+          <button
+            class="common_btn fw-normal border-0 text-white mx-auto mt-4 mt-md-5"
+          >
+            Jetzt Kontakt aufnehmen
+          </button>
+          <div
+            class="row text-start flex-column-reverse gap-4 gap-lg-0 flex-lg-row align-items-center justify-content-between pt-5 mt-md-4 mt-lg-5"
+          >
+            <div class="col-lg-6">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button text_manatee fw-semibold collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                    Kameras
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body text-white font-base fw-normal">
+                      Wir setzen auf modernste Technik mit bis zu vier
+                      4K-Kameras aus unserem eigenen Bestand, ergänzt durch
+                      Zusatzgeräte unserer verlässlichen Partner. Diese
+                      Flexibilität ermöglicht uns, die Anzahl der Kameras genau
+                      an deine Bedürfnisse anzupassen.
+                      <span class="text_manatee">
+                        Unsere Kameras können sowohl bemannt als auch unbemannt
+                        betrieben werden, um jede Perspektive deines Events
+                        perfekt einzufangen.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button text_manatee fw-semibold collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Ton
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body text-white font-base fw-normal">
+                      Wir setzen auf modernste Technik mit bis zu vier
+                      4K-Kameras aus unserem eigenen Bestand, ergänzt durch
+                      Zusatzgeräte unserer verlässlichen Partner. Diese
+                      Flexibilität ermöglicht uns, die Anzahl der Kameras genau
+                      an deine Bedürfnisse anzupassen.
+                      <span class="text_manatee">
+                        Unsere Kameras können sowohl bemannt als auch unbemannt
+                        betrieben werden, um jede Perspektive deines Events
+                        perfekt einzufangen.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button text_manatee fw-semibold collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      Licht
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body text-white font-base fw-normal">
+                      Wir setzen auf modernste Technik mit bis zu vier
+                      4K-Kameras aus unserem eigenen Bestand, ergänzt durch
+                      Zusatzgeräte unserer verlässlichen Partner. Diese
+                      Flexibilität ermöglicht uns, die Anzahl der Kameras genau
+                      an deine Bedürfnisse anzupassen.
+                      <span class="text_manatee">
+                        Unsere Kameras können sowohl bemannt als auch unbemannt
+                        betrieben werden, um jede Perspektive deines Events
+                        perfekt einzufangen.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button text_manatee fw-semibold collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Bildschnitt
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body text-white font-base fw-normal">
+                      Wir setzen auf modernste Technik mit bis zu vier
+                      4K-Kameras aus unserem eigenen Bestand, ergänzt durch
+                      Zusatzgeräte unserer verlässlichen Partner. Diese
+                      Flexibilität ermöglicht uns, die Anzahl der Kameras genau
+                      an deine Bedürfnisse anzupassen.
+                      <span class="text_manatee">
+                        Unsere Kameras können sowohl bemannt als auch unbemannt
+                        betrieben werden, um jede Perspektive deines Events
+                        perfekt einzufangen.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-5">
+              <img
+                class="w-100"
+                src="./assets/images/livestreaming/faq-image.png"
+                alt="faq-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- DEFINE SCRIPT LINK CODE -->
+    <script src="/assets/js/index.js"></script>
+    <script>
+      document.querySelectorAll(".accordion-button").forEach(function (button) {
+        button.addEventListener("click", function () {
+          // Remove 'opened' class from all buttons
+          document
+            .querySelectorAll(".accordion-button")
+            .forEach(function (btn) {
+              btn.classList.remove("opened");
+            });
+
+          // Add 'opened' class to the clicked button
+          button.classList.add("opened");
+        });
+      });
+    </script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const accordionItems = document.querySelectorAll(".accordion-item");
+
+        accordionItems.forEach((item) => {
+          item.addEventListener("show.bs.collapse", function () {
+            item.classList.add("active");
+          });
+
+          item.addEventListener("hide.bs.collapse", function () {
+            item.classList.remove("active");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
