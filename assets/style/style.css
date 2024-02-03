@@ -480,8 +480,6 @@
    max-height: 59px;
  }
 
-
-
  .submit_btn_sb {
    line-height: 110%;
  }
@@ -876,6 +874,10 @@
 
    .common_btn {
      padding: 14px 74px;
+     height: 49px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
    }
 
    .footer_links_custom_gap_flcg {
@@ -892,6 +894,7 @@
 
    .hero_btn {
      min-height: 49px !important;
+     padding: 10px 74px !important;
    }
 
    .custom_schaufenster_margin {
