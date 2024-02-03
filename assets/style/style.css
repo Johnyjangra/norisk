@@ -21,12 +21,12 @@
  }
 
  .hero_heading {
-   font-size: var(--font-3xl);
+   font-size: var(--font-6xl);
    line-height: normal;
  }
 
  .sub_heading {
-   font-size: var(--font-2xl);
+   font-size: var(--font-5xl);
    color: var(--color-white);
    line-height: normal;
  }
