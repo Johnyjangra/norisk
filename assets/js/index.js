@@ -12,18 +12,19 @@ function showNav() {
 }
 
 // back-to-top
-// ************ Back to Top ************
-const backToTopButton = document.getElementById('back_to_top');
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 200) {
-    backToTopButton.style.display = 'block';
-  } else {
-    backToTopButton.style.display = 'none';
-  }
-});
-backToTopButton.addEventListener('click', () => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
+  document.addEventListener("DOMContentLoaded", function () {
+    var backToTopBtn = document.getElementById("back_to_top");
+    window.addEventListener("scroll", function () {
+      // Show button when user scrolls down 20px from the top
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    });
+    // Scroll to the top when the button is clicked
+    backToTopBtn.addEventListener("click", function () {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    });
   });
-});
