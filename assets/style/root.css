@@ -24,7 +24,7 @@
   --font-md: 20px;
   --font-lg: 22px;
   --font-xl: 24px;
-  --font-5xl: 27px;
+  --font-2xl: 27px;
   --font-3xl: 30px;
   --font-4xl: 37px;
   --font-5xl: 47px;
@@ -145,8 +145,8 @@
   font-size: var(--font-xl) !important;
 }
 
-.font-5xl {
-  font-size: var(--font-5xl) !important;
+.font-2xl {
+  font-size: var(--font-2xl) !important;
 }
 
 .font-3xl {
@@ -182,7 +182,7 @@
 
 @media (max-width: 991.98px) {
   :root {
-    --font-5xl: 24px;
+    --font-2xl: 24px;
     --font-3xl: 28px;
     --font-4xl: 32px;
     --font-5xl: 36px;
@@ -198,7 +198,7 @@
     --font-md: 18px;
     --font-lg: 20px;
     --font-xl: 22px;
-    --font-5xl: 22px;
+    --font-2xl: 22px;
     --font-3xl: 24px;
     --font-4xl: 26px;
     --font-5xl: 36px;
@@ -214,7 +214,7 @@
     --font-md: 16px;
     --font-lg: 18px;
     --font-xl: 20px;
-    --font-5xl: 20px;
+    --font-2xl: 20px;
     --font-5xl: 28px;
     --font-6xl: 30px;
   }
