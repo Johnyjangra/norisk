@@ -598,7 +598,7 @@
 
  /*==================================================  SERVICES SECTION START HERE =============================*/
  .schnell_bg {
-   background-image: url("../images/contact/schnell-bg.png");
+   background-image: url("../images/contact/schnell-bg.webp");
  }
 
  .lass_bg {
@@ -624,7 +624,7 @@
 
  /* DEFINE WARUM SECTION CSS */
  .warum_bg {
-   background-image: url("../images/about/warum-img.png");
+   background-image: url("../images/about/warum-img.webp");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -1305,16 +1305,6 @@
      background-color: rgba(0, 0, 0, 0.74);
    }
 
-   .warum_bg::after {
-     content: '';
-     position: absolute;
-     top: 0;
-     left: 0;
-     height: 100%;
-     width: 100%;
-     z-index: 1;
-     background-color: rgba(0, 0, 0, 0.74);
-   }
 
    .roadmap_maxwidth {
      max-width: 500px;
