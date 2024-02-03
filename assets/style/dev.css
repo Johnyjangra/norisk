@@ -77,6 +77,24 @@
   width: 162px;
 }
 
+.scrollbar_style::-webkit-scrollbar {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: transparent !important;
+  height: 2px;
+}
+
+.scrollbar_style::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: var(--color-dark-orange);
+}
+
+.scrollbar_style::-webkit-scrollbar {
+  height: 2px;
+}
+
+
 @media (max-width:1199.98px) {
   .headling_custom_scrollbar {
     min-width: 1200px;
