@@ -111,40 +111,46 @@
      box-shadow: 0 0 0 0 var(--color-orange);
    }
  }
+
  #scroll svg {
-  height: 25px;
-  width: 22px;
-}
-#scroll {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  z-index: 75;
-  cursor: pointer;
-  font-size: var(--font_lg);
-  color: white;
-  padding: 10px 12px;
-  border-radius: 50% !important;
-  background:var(--color-dark-orange);
-  animation: moves 3s infinite;
-  transition: all 0.3s ease-in-out !important;
-}
-@keyframes moves {
-  0% {
-      transform: translateY(0);
-  }
-  50% {
-      transform: translateY(-5px);
-  }
-  100% {
-      transform: translateY(0);
-  }
-}
-#scroll:hover {
-  background:var(--color-sky-blue);
-  box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.737);
-  color: white !important;
-}
+   height: 25px;
+   width: 22px;
+ }
+
+ #scroll {
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   z-index: 75;
+   cursor: pointer;
+   font-size: var(--font_lg);
+   color: white;
+   padding: 10px 12px;
+   border-radius: 50% !important;
+   background: var(--color-dark-orange);
+   animation: moves 3s infinite;
+   transition: all 0.3s ease-in-out !important;
+ }
+
+ @keyframes moves {
+   0% {
+     transform: translateY(0);
+   }
+
+   50% {
+     transform: translateY(-5px);
+   }
+
+   100% {
+     transform: translateY(0);
+   }
+ }
+
+ #scroll:hover {
+   background: var(--color-sky-blue);
+   box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.737);
+   color: white !important;
+ }
 
  /*============================================================== navbar ===========================================*/
  .logo {
@@ -928,11 +934,6 @@
      min-height: 49px !important;
    }
 
-   .custom_schaufenster_margin {
-     margin-top: 180px !important;
-     margin-bottom: 114px !important;
-   }
-
    .hero_bg {
      background-position-x: left;
      background-size: 100% 100%;
@@ -998,6 +999,11 @@
      left: -16%;
      min-height: 700px;
      width: 60%;
+   }
+
+   .custom_schaufenster_margin {
+     margin-top: 180px !important;
+     margin-bottom: 114px !important;
    }
  }
 
@@ -1212,7 +1218,7 @@
    }
 
    .livestreaming_hero_bg {
-     min-height: 75vh !important;
+     min-height: 85vh !important;
    }
 
    .schaufenster-image img {
@@ -1337,11 +1343,16 @@
    .lh_23 {
      line-height: unset;
    }
+
    #scroll {
-    bottom: 24px;
-    right: 10px;
-    padding: 6px 7px;
-  }
+     bottom: 24px;
+     right: 10px;
+     padding: 6px 7px;
+   }
+
+   .livestreaming_hero_bg {
+     min-height: 75vh !important;
+   }
  }
 
  @media (max-width:575.98px) {
