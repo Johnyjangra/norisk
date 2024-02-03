@@ -112,6 +112,26 @@
    }
  }
 
+ .back_to_top {
+   display: none;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   background-color: var(--color-orange);
+   border-radius: 100px;
+   height: 40px;
+   width: 40px;
+   border: none;
+   cursor: pointer;
+   z-index: 20;
+ }
+
+ .back_to_top:hover {
+   -webkit-animation: pulse 1s;
+   animation: pulse 1s;
+   box-shadow: 0 0 0 0.7em transparent;
+ }
+
  /*============================================================== navbar ===========================================*/
  .logo {
    max-width: 150px;
@@ -911,7 +931,7 @@
    }
 
    .vision_top_line::after {
-     top: -4%;
+     top: 9%;
      width: 321px;
    }
 
@@ -934,6 +954,11 @@
 
    .erreiche_top_spacing {
      margin-top: 10.2% !important;
+   }
+
+   .back_to_top {
+     height: 50px;
+     width: 50px;
    }
  }
 
