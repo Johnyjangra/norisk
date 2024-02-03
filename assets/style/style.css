@@ -1370,6 +1370,7 @@ button:focus-visible {
   .slider_video_container video {
     /* height: 100% !important; */
     height: 350px !important;
+    overflow: hidden !important;
   }
 
   .review_para {
