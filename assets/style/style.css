@@ -1306,9 +1306,9 @@
 
  @media (max-width:575.98px) {
    .about_hero_img {
-     height: 150px;
-     object-fit: cover;
-     border-radius: 10px;
+     height: 150px !important;
+     object-fit: cover !important;
+     border-radius: 10px !important;
    }
 
    .review_para {
