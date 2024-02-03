@@ -1088,7 +1088,8 @@ button:focus-visible {
 
 
   .hero_btn {
-    padding: 12px 80px;
+    padding: 12px 74px;
+    /* max-width: 350px !important; */
   }
 
   .play-button {
