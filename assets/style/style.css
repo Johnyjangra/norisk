@@ -113,7 +113,7 @@
  }
 
  .back_to_top {
-   display: none;
+   display: none !important;
    position: fixed;
    bottom: 20px;
    right: 20px;
