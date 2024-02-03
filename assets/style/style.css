@@ -1050,6 +1050,10 @@ button:focus-visible {
   height: 2px;
 }
 
+.learn_more_arrow_icon_lmai {
+  height: 30px;
+}
+
 
 /* ================ MEDIA SCREENS ================ */
 @media (min-width: 576px) {
