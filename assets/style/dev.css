@@ -21,11 +21,14 @@
   border-radius: 0px !important;
   border-bottom: 2px solid #b3b3b3 !important;
 }
+
 .accordion-item.active {
   border-bottom: 2px solid transparent !important;
 }
+
 .accordion-item.show .accordion-collapse {
-  border: none; /* Set the border to none for active state */
+  border: none;
+  /* Set the border to none for active state */
 }
 
 
@@ -61,28 +64,34 @@
 }
 
 /* ======DEFINE HEADLINE HERE CSS====== */
-.headline_bg{
+.headline_bg {
   background-image: url("../images/livestreaming/headline-here-bg.png");
   background-repeat: no-repeat;
   background-position: right;
 }
+
 @media (max-width:991.98px) {
-.headline_bg{
-background-position: center;}
-.accordion-body {
-  padding: 0 0 20px 0 !important;
+  .headline_bg {
+    background-position: center;
+  }
+
+  .accordion-body {
+    padding: 0 0 20px 0 !important;
+  }
+
+  .accordion-button {
+    font-size: 24px !important;
+  }
 }
-.accordion-button{
-  font-size: 24px !important;
-}
-}
+
 @media (max-width:767.98px) {
-.accordion-button{
-  font-size: 22px !important;
+  .accordion-button {
+    font-size: 22px !important;
+  }
 }
-}
+
 @media (max-width:575.98px) {
-.accordion-button{
-  font-size: 20px !important;
-}
+  .accordion-button {
+    font-size: 20px !important;
+  }
 }
