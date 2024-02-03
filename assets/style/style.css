@@ -43,7 +43,10 @@ body {
   line-height: 23.77px;
 }
 
-.lh_136{line-height: 136%;}
+.lh_136 {
+  line-height: 136%;
+}
+
 .lh_143 {
   line-height: 143% !important;
 }
@@ -71,6 +74,19 @@ body {
   border: none !important;
 }
 
+.common_btn2 {
+  font-size: var(--font-base);
+  color: var(--color-off-white);
+  padding: 12px 47px;
+  background: var(--color-light-orange);
+  border-radius: 100px;
+  border: none !important;
+}
+
+.playButton:hover {
+  scale: 0.94;
+}
+
 .hero_btn {
   font-size: var(--font-base);
   color: var(--color-off-white);
@@ -82,6 +98,14 @@ body {
 
 .hero_btn:focus,
 .hero_btn:hover {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+  -webkit-box-shadow: 0 0 0 0.7em transparent;
+  box-shadow: 0 0 0 0.7em transparent;
+}
+
+.common_btn2:focus,
+.common_btn2:hover {
   -webkit-animation: pulse 1s;
   animation: pulse 1s;
   -webkit-box-shadow: 0 0 0 0.7em transparent;
