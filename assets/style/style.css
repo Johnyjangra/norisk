@@ -1366,8 +1366,10 @@ button:focus-visible {
     min-width: 1200px;
   }
 
+  .review_slider_section_parent,
   .slider_video_container video {
-    height: 100% !important;
+    /* height: 100% !important; */
+    height: 350px !important;
   }
 
   .review_para {
@@ -1608,6 +1610,14 @@ button:focus-visible {
   .roadmap_first_para_maxwidth {
     max-width: unset !important;
   }
+
+  .review_slider_section_parent {
+    height: 100% !important;
+  }
+
+  .slider_video_container video {
+    max-height: 350px !important;
+  }
 }
 
 @media (max-width:767.98px) {
@@ -1741,6 +1751,10 @@ button:focus-visible {
 
   .headling_custom_scrollbar {
     min-width: 574px;
+  }
+
+  .slider_video_container video {
+    max-height: 220px !important;
   }
 }
 

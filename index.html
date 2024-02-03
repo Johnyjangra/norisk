@@ -681,7 +681,7 @@
           </div>
           <!--=============== SLICK SLIDER BUTTONS ===============-->
           <div
-            class="d-flex align-items-center justify-content-center justify-content-lg-start ps-lg-4 ps-xl-5 my-5 my-lg-4 mt-lg-3 mb-lg-3 mb-xl-0">
+            class="d-flex align-items-center justify-content-center justify-content-lg-start ps-lg-4 ps-xl-5 my-4 my-sm-5 my-lg-4 mt-lg-3 mb-lg-3 mb-xl-0">
             <button class="slider-control-btn slick-prev position-static common_transition me-2 me-xl-3"
               aria-label="Previous" type="button">
               Previous
@@ -1163,7 +1163,23 @@
         dots: false,
         arrows: false,
         // centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          }
+        ]
       });
 
       // Add functionality to sync video with slides
