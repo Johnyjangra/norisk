@@ -43,7 +43,10 @@ body {
   line-height: 23.77px;
 }
 
-.lh_136{line-height: 136%;}
+.lh_136 {
+  line-height: 136%;
+}
+
 .lh_143 {
   line-height: 143% !important;
 }
@@ -612,7 +615,7 @@ button:focus-visible {
 }
 
 .form_textarea_field_ftf {
-  min-height: 194px !important;
+  min-height: 165px !important;
 }
 
 .overlay_contact_btn_ocb::after {
