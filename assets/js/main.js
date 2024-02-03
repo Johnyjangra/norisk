@@ -25,8 +25,8 @@ function handleSubmit(event) {
 
     submitbtn.innerHTML = "Loading...";
     submitbtn.classList.add("disabled-btn");
-    emailjs.init("eLZNh3NQx9xyzLK1A");
-    emailjs.send("service_l3t57jd", "template_q7sxzvr", {
+    emailjs.init("o8t4S_bl5vzJGzshs");
+    emailjs.send("service_fd67b69", "template_ujh179d", {
             name: name,
             email: email,
             budget: budget,
