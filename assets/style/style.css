@@ -251,10 +251,13 @@ button:focus-visible {
   left: 0;
   width: 100%;
 }
-.nav_active{
+
+.nav_active {
   position: relative;
   font-size: 4vw !important;
+  color: var(--color-dark-orange) !important;
 }
+
 .nav_active::after {
   position: absolute;
   content: "";
@@ -1178,7 +1181,7 @@ button:focus-visible {
   }
 
   .common_btn {
-    padding: 14px 74px;
+    padding: 14.5px 74px;
   }
 
   .footer_links_custom_gap_flcg {
@@ -1273,17 +1276,20 @@ button:focus-visible {
     margin-top: 180px !important;
     margin-bottom: 114px !important;
   }
-   /* define new code */
-   .custom_einzigartige_margin {
-    margin-top: 15%  !important;
-    margin-bottom: 18%  !important;
+
+  /* define new code */
+  .custom_einzigartige_margin {
+    margin-top: 15% !important;
+    margin-bottom: 18% !important;
   }
-  .about_custom_btn{
+
+  .about_custom_btn {
     width: 297px !important;
     height: 49px !important;
   }
+
   .live_streaming_img {
-    max-height: 390px  !important;
+    max-height: 390px !important;
   }
 }
 
@@ -1308,8 +1314,9 @@ button:focus-visible {
   .live_streaming_img_lsi {
     max-width: 571px;
   }
+
   .live_streaming_img {
-    max-height: unset  !important;
+    max-height: unset !important;
   }
 
   .Filmproduktion_para {
@@ -1422,10 +1429,11 @@ button:focus-visible {
   .roadmap_pl {
     padding-left: 55px;
   }
-    /* Difine new-code */
+
+  /* Difine new-code */
   .roadmap_first_para_maxwidth {
     max-width: 500px !important;
-}
+  }
 }
 
 @media (min-width: 992px) and (max-width:1199.98px) {
@@ -1741,5 +1749,3 @@ button:focus-visible {
     max-width: 1240px !important;
   }
 }
-
-
