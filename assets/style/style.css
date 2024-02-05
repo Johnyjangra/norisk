@@ -291,7 +291,8 @@ button:focus-visible {
 }
 
 .header_custom_vh {
-  min-height: 80vh;
+  min-height: 500px;
+  height: 80vh;
 }
 
 .nav_btn:focus,
@@ -317,7 +318,7 @@ button:focus-visible {
 }
 
 .hero_bg {
-  background-image: url("../images/home/header-bg.png");
+  background-image: url("../images/home/header-bg.webp");
 }
 
 .livestreaming_hero_bg {
@@ -508,7 +509,6 @@ textarea:focus-visible {
 
 .swal2-title {
   color: var(--color-white) !important;
-
 }
 
 .swal2-styled.swal2-confirm {
@@ -532,7 +532,7 @@ textarea:focus-visible {
   border-color: var(--color-white) !important;
 }
 
-/* ===============DEFINE FOOTER SECTION CSS=============== */
+/* =============== DEFINE FOOTER SECTION CSS =============== */
 .footer_logo {
   max-width: 356px;
 }
@@ -561,9 +561,7 @@ textarea:focus-visible {
   color: var(--color-dark-orange);
 }
 
-
 /* ====================== NRNF CSS =========================== */
-
 .deine_box_parent {
   background-image: url("../images/home/bg-deine-image.webp");
   background-repeat: no-repeat;
@@ -759,13 +757,12 @@ button:focus-visible {
 }
 
 /*=========================================================  ABOUT CSS START HERE===============================*/
-/* DEFINE HERO SECTION CSS */
 .about_hero_heading {
   border-bottom: 2px solid var(--color-dark-orange) !important;
   max-width: 229px;
 }
 
-/* DEFINE WARUM SECTION CSS */
+/* =============== DEFINE WARUM SECTION CSS  ===============*/
 .warum_bg {
   background-image: url("../images/about/warum-img.webp");
   background-repeat: no-repeat;
@@ -851,10 +848,8 @@ button:focus-visible {
   background-color: var(--color-dark-black);
 }
 
-
 .roadmap_padding_top {
   padding-top: 83px;
-
 }
 
 .roadmap_padding_bottom {
@@ -979,7 +974,7 @@ button:focus-visible {
   left: -48px;
 }
 
-/* LIVE SETREM CSS */
+/* =============== LIVE SETREAM CSS =============== */
 .accordion-button:not(.collapsed) {
   background-color: transparent !important;
   -webkit-box-shadow: none !important;
@@ -997,7 +992,6 @@ button:focus-visible {
   color: var(--color-dark-orange) !important;
 }
 
-
 .accordion-item {
   background-color: transparent !important;
   border: none !important;
@@ -1011,10 +1005,7 @@ button:focus-visible {
 
 .accordion-item.show .accordion-collapse {
   border: none;
-  /* Set the border to none for active state */
 }
-
-
 
 .accordion-button:not(.collapsed)::after {
   background-image: url("../images/livestreaming/faq-orange-arrow-icon.svg") !important;
@@ -1078,7 +1069,6 @@ button:focus-visible {
 .learn_more_arrow_icon_lmai {
   height: 30px;
 }
-
 
 /* ================ MEDIA SCREENS ================ */
 @media (min-width: 576px) {
@@ -1173,7 +1163,8 @@ button:focus-visible {
   }
 
   .header_custom_vh {
-    min-height: 92vh;
+    min-height: 550px;
+    height: 92vh;
   }
 
   .navbar a {
@@ -1292,11 +1283,16 @@ button:focus-visible {
   .live_streaming_img {
     max-height: 390px !important;
   }
+
+  .header_custom_vh {
+    min-height: 700px;
+  }
 }
 
 @media (min-width: 1600px) {
   .header_custom_vh {
-    min-height: 85vh;
+    min-height: 990px;
+    height: 85vh;
   }
 
   .expertise_parent_exp1 {
@@ -1339,7 +1335,6 @@ button:focus-visible {
 }
 
 @media (max-width:1299.98px) {
-
   .review_para {
     font-size: 18px !important;
   }
