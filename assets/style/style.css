@@ -322,7 +322,7 @@ button:focus-visible {
 }
 
 .livestreaming_hero_bg {
-  background-image: url("../images/livestreaming/livestreaming_hero_section.png");
+  background-image: url("../images/livestreaming/livestreaming_hero_section-bg.webp");
 }
 
 /*============================================ UNSER ANGEBOT ===========================================*/
@@ -753,7 +753,7 @@ button:focus-visible {
 }
 
 .services_hero_bg {
-  background-image: url('../images/services/hero-img.png');
+  background-image: url('../images/services/services-bg.webp');
 }
 
 /*=========================================================  ABOUT CSS START HERE===============================*/
