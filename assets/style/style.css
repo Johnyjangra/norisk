@@ -743,7 +743,7 @@ button:focus-visible {
 }
 
 .lass_bg {
-  background-image: url("../images/contact/lass-bg.png");
+  background-image: url("../images/contact/lass-bg.webp");
   background-position: center;
   background-size: 100%, 100%;
 }
