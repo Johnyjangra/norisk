@@ -529,7 +529,7 @@
                 Projekt in Wien und darüber hinaus zum Leben zu erwecken.
               </p>
 
-              <a class="smooth_scroll" href="" id="contact">
+              <a href="/#contact_form">
                 <button
                   class="common_btn about_custom_btn p-xl-0 fw-normal border-0 text_white mx-auto mt-4"
                 >
@@ -850,28 +850,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script>
-      const contact = document.getElementById("contact");
-      contact.addEventListener("click", function (event) {
-        event.preventDefault(); // Prevent the default behavior of the link
-        contact.href = "/"; // Set initial href attribute
-        setTimeout(function () {
-          contact.href = "#contact_form"; // Change href attribute after 500 milliseconds
-          console.log("contact");
-        }, 500);
-      });
-      // document.addEventListener("DOMContentLoaded", function () {
-      //   var button = document.querySelector(".smooth_scroll");
-      //   button.addEventListener("click", function (event) {
-      //     var targetElement = document.querySelector("#contact_form"); // Select the element by its ID
-      //     setTimeout(function () {
-      //       targetElement.scrollIntoView({
-      //         behavior: "smooth",
-      //       });
-      //     }, 10000);
-      //   });
-      // });
-    </script>
     <!-- DEFINE SCRIPT LINK CODE -->
     <script src="/assets/js/index.js"></script>
     <script src="./assets/js/main.js"></script>
