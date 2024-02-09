@@ -2,9 +2,16 @@
 @import url(./root.css);
 
 /*==================================================== COMMON CSS ==========================================*/
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "inter", "sans-serif";
   background-color: var(--color-black) !important;
+  transition: all 0.3s ease-in-out;
 }
 
 .ff_poppins {
@@ -271,7 +278,6 @@ button:focus-visible {
   background-color: var(--color-dark-orange);
 }
 
-
 .nav_active:after {
   left: 0;
   width: 100%;
@@ -417,9 +423,9 @@ button:focus-visible {
 }
 
 .form_icons_hover svg path {
-  -webkit-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .form_icons_hover:hover svg path {
@@ -496,7 +502,7 @@ textarea:focus-visible {
 }
 
 /* ===================DEFINE SWEET ALERT CSS CODE=================== */
-.swal2-container.swal2-center>.swal2-popup {
+.swal2-container.swal2-center > .swal2-popup {
   color: var(--color-white) !important;
   background: var(--color-orange) !important;
   border: 2px solid var(--color-orange) !important;
@@ -504,7 +510,6 @@ textarea:focus-visible {
 
 .swal2-popup {
   color: var(--color-white) !important;
-
 }
 
 .swal2-title {
@@ -527,7 +532,7 @@ textarea:focus-visible {
   border-color: var(--color-white) !important;
 }
 
-.swal2-icon.swal2-success [class^=swal2-success-line] {
+.swal2-icon.swal2-success [class^="swal2-success-line"] {
   background-color: var(--color-white) !important;
   border-color: var(--color-white) !important;
 }
@@ -697,7 +702,7 @@ button:focus-visible {
 
 .vision_top_line::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 2px;
   width: 250px;
   left: 50%;
@@ -753,7 +758,7 @@ button:focus-visible {
 }
 
 .services_hero_bg {
-  background-image: url('../images/services/services-bg.webp');
+  background-image: url("../images/services/services-bg.webp");
 }
 
 /*=========================================================  ABOUT CSS START HERE===============================*/
@@ -818,7 +823,6 @@ button:focus-visible {
   border-bottom-right-radius: 60px;
   border-bottom-width: 7px !important;
   z-index: 1;
-
 }
 
 .roadmap_border_para::before {
@@ -1099,7 +1103,7 @@ button:focus-visible {
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .unser_cards {
     padding: 40px 60px;
   }
@@ -1156,7 +1160,7 @@ button:focus-visible {
   }
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .navbar a {
     font-size: var(--font-xs) !important;
   }
@@ -1215,7 +1219,6 @@ button:focus-visible {
 
   .erreiche_img {
     width: 43.2% !important;
-
   }
 
   .einzigartige_img {
@@ -1231,7 +1234,7 @@ button:focus-visible {
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .schaufenster-content {
     min-height: 610px !important;
   }
@@ -1253,7 +1256,6 @@ button:focus-visible {
     -ms-transform: translateX(-23%);
     transform: translateX(-23%);
     font-size: var(--font-xl) !important;
-
   }
 
   .filmproduction_left_img {
@@ -1332,7 +1334,7 @@ button:focus-visible {
   }
 }
 
-@media (max-width:1299.98px) {
+@media (max-width: 1299.98px) {
   .review_para {
     font-size: 18px !important;
   }
@@ -1351,7 +1353,7 @@ button:focus-visible {
   }
 }
 
-@media (max-width:1199.98px) {
+@media (max-width: 1199.98px) {
   .video-container video {
     max-height: 320px !important;
   }
@@ -1415,7 +1417,6 @@ button:focus-visible {
 
   .roadmap_padding_top {
     padding-top: 83px;
-
   }
 
   .roadmap_padding_bottom {
@@ -1431,7 +1432,7 @@ button:focus-visible {
   }
 }
 
-@media (min-width: 992px) and (max-width:1199.98px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
   .slider_card_content_scc h5 {
     font-size: 17px !important;
   }
@@ -1503,7 +1504,6 @@ button:focus-visible {
 
   .review_slider_section_parent {
     max-height: 100% !important;
-
   }
 
   .video-container {
@@ -1586,7 +1586,6 @@ button:focus-visible {
 
   .roadmap_padding_top {
     padding-top: 60px;
-
   }
 
   .roadmap_padding_bottom {
@@ -1611,7 +1610,7 @@ button:focus-visible {
   }
 }
 
-@media (max-width:767.98px) {
+@media (max-width: 767.98px) {
   .review_para {
     font-size: 16px !important;
   }
@@ -1622,7 +1621,7 @@ button:focus-visible {
   }
 
   .schnell_bg::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -1632,10 +1631,8 @@ button:focus-visible {
     background-color: rgba(0, 0, 0, 0.74);
   }
 
-
   .roadmap_maxwidth {
     max-width: 500px;
-
   }
 
   .roadmap_circle {
@@ -1676,7 +1673,7 @@ button:focus-visible {
   }
 }
 
-@media (max-width:575.98px) {
+@media (max-width: 575.98px) {
   .about_hero_img {
     height: 150px !important;
     -o-object-fit: cover !important;
@@ -1721,7 +1718,6 @@ button:focus-visible {
     width: 25px;
     height: 25px;
   }
-
 
   /* define new code */
   .roadmap_image {
