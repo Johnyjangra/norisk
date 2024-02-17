@@ -1113,9 +1113,7 @@ button:focus-visible {
     width: 100px;
   }
 
-  .vh_md_100 {
-    height: 100vh;
-  }
+ 
 
   .custom_schaufenster_margin {
     margin-top: 0px;
@@ -1164,7 +1162,9 @@ button:focus-visible {
   .navbar a {
     font-size: var(--font-xs) !important;
   }
-
+ .vh_lg_100 {
+   height: 100vh;
+ }
   .header_custom_vh {
     min-height: 550px;
     height: 92vh;
@@ -1197,7 +1197,6 @@ button:focus-visible {
 
   .hero_bg {
     background-position-x: left;
-    background-size: 100% 100%;
   }
 
   .filmproduction_box {
