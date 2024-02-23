@@ -184,7 +184,7 @@
 
   <!--------------------------------------------- UNSER ANGEBOT (GSAP ANIMATED CARDS) START HERE --------------------------------------------------------->
   <section class="parent overflow-hidden vh_lg_100 bg_dark_black ">
-    <div class="container custom_container py-lg-5 my-5">
+    <div class="container custom_container py-lg-5 custom_padding my-5">
       <h2 class="sub_heading text-white text-center fw_semibold mb-md-5 mb-sm-3 pb-4">
         Unser Angebot im Überblick
       </h2>
@@ -1021,7 +1021,7 @@
     gsap.registerPlugin(ScrollTrigger);
 
     ScrollTrigger.matchMedia({
-      "(min-width:992px)": function () {
+      "(min-width:992px) and (min-height:700px)": function () {
         const process = gsap.timeline();
         process.fromTo(
             ".animation_card_1", {
@@ -1104,7 +1104,75 @@
           animation: process,
         });
       },
+      "(min-width:992px) and (max-height:699px)": function () {
+        const process = gsap.timeline();
+        process.fromTo(
+            ".animation_card_1", {
+              scale: 1,
+            }, {
+              scale: 1,
+            },
+          )
+          .fromTo(
+            ".animation_card_2", {
+              y: "0",
+            }, {
+              y: "-340px",
+            }
+          ).fromTo(
+            ".animation_card_3", {
+              y: "0",
+            }, {
+              y: "-340px",
+            }, "<").fromTo(".animation_card_4", {
+            y: "0",
+          }, {
+            y: "-340px",
+          }, "<").fromTo(".animation_card_1", {
+            scale: 1,
+            y: "-0px",
+          }, {
+            scale: 0.7,
+            y: "-70px",
+          }, "<").fromTo(".animation_card_3", {
+            y: "-340px",
+          }, {
+            y: "-680px",
+          })
+          .fromTo(".animation_card_4", {
+            y: "-340px",
+          }, {
+            y: "-680px",
+          }, "<").fromTo(".animation_card_2", {
+            scale: 1,
+            y: "-340px",
+          }, {
+            scale: 0.8,
+            y: "-410px",
+          }, "<").fromTo(".animation_card_4", {
+            y: "-680px",
+          }, {
+            y: "-1090px",
+          })
+          .fromTo(".animation_card_3", {
+            scale: 1,
+            y: "-680px",
 
+          }, {
+            scale: 0.9,
+            y: "-750px",
+
+          }, "<");
+        let st = ScrollTrigger.create({
+          trigger: ".parent",
+          start: "top top",
+          end: "+=400%",
+          scrub: true,
+          markers: true,
+          pin: true,
+          animation: process,
+        });
+      },
     });
     mm.revert();
   </script>
