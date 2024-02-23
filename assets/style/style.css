@@ -502,7 +502,7 @@ textarea:focus-visible {
 }
 
 /* ===================DEFINE SWEET ALERT CSS CODE=================== */
-.swal2-container.swal2-center > .swal2-popup {
+.swal2-container.swal2-center>.swal2-popup {
   color: var(--color-white) !important;
   background: var(--color-orange) !important;
   border: 2px solid var(--color-orange) !important;
@@ -1113,7 +1113,7 @@ button:focus-visible {
     width: 100px;
   }
 
- 
+
 
   .custom_schaufenster_margin {
     margin-top: 0px;
@@ -1162,9 +1162,11 @@ button:focus-visible {
   .navbar a {
     font-size: var(--font-xs) !important;
   }
- .vh_lg_100 {
-   height: 100vh;
- }
+
+  .vh_lg_100 {
+    height: 100vh;
+  }
+
   .header_custom_vh {
     min-height: 550px;
     height: 92vh;
@@ -1749,3 +1751,16 @@ button:focus-visible {
     max-width: 1240px !important;
   }
 }
+
+@media (min-width: 992px) and (min-height: 1081px) {
+  .parent {
+    padding-top: 30vh !important;
+  }
+}
+
+/* @media (min-width: 992px) and (min-height: 1081px) {
+  .parent {
+    padding-top: 40%;
+  }
+} */
+/* and (max-width:2000px) */
