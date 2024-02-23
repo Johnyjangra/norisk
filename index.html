@@ -1019,12 +1019,7 @@
   <!-- ===================== GSAP CODE ==================== -->
   <script>
     gsap.registerPlugin(ScrollTrigger);
-    // .fromTo([".animation_card_2", ".animation_card_3", ".animation_card_4"], {
-    // y: "50vh",
-    // }, {
-    // y: "0",
-    // stagger: .1
-    // }, "+=.5")
+
     ScrollTrigger.matchMedia({
       "(min-width:992px)": function () {
         const process = gsap.timeline();
@@ -1109,50 +1104,7 @@
           animation: process,
         });
       },
-      // "(min-width:992px) and (min-height:1081px)": function () {
-      //   const process = gsap.timeline();
-      //   process
-      //     .fromTo(
-      //       ".animation_card_2", {
-      //         y: "500px",
-      //       }, {
-      //         y: "-340px",
-      //       }
-      //     )
-      //     .fromTo(
-      //       ".animation_card_1", {
-      //         scale: 1,
-      //       }, {
-      //         scale: 0.7,
-      //       },
-      //       "<").fromTo(".animation_card_3", {
-      //       y: "500px",
-      //     }, {
-      //       y: "-680px",
-      //     }).fromTo(".animation_card_2", {
-      //       scale: 1,
-      //     }, {
-      //       scale: 0.8,
-      //     }, "<").fromTo(".animation_card_4", {
-      //       y: "500px",
-      //     }, {
-      //       y: "-1020px",
-      //     })
-      //     .fromTo(".animation_card_3", {
-      //       scale: 1,
-      //     }, {
-      //       scale: 0.9,
-      //     }, "<");
-      //   let st = ScrollTrigger.create({
-      //     trigger: ".parent",
-      //     start: "top 30%",
-      //     end: "+=400%",
-      //     scrub: true,
-      //     markers: false,
-      //     pin: true,
-      //     animation: process,
-      //   });
-      // }
+
     });
     mm.revert();
   </script>
