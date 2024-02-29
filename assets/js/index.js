@@ -48,3 +48,25 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }, 1000);
 });
+
+// lottie js
+
+const animationsData = [
+  "diamond",
+  "partner-exchange",
+  "new releases",
+  "person play",
+  "Lightbulb",
+  "Homepin",
+];
+
+animationsData.forEach((animation, index) => {
+  const containerId = `lottie-animation${index + 1}`;
+  bodymovin.loadAnimation({
+    container: document.getElementById(containerId),
+    renderer: "svg",
+    loop: true,
+    autoplay: true,
+    path: `/assets/images/lottie/${animation}.json`,
+  });
+});

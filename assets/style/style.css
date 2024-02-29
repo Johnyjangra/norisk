@@ -1072,6 +1072,14 @@ button:focus-visible {
 .learn_more_arrow_icon_lmai {
   height: 30px;
 }
+/* lottie */
+.lottie_icon {
+  height: 30px;
+  padding: 2px;
+  width: 30px;
+  background-color: #242424;
+  border-radius: 10px;
+}
 
 /* ================ MEDIA SCREENS ================ */
 @media (min-width: 576px) {
@@ -1232,7 +1240,7 @@ button:focus-visible {
   .schaufenster-content {
     min-height: 610px !important;
   }
-   .unser_cards {
+  .unser_cards {
     padding: 30px 30px;
   }
 
@@ -1285,8 +1293,8 @@ button:focus-visible {
     min-height: 700px;
   }
 }
-@media (min-width:1400px) {
-   .unser_cards {
+@media (min-width: 1400px) {
+  .unser_cards {
     padding: 40px 60px;
   }
 }
