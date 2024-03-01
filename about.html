@@ -921,9 +921,9 @@
     <!-- DEFINE SCRIPT LINK CODE -->
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        once: true,
+   <script>
+      window.addEventListener("load", function () {
+        AOS.init({ once: true });
       });
     </script>
     <script src="/assets/js/index.js"></script>
